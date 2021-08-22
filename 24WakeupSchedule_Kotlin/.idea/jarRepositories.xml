@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteRepositoriesConfiguration">
+    <remote-repository>
+      <option name="id" value="ede02a28-7f55-4df3-b4fb-1fd453bf4af2" />
+      <option name="name" value="ede02a28-7f55-4df3-b4fb-1fd453bf4af2" />
+      <option name="url" value="https://repo.huaweicloud.com/repository/maven/" />
+    </remote-repository>
+  </component>
+</project>

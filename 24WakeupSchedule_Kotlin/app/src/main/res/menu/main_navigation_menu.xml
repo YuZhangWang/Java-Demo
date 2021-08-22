@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="none">
+        <item android:title="通用">
+            <menu>
+                <item
+                    android:id="@+id/nav_wakeup"
+                    android:icon="@drawable/wakeup"
+                    android:title="WakeUp"
+                    android:visible="false" />
+                <item
+                    android:id="@+id/nav_young"
+                    android:icon="@drawable/young"
+                    android:title="咩咩"
+                    android:visible="false" />
+                <item
+                    android:id="@+id/nav_course"
+                    android:icon="@drawable/wakeup"
+                    android:title="已添课程" />
+                <item
+                    android:id="@+id/nav_explore"
+                    android:icon="@drawable/explore"
+                    android:title="申请情况" />
+                <item
+                    android:id="@+id/nav_about"
+                    android:icon="@drawable/about"
+                    android:title="关于" />
+                <item
+                    android:id="@+id/nav_feedback"
+                    android:icon="@drawable/feedback"
+                    android:title="吐个槽" />
+                <item
+                    android:id="@+id/nav_setting"
+                    android:icon="@drawable/setting"
+                    android:title="设置" />
+            </menu>
+        </item>
+
+        <item
+            android:id="@+id/nav_suda"
+            android:title="苏大生活">
+            <menu>
+                <item
+                    android:id="@+id/nav_empty_room"
+                    android:title="空教室查询" />
+                <item
+                    android:id="@+id/nav_bathroom"
+                    android:title="东区澡堂使用情况" />
+            </menu>
+        </item>
+
+    </group>
+</menu>

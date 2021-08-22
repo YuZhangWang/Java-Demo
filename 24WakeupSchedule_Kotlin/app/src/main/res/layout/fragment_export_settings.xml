@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="280dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:text="导出课程"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="center"
+        android:lineSpacingExtra="4dp"
+        android:text="需要自行选择一个位置保存\n不要修改扩展名\n导出后可选分享\n长按第二个按钮科普ics格式妙用"
+        android:textSize="12sp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/tv_export"
+        style="@style/DialogButtonStyle"
+        android:layout_marginTop="8dp"
+        android:text="导出为备份文件" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/tv_export_ics"
+        style="@style/DialogButtonStyle"
+        android:text="导出为 ics 格式" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/tv_cancel"
+        style="@style/DialogButtonStyle"
+        android:layout_marginBottom="8dp"
+        android:text="取消导出" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

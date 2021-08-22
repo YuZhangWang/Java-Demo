@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.suda.yzune.wakeupschedule">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning"
+        tools:replace="android:allowBackup"
+        tools:targetApi="n">
+        <activity android:name=".settings.SettingsHostActivity"></activity>
+        <activity
+            android:name=".suda_life.SudaLifeActivity"
+            android:label="苏大生活" />
+
+        <meta-data
+            android:name="CHANNEL"
+            android:value="${CHANNEL}" />
+
+        <activity
+            android:name=".schedule_import.LoginWebActivity"
+            android:screenOrientation="portrait">
+            <intent-filter
+                android:label="导入到课程表"
+                tools:ignore="AppLinkUrlError">
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data
+                    android:mimeType="application/octet-stream"
+                    android:pathPattern=".*\\.wakeup_schedule" />
+            </intent-filter>
+            <intent-filter
+                android:label="导入到课程表"
+                tools:ignore="AppLinkUrlError">
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data
+                    android:mimeType="text/*"
+                    android:pathPattern=".*\\.html" />
+            </intent-filter>
+            <intent-filter
+                android:label="导入到课程表"
+                tools:ignore="AppLinkUrlError">
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data
+                    android:mimeType="text/*"
+                    android:pathPattern=".*\\.csv" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".schedule.ScheduleActivity" />
+        <activity
+            android:name=".course_add.AddCourseActivity"
+            android:label="添加课程"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".settings.SettingsActivity"
+            android:label="设置" />
+        <activity
+            android:name=".settings.TimeSettingsActivity"
+            android:label="选择时间表" />
+
+        <receiver
+            android:name=".schedule_appwidget.ScheduleAppWidget"
+            android:label="一周课程">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/schedule_app_widget_info" />
+        </receiver>
+
+        <service
+            android:name=".schedule_appwidget.ScheduleAppWidgetService"
+            android:enabled="true"
+            android:exported="false"
+            android:permission="android.permission.BIND_REMOTEVIEWS" />
+        <service
+            android:name=".today_appwidget.TodayColorfulService"
+            android:enabled="true"
+            android:exported="false"
+            android:permission="android.permission.BIND_REMOTEVIEWS" />
+
+        <activity
+            android:name=".intro.AboutActivity"
+            android:label="关于" />
+        <activity
+            android:name=".DonateActivity"
+            android:label="捐赠" />
+        <activity
+            android:name=".apply_info.ApplyInfoActivity"
+            android:label="申请适配情况" />
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".schedule_manage.ScheduleManageActivity"
+            android:label="多课表管理" />
+        <activity
+            android:name=".schedule_settings.ScheduleSettingsActivity"
+            android:label="课表设置" />
+        <activity
+            android:name=".schedule_appwidget.WeekScheduleAppWidgetConfigActivity"
+            android:label="提示">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name=".today_appwidget.TodayCourseAppWidget"
+            android:label="当天课程">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/today_course_app_widget_info" />
+        </receiver>
+
+        <activity
+            android:name=".schedule_import.SchoolListActivity"
+            android:label="选择学校" />
+        <activity
+            android:name=".settings.AdvancedSettingsActivity"
+            android:label="高级功能" />
+        <activity
+            android:name=".intro.IntroYoungActivity"
+            android:label="咩咩" />
+    </application>
+
+</manifest>

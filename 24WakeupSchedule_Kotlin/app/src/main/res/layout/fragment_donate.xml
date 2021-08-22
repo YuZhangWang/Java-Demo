@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="280dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context=".schedule.DonateFragment">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/ib_close"
+        style="@style/ButtonBackground"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_gravity="end"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/iconfont"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:text=""
+        android:textSize="20sp" />
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="-16dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:text="ヾ(=･ω･=)o"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="center_horizontal"
+        android:lineSpacingExtra="4dp"
+        android:text="相处一段日子\n很高兴遇见你\n请多多指教哦"
+        android:textSize="12sp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/tv_star"
+        style="@style/DialogButtonStyle"
+        android:layout_marginTop="8dp"
+        android:text="应用商店五星好评" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/tv_weibo"
+        style="@style/DialogButtonStyle"
+        android:text="微博求关注" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/tv_donate"
+        style="@style/DialogButtonStyle"
+        android:text="支付宝随意捐赠" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/tv_donate_list"
+        style="@style/DialogButtonStyle"
+        android:text="查看捐赠名单" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/tv_feedback"
+        style="@style/DialogButtonStyle"
+        android:layout_marginBottom="8dp"
+        android:text="找开发者唠嗑" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
