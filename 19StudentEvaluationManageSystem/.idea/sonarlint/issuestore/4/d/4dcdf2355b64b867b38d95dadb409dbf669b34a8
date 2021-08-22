@@ -1,0 +1,70 @@
+
+O	java:S106Ç"9Replace this use of System.out or System.err by a logger.(üâµ×
+S	java:S106`"9Replace this use of System.out or System.err by a logger.(íÂÜúÿÿÿÿ
+V	java:S106Ş"9Replace this use of System.out or System.err by a logger.(ÃÙç„8ÈÉğÇ§.
+[	java:S106"9Replace this use of System.out or System.err by a logger.(Åóñõøÿÿÿÿ8Ù¬ÈÇ§.
+N	java:S106R"9Replace this use of System.out or System.err by a logger.(Ï§Œ«
+N	java:S106Y"9Replace this use of System.out or System.err by a logger.(“šÏ‘
+?	java:S131™""Add a default case to this switch.(–½Ø8Ò–ÍÇ§.
+J
+java:S1066)"/Merge this if statement with the enclosing one.(×üÙ‡ùÿÿÿÿ
+N	java:S106S"9Replace this use of System.out or System.err by a logger.(£™Ş‹
+T	java:S106É"9Replace this use of System.out or System.err by a logger.(ğˆîÔùÿÿÿÿ
+N	java:S106W"9Replace this use of System.out or System.err by a logger.(´øÛ
+U	java:S106ä"9Replace this use of System.out or System.err by a logger.(¥ÖC8ÈÉğÇ§.
+[	java:S106Â"9Replace this use of System.out or System.err by a logger.(à®Ì¶üÿÿÿÿ8ÄÁÎÇ§.
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Òß·ù
+[	java:S106"9Replace this use of System.out or System.err by a logger.(ê†ÌÜúÿÿÿÿ8åÉÄÇ§.
+n	java:S128ú"LEnd this switch case with an unconditional break, return or throw statement.(ÌÊëÎüÿÿÿÿ8§äñÇ§.
+S	java:S106I"9Replace this use of System.out or System.err by a logger.(…Ù£èüÿÿÿÿ
+O	java:S106•"9Replace this use of System.out or System.err by a logger.(ÈĞî¼
+V	java:S106é"9Replace this use of System.out or System.err by a logger.(ÈĞî¼8§äñÇ§.
+J
+java:S1066Q"/Merge this if statement with the enclosing one.(×üÙ‡ùÿÿÿÿ
+S	java:S106f"9Replace this use of System.out or System.err by a logger.(ë¾âùûÿÿÿÿ
+T	java:S106È"9Replace this use of System.out or System.err by a logger.(ª‚İ‡ùÿÿÿÿ
+V	java:S106å"9Replace this use of System.out or System.err by a logger.(ñ¡ÿä8ÈÉğÇ§.
+U
+java:S1854!":Remove this useless assignment to local variable "userId".(ŸšåÊûÿÿÿÿ
+T	java:S106´"9Replace this use of System.out or System.err by a logger.(ıç‘¿ûÿÿÿÿ
+N	java:S106+"9Replace this use of System.out or System.err by a logger.(íö‚Š
+N	java:S106"9Replace this use of System.out or System.err by a logger.(¥ÖC
+[	java:S106·"9Replace this use of System.out or System.err by a logger.(¤ôşşÿÿÿÿ8ÄÁÎÇ§.
+O	java:S106¶"9Replace this use of System.out or System.err by a logger.(–½”¾
+o	java:S101Ô"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(î–Æ‘øÿÿÿÿ8ÄÁÎÇ§.
+S	java:S106{"9Replace this use of System.out or System.err by a logger.(¼š¾´úÿÿÿÿ
+T	java:S106µ"9Replace this use of System.out or System.err by a logger.(Ô ­úÿÿÿÿ
+[	java:S106à"9Replace this use of System.out or System.err by a logger.(ÔË‡ÿÿÿÿÿ8ÈÉğÇ§.
+V	java:S106¬"9Replace this use of System.out or System.err by a logger.(·Õû¦8ÄÁÎÇ§.
+V	java:S106ã"9Replace this use of System.out or System.err by a logger.(Àçß8ÈÉğÇ§.
+N	java:S106^"9Replace this use of System.out or System.err by a logger.(Î´Ñ
+
+java:S4165!"dRemove this useless assignment; "userId" already holds the assigned value along all execution paths.(ŸšåÊûÿÿÿÿ
+[	java:S106Ë"9Replace this use of System.out or System.err by a logger.(Òè¨ıÿÿÿÿ8ÄÁÎÇ§.
+V	java:S106¹"9Replace this use of System.out or System.err by a logger.(åö¿8ÄÁÎÇ§.
+U	java:S106İ"9Replace this use of System.out or System.err by a logger.(¥ÖC8É‹ñÇ§.
+S	java:S106""9Replace this use of System.out or System.err by a logger.(œ³Ú’ıÿÿÿÿ
+T	java:S106³"9Replace this use of System.out or System.err by a logger.(‡®Æ€ûÿÿÿÿ
+S	java:S106T"9Replace this use of System.out or System.err by a logger.(–ößÜùÿÿÿÿ
+S	java:S106d"9Replace this use of System.out or System.err by a logger.(Â´³§ûÿÿÿÿ
+T	java:S106Œ"9Replace this use of System.out or System.err by a logger.(ëïÁÀüÿÿÿÿ
+N	java:S106‹"9Replace this use of System.out or System.err by a logger.(¥ÖC
+S	java:S106X"9Replace this use of System.out or System.err by a logger.(ÜÆÓøşÿÿÿÿ
+[	java:S106á"9Replace this use of System.out or System.err by a logger.(İñ¤…ûÿÿÿÿ8ÈÉğÇ§.
+V	java:S106Ê"9Replace this use of System.out or System.err by a logger.(äÁª8ÄÁÎÇ§.
+V	java:S106Ì"9Replace this use of System.out or System.err by a logger.(ƒÂüÕ8ÄÁÎÇ§.
+‚
+java:S1192‹"eDefine a constant instead of duplicating this literal "------------------------------------" 4 times.(¥ÖC8¡„ëÇ§.
+S	java:S1068"9Replace this use of System.out or System.err by a logger.(œ³Ú’ıÿÿÿÿ
+[	java:S106¸"9Replace this use of System.out or System.err by a logger.(¥š·çüÿÿÿÿ8ÄÁÎÇ§.
+O	java:S106Æ"9Replace this use of System.out or System.err by a logger.(½ß¡Ñ
+S	java:S106b"9Replace this use of System.out or System.err by a logger.(ÖÉ˜çÿÿÿÿÿ
+M
+java:S1066²"/Merge this if statement with the enclosing one.(ÊĞÒÀ8ÄÁÎÇ§.
+S	java:S1063"9Replace this use of System.out or System.err by a logger.(Ù¶óÁÿÿÿÿÿ
+S	java:S106\"9Replace this use of System.out or System.err by a logger.(·…‰üúÿÿÿÿ
+S	java:S106U"9Replace this use of System.out or System.err by a logger.(‹ÄÛûÿÿÿÿ
+[	java:S106ß"9Replace this use of System.out or System.err by a logger.(„çÉÇüÿÿÿÿ8ÈÉğÇ§.
+S	java:S106s"9Replace this use of System.out or System.err by a logger.(ÑÜáÆúÿÿÿÿ
+V	java:S106â"9Replace this use of System.out or System.err by a logger.(¦’Âì8ışòÇ§.
+N	java:S106V"9Replace this use of System.out or System.err by a logger.(…İ‚®

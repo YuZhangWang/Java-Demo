@@ -1,0 +1,77 @@
+
+A
+java:S1148¦"#Use a logger to log this exception.(Ç’Çê8ß¹ÃÆ§.
+S
+java:S1117 "6Rename "id" which hides the field declared at line 71.(°æ—L8ß¹ÃÆ§.
+_
+java:S1126\"BReplace this if-then-else statement by a single method invocation.(Â²Õ™8ß¹ÃÆ§.
+Q
+java:S3740"/Provide the parametrized type for this generic.(›Ùï¶úÿÿÿÿ8ß¹ÃÆ§.
+E
+java:S1604•"(Make this anonymous inner class a lambda(››ıi8ß¹ÃÆ§.
+o
+java:S3776H"RRefactor this method to reduce its Cognitive Complexity from 45 to the 15 allowed.( Üó8ß¹ÃÆ§.
+F
+java:S1604š"(Make this anonymous inner class a lambda(Ã¼‹—8ß¹ÃÆ§.
+
+java:S3252"\Use static access with "javax.swing.ScrollPaneConstants" for "VERTICAL_SCROLLBAR_AS_NEEDED".(®èÿÿÿÿÿ8ß¹ÃÆ§.
+B
+java:S2153î"Remove the boxing to "Integer".(ï¹¨öùÿÿÿÿ8ß¹ÃÆ§.
+B
+java:S2153ô"Remove the boxing to "Integer".(šé®æúÿÿÿÿ8ß¹ÃÆ§.
+D	java:S131õ""Add a default case to this switch.(»€Ğıÿÿÿÿ8ß¹ÃÆ§.
+C
+java:S1905§"&Remove this unnecessary cast to "int".(§öïl8ß¹ÃÆ§.
+K
+java:S3740@"/Provide the parametrized type for this generic.(¹ìº\8ß¹ÃÆ§.
+Q
+java:S3740!"/Provide the parametrized type for this generic.(Ÿ¶Û­ıÿÿÿÿ8ß¹ÃÆ§.
+L
+java:S3740A"/Provide the parametrized type for this generic.(İ¿ÒÃ8ß¹ÃÆ§.
+F
+java:S1604ç"(Make this anonymous inner class a lambda(‚©ñÑ8ß¹ÃÆ§.
+F
+java:S1604¯"(Make this anonymous inner class a lambda(«İü8ß¹ÃÆ§.
+K
+java:S3740@"/Provide the parametrized type for this generic.(¹ìº\8ß¹ÃÆ§.
+A
+java:S1148€"#Use a logger to log this exception.(Ç’Çê8ß¹ÃÆ§.
+_
+java:S2259w"BA "NullPointerException" could be thrown; "list" is nullable here.(ªß„¼8ß¹ÃÆ§.
+{
+java:S1450("^Remove the "tableScrollPane" field and declare it as a local variable in the relevant methods.(Ï­õ‡8ß¹ÃÆ§.
+K
+java:S1905y")Remove this unnecessary cast to "Course".(‹ÈÆùÿÿÿÿ8ß¹ÃÆ§.
+
+java:S3252"^Use static access with "javax.swing.ScrollPaneConstants" for "HORIZONTAL_SCROLLBAR_AS_NEEDED".(®èÿÿÿÿÿ8ß¹ÃÆ§.
+Q
+java:S3740!"/Provide the parametrized type for this generic.(Ÿ¶Û­ıÿÿÿÿ8ß¹ÃÆ§.
+L
+java:S3740A"/Provide the parametrized type for this generic.(İ¿ÒÃ8ß¹ÃÆ§.
+n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ØÃÇŞÿÿÿÿÿ8çË½Æ§.
+D
+java:S1604Y"(Make this anonymous inner class a lambda(ûÂÈk8ß¹ÃÆ§.
+V
+java:S1128"9Remove this unused import 'java.awt.event.WindowAdapter'.(­ˆàÛ8ß¹ÃÆ§.
+C
+java:S1905§"&Remove this unnecessary cast to "int".(§öïl8ß¹ÃÆ§.
+S
+java:S1117i"6Rename "id" which hides the field declared at line 71.(ÃôóÕ8ß¹ÃÆ§.
+E
+java:S1604d"(Make this anonymous inner class a lambda(„“åç8ß¹ÃÆ§.
+g
+java:S3252Ñ"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(É’­Ÿ8ß¹ÃÆ§.
+Q
+java:S3740"/Provide the parametrized type for this generic.(›Ùï¶úÿÿÿÿ8ß¹ÃÆ§.
+@
+java:S1148t"#Use a logger to log this exception.(Ç’Çê8ß¹ÃÆ§.
+A
+java:S1148‘"#Use a logger to log this exception.(Ç’Çê8ß¹ÃÆ§.
+F
+java:S1604ˆ"(Make this anonymous inner class a lambda(³Ô¦Ô8ß¹ÃÆ§.
+g
+java:S2147s"ECombine this catch with the one at line 113, which has the same body.(±Ÿ—±ÿÿÿÿÿ8ß¹ÃÆ§.
+@
+java:S1148r"#Use a logger to log this exception.(Ç’Çê8ß¹ÃÆ§.
+Y
+java:S1128"7Remove this unused import 'java.awt.event.WindowEvent'.(Àø®Ãÿÿÿÿÿ8ß¹ÃÆ§.

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<package name="struts1" extends="struts-default" namespace="/">
+		<action name="loginOut" class="com.wbhz.action.AdminManagement" method="loginOut">
+			<result name="success" type="dispatcher">index2.jsp</result>
+			<result name="input" type="dispatcher">index2.jsp</result>
+		</action>
+		<action name="openRegist" class="com.wbhz.action.AdminManagement" method="openRegist">
+			<result name="success">regist2.jsp</result>
+		</action>
+		<action name="regist" class="com.wbhz.action.ObjectAdminManagement" method="regist">
+			<result name="success">regist2.jsp</result>
+		</action>
+	</package>
+</struts>

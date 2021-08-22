@@ -1,0 +1,55 @@
+
+=
+java:S1905Ê"&Remove this unnecessary cast to "int".(£Ãáú
+?
+java:S1604"(Make this anonymous inner class a lambda(‚©ñÑ
+W	java:S125Ÿ"<This block of commented-out lines of code should be removed.(µ®ºôşÿÿÿÿ
+>
+java:S1604¯"(Make this anonymous inner class a lambda(››ıi
+J
+java:S3740'"/Provide the parametrized type for this generic.(Ÿ¶Û­ıÿÿÿÿ
+O
+java:S2130b"9Use "Integer.parseInt" for this string-to-int conversion.(ëÖ‘¯
+E
+java:S3740%"/Provide the parametrized type for this generic.(–å»
+h
+java:S3776X"RRefactor this method to reduce its Cognitive Complexity from 26 to the 15 allowed.( Üó
+N
+java:S1117x"8Rename "year" which hides the field declared at line 85.(•˜¸á
+?
+java:S1604œ"(Make this anonymous inner class a lambda(³Ô¦Ô
+E
+java:S3740%"/Provide the parametrized type for this generic.(–å»
+?
+java:S1604Ó"(Make this anonymous inner class a lambda(«İü
+z
+java:S3252’"^Use static access with "javax.swing.ScrollPaneConstants" for "HORIZONTAL_SCROLLBAR_AS_NEEDED".(çÈ¶‹ıÿÿÿÿ
+`
+java:S3252"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(É’­Ÿ
+L
+java:S1117z"6Rename "id" which hides the field declared at line 84.(ÃôóÕ
+>
+java:S1604v"(Make this anonymous inner class a lambda(„“åç
+t
+java:S1450/"^Remove the "tableScrollPane" field and declare it as a local variable in the relevant methods.(Ï­õ‡
+X
+java:S1126m"BReplace this if-then-else statement by a single method invocation.(Â²Õ™
+<
+java:S1905É"&Remove this unnecessary cast to "int".(½úµ
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(»ƒœşÿÿÿÿ
+J
+java:S3740'"/Provide the parametrized type for this generic.(Ÿ¶Û­ıÿÿÿÿ
+F
+java:S3740"/Provide the parametrized type for this generic.(øÉşÿ
+?
+java:S1604¼"(Make this anonymous inner class a lambda(Ã¼‹—
+S
+java:S1117y"8Rename "term" which hides the field declared at line 86.(øêíÊşÿÿÿÿ
+`
+java:S3252Ë"IUse static access with "javax.swing.WindowConstants" for "HIDE_ON_CLOSE".(«é¥
+s
+java:S3252‘"\Use static access with "javax.swing.ScrollPaneConstants" for "VERTICAL_SCROLLBAR_AS_NEEDED".(™ñü
+F
+java:S3740…"/Provide the parametrized type for this generic.(œ¾ü÷
+=
+java:S1604k"(Make this anonymous inner class a lambda(ûÂÈk

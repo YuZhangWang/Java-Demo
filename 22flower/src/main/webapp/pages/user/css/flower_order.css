@@ -1,0 +1,129 @@
+.main{
+    width: 1000px;
+    margin: 0 auto;
+
+}
+
+.main .order  h3{
+    margin: 0;
+    height: 60px;
+    line-height: 60px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.main .order .address ul {
+    background-color: #fafafa;
+    padding: 20px;
+    list-style: none;
+}
+.main .order .address ul li{
+    font-size: 12px;
+    padding: 10px 0;
+
+
+
+
+}
+.main .order .address ul li span{
+    display: block;
+    width: 90px;
+    height: 30px;
+    line-height: 30px;
+    text-align: right;
+    margin-right: 10px;
+    float: left;
+}
+.main .order .address ul li e {
+    color: red;
+    margin-right: 5px;
+}
+.main .order .address ul li input{
+    width: 170px;
+    padding-left: 10px ;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #e5e5e5;
+    font-size: 14px;
+    display: inline-block;
+}
+.main .order .address ul li select{
+
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #e5e5e5;
+    font-size: 14px;
+    margin-right: 10px;
+
+}
+.main .order .address ul li .p_select{
+    width: 90px;
+}
+
+.main .order .address ul li .longaddress{
+    width: 400px;
+}
+/*��Ʒtable*/
+.main .order .goods{
+    margin: 0;
+    height: 100%;
+}
+.goods .goodsTable {
+    width: 1000px;
+    background-color: #f0f0f0;
+    font-size: 12px;
+
+}
+.goods .goodsTable tr th{
+    height: 40px;
+    text-align: center;
+    border-top: 3px solid #ffd1c0;
+    border-left: 3px solid #f0f0f0;
+}
+
+.goods .goodsTable tbody tr td{
+    text-align: center;
+    padding-bottom: 20px;
+    color:  #585552;
+}
+.goods .goodsTable tbody tr td .rmb{
+    color: #ff5417;
+    font-weight: bold;
+}
+.goods .goodsTable tbody img {
+    width: 80px;
+    height: 80px;
+    margin-right: 15px;
+}
+.ok{
+    margin-top: 20px;
+    text-align: right;
+    font-size: 12px;
+    height: 200px;
+}
+.ok .fare{
+    height: 32px;
+    line-height: 32px;
+}
+.ok .orderFare{
+    height: 32px;
+    line-height: 32px;
+}
+.ok span{
+    margin-left: 10px;
+}
+.ok .orderFare .rmb{
+    color: #ff5417;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.ok input{
+    width: 200px;
+    height: 40px;
+    border: none;
+    background: #ff5317;
+    line-height: 40px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}

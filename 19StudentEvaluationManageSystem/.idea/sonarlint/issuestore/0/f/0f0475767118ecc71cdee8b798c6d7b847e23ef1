@@ -1,0 +1,98 @@
+
+`
+java:S1124	"EReorder the modifiers to comply with the Java Language Specification.(ğüèØúÿÿÿÿ
+T	java:S106("9Replace this use of System.out or System.err by a logger.(¥ÖC8ÒàÅ§.
+U	java:S106."9Replace this use of System.out or System.err by a logger.(áªŒ÷8ÙŸãÅ§.
+V	java:S106®"9Replace this use of System.out or System.err by a logger.(¨ï¸è8‘ßìÈ§.
+[
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(¦„ş
+V	java:S106›"9Replace this use of System.out or System.err by a logger.(¬¾‘ş8‘ßìÈ§.
+Z
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(¦‹¿v
+`
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(Îì¶¦ÿÿÿÿÿ
+T	java:S106"9Replace this use of System.out or System.err by a logger.(¥ÖC8¶ñŞÅ§.
+`
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(€ÚÉÊÿÿÿÿÿ
+y
+java:S1192"[Define a constant instead of duplicating this literal "Press any key to continue!" 4 times.(¨ï¸è8‘ßìÈ§.
+U	java:S106)"9Replace this use of System.out or System.err by a logger.(Şü´Ó8ÒàÅ§.
+[
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(–¡¥°
+V	java:S106©"9Replace this use of System.out or System.err by a logger.(¨ï¸è8‘ßìÈ§.
+[
+java:S1124
+"EReorder the modifiers to comply with the Java Language Specification.(¹ÅÃÍ
+T	java:S106"9Replace this use of System.out or System.err by a logger.(¥ÖC8¶ñŞÅ§.
+`
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ªÛ®ùÿÿÿÿ
+T	java:S106"9Replace this use of System.out or System.err by a logger.(«ïÈäüÿÿÿÿ
+b	java:S100,"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬‘ÁL
+Z	java:S106""9Replace this use of System.out or System.err by a logger.( Ù¯–ıÿÿÿÿ8ÒàÅ§.
+]
+java:S1118…":Add a private constructor to hide the implicit public one.(â•üıÿÿÿÿ8‘ßìÈ§.
+T	java:S106"9Replace this use of System.out or System.err by a logger.(§ğí—ùÿÿÿÿ
+O	java:S106"9Replace this use of System.out or System.err by a logger.(’èùÁ
+T
+java:S1068"9Remove this unused "SECOND_STUDENT_RETURN" private field.(Îì¶¦ÿÿÿÿÿ
+[
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(Çù‘
+T
+java:S1068"9Remove this unused "SECOND_STUDENT_MODIFY" private field.(ªÛ®ùÿÿÿÿ
+`
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(İÎÈÚøÿÿÿÿ
+Z	java:S106%"9Replace this use of System.out or System.err by a logger.(šèıÿÿÿÿ8ÒàÅ§.
+[
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(Üö¨³
+O
+java:S1068"9Remove this unused "SECOND_STUDENT_SEARCH" private field.(ßğÑó
+T	java:S1063"9Replace this use of System.out or System.err by a logger.(‚‚õ#8ÙŸãÅ§.
+[
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ßğÑó
+U	java:S106&"9Replace this use of System.out or System.err by a logger.(•çƒæ8ÒàÅ§.
+V	java:S106£"9Replace this use of System.out or System.err by a logger.(¨ï¸è8‘ßìÈ§.
+[	java:S106§"9Replace this use of System.out or System.err by a logger.(÷ç±ºøÿÿÿÿ8‘ßìÈ§.
+`
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ğô·ùÿÿÿÿ
+U	java:S1060"9Replace this use of System.out or System.err by a logger.(‚‚Ğµ8ÙŸãÅ§.
+T
+java:S2589="7Remove this expression which always evaluates to "true"(ÙÜ…õ8™ş„Ì§.
+T	java:S1062"9Replace this use of System.out or System.err by a logger.(¥ÖC8ÙŸãÅ§.
+j	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ãÜŠÁ8¶ñŞÅ§.
+Q
+java:S1068"6Remove this unused "SECOND_STUDENT_ADD" private field.(İÎÈÚøÿÿÿÿ
+U	java:S106$"9Replace this use of System.out or System.err by a logger.(‹êòî8ÒàÅ§.
+U	java:S106'"9Replace this use of System.out or System.err by a logger.(¶Òÿê8ÒàÅ§.
+V	java:S106Œ"9Replace this use of System.out or System.err by a logger.(üÖ÷±8‘ßìÈ§.
+T	java:S106"9Replace this use of System.out or System.err by a logger.(¥ÖC8¶ñŞÅ§.
+[	java:S106¬"9Replace this use of System.out or System.err by a logger.(ö¤¶äıÿÿÿÿ8‘ßìÈ§.
+[	java:S106—"9Replace this use of System.out or System.err by a logger.(Ÿ±ÆÑúÿÿÿÿ8‘ßìÈ§.
+Z	java:S106/"9Replace this use of System.out or System.err by a logger.(İ“©Ùüÿÿÿÿ8ÙŸãÅ§.
+U	java:S106x"9Replace this use of System.out or System.err by a logger.(€²ôŠ8‘ßìÈ§.
+[
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ñïÁÙ
+[	java:S106•"9Replace this use of System.out or System.err by a logger.(ÅÎñÊıÿÿÿÿ8‘ßìÈ§.
+V	java:S106½"9Replace this use of System.out or System.err by a logger.(šêïâ8‘ßìÈ§.
+V	java:S106¡"9Replace this use of System.out or System.err by a logger.(÷ùÑû8‘ßìÈ§.
+Z	java:S106#"9Replace this use of System.out or System.err by a logger.(ßÈ£õüÿÿÿÿ8ÒàÅ§.
+Z	java:S1061"9Replace this use of System.out or System.err by a logger.(ªù—½ÿÿÿÿÿ8ÙŸãÅ§.
+V	java:S106"9Replace this use of System.out or System.err by a logger.(¨ï¸è8‘ßìÈ§.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ÓË×Õ8¶ñŞÅ§.
+T
+java:S1068"9Remove this unused "SECOND_STUDENT_DELETE" private field.(ğô·ùÿÿÿÿ
+Z
+java:S1854z"=Remove this useless assignment to local variable "backFirst".(”¹’8‘ßìÈ§.
+V	java:S106»"9Replace this use of System.out or System.err by a logger.(‚¿Š8‘ßìÈ§.
+
+java:S1192"eDefine a constant instead of duplicating this literal "------------------------------------" 7 times.(¥ÖC8¶ñŞÅ§.
+X	java:S125\"<This block of commented-out lines of code should be removed.(ŸÜ¼8¿ìïÈ§.
+X	java:S125j"<This block of commented-out lines of code should be removed.(ŸÜ¼8™ş„Ì§.
+V	java:S106µ"9Replace this use of System.out or System.err by a logger.(ÿî‹‰8‘ßìÈ§.
+[
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(È©…õ
+T	java:S106-"9Replace this use of System.out or System.err by a logger.(¥ÖC8¸îÜÆ§.
+U	java:S106¶"9Replace this use of System.out or System.err by a logger.(¥ÖC8ıÿûÅ§.
+V	java:S106’"9Replace this use of System.out or System.err by a logger.(şë 8‘ßìÈ§.
+V	java:S106Ã"9Replace this use of System.out or System.err by a logger.(¶øê8‘ßìÈ§.
+Z	java:S106}"9Replace this use of System.out or System.err by a logger.(šëŒİúÿÿÿÿ8‘ßìÈ§.
+N	java:S106<"9Replace this use of System.out or System.err by a logger.(Õ¥óé

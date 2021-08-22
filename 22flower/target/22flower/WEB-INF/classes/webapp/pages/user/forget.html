@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>注册页面</title>
+    <link href="css/register.css" rel="stylesheet">
+    <script src="../../js/jquery.min.js"></script>
+    <script>
+// 判断是登录账号和密码是否为空
+function check(){
+	
+    var usercode = $("#usercode").val();
+    var password = $("#password").val();
+    if(usercode=="" || password==""){
+    	//$("#message").text("账号或密码不能为空！");
+        return false;
+    }  
+    return true;
+}
+</script>
+</head>
+<body>
+<div class="header">
+    <div class="logo">
+        <div class="text1"><a href="index.html">鲜花在线商城</a></div>
+
+        <div class="text2 ">欢迎注册</div>
+    </div>
+    <div class="go">
+        我已经注册,现在去<a href="login.html">登录</a>
+    </div>
+</div>
+<div class="register">
+    <div class="toForm">
+    <form action="toRegister.action" method="post" onsubmit="return check()">
+        <ul>
+         	<li>
+                <span>用户名:</span>
+                <input class="username putvalue" type="text" id="username" name="username"/>
+            </li>
+            <li>
+                <span>账&nbsp;&nbsp;&nbsp;号:</span>
+                <input class="usercode putvalue" type="text" id="usercode" name="usercode"/>
+            </li>
+       
+            <li>
+                <span>密&nbsp;&nbsp;&nbsp;码:</span>
+                <input class="password putvalue" type="password" id="password" name="password"/>
+            </li>
+
+
+        </ul>
+        <input type="submit" class="toRegister" value="立即注册" />
+
+    </form>
+    </div>
+</div>
+</body>
+</html>

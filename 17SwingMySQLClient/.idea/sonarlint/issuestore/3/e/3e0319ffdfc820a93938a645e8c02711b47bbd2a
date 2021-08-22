@@ -1,0 +1,65 @@
+
+N
+java:S1135±"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+Q
+java:S1161ß":Add the "@Override" annotation above this method signature(ÚÎ€÷
+T
+java:S1197®"8Move the array designator from the variable to the type.(‡—ë”şÿÿÿÿ
+€
+java:S1149&"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(»õûâüÿÿÿÿ
+T
+java:S1197Ü"8Move the array designator from the variable to the type.(©Ïªíûÿÿÿÿ
+N
+java:S1197S"8Move the array designator from the variable to the type.(ÃÅú–
+g
+java:S1192T"LDefine a constant instead of duplicating this literal "People_role" 3 times.(ˆ‘üáÿÿÿÿÿ
+b
+java:S1192a"LDefine a constant instead of duplicating this literal "Film_length" 3 times.(À“ü
+N
+java:S1135š"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+O	java:S106°"9Replace this use of System.out or System.err by a logger.(óçó 
+?
+java:S1148²"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+O	java:S106ß"9Replace this use of System.out or System.err by a logger.(óçó 
+A
+java:S1948E"+Make "myConnect" transient or serializable.(ÑÅÒ¢
+Q
+java:S1161Ñ":Add the "@Override" annotation above this method signature(ø„è¶
+h
+java:S1192®"LDefine a constant instead of duplicating this literal "Movie_Title" 5 times.(‡—ë”şÿÿÿÿ
+O
+java:S1197‹"8Move the array designator from the variable to the type.(’¶†ÿ
+S
+java:S1197?"8Move the array designator from the variable to the type.(ˆ¶È¯şÿÿÿÿ
+b
+java:S1192‹"KDefine a constant instead of duplicating this literal "Film_title" 4 times.(’¶†ÿ
+P	java:S110"<This class has 6 parents which is greater than 5 authorized.(üîy
+N
+java:S1197ÿ"8Move the array designator from the variable to the type.(ä‚è
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÕÎ›œ
+]
+java:S2095Q"GUse try-with-resources or close this "Statement" in a "finally" clause.(¼¸…±
+g	java:S117ª"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³™ßÎ
+€
+java:S1149H"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(»õûâüÿÿÿÿ
+O	java:S106Å"9Replace this use of System.out or System.err by a logger.(óçó 
+?
+java:S1148›"#Use a logger to log this exception.(Âşÿâûÿÿÿÿ
+N
+java:S1135¿"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+M
+java:S1172H"2Remove this unused method parameter "selectedRow".(»õûâüÿÿÿÿ
+Q
+java:S1161Õ":Add the "@Override" annotation above this method signature(¯ô…¡
+b
+java:S1192o"LDefine a constant instead of duplicating this literal "people_role" 3 times.(İ‚’ü
+m
+java:S3776G"RRefactor this method to reduce its Cognitive Complexity from 27 to the 15 allowed.(´ÈÉĞÿÿÿÿÿ
+€
+java:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(»õûâüÿÿÿÿ
+O
+java:S1197Ã"8Move the array designator from the variable to the type.(¤“•÷
+S
+java:S1197@"8Move the array designator from the variable to the type.(³œŞıÿÿÿÿ
+?
+java:S1148À"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ

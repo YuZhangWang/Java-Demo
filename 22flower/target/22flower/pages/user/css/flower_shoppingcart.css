@@ -1,0 +1,252 @@
+.shoppingcart{
+    margin: 0 auto;
+    width: 1000px;
+
+}
+.shoppingcart h3{
+    font-size: 18px;
+    font-weight: bolder;
+}
+.shoppingcart #cartTable{
+
+    width: 998px;
+    font-size: 12px;
+
+
+}
+.shoppingcart #cartTable thead{
+    border-bottom: 3px solid #ffd1c0;
+    height: 40px;
+    line-height: 40px;
+    color: #9f9f9f;
+
+}
+.shoppingcart #cartTable thead tr th{
+    text-align: center;
+}
+.shoppingcart #cartTable thead tr th:first-child{
+    text-align: left;
+}
+
+.shoppingcart #cartTable tbody tr{
+    height: 120px;
+    border: 1px solid #cccccc;
+
+}
+.shoppingcart #cartTable tbody tr:hover{
+    background: #fff9f0;
+}
+.shoppingcart #cartTable tbody tr td:first-child{
+    text-align: center;
+}
+.shoppingcart #cartTable tbody tr td {
+    text-align: center;
+    height: 80px;
+    line-height: 80px;
+
+}
+.shoppingcart #cartTable .checkbox{
+   margin: 0;
+    padding: 45px 0;
+}
+
+.shoppingcart #cartTable .goods{
+    width: 300px;
+}
+.shoppingcart #cartTable .goods img{
+    width: 80px;
+    height: 80px;
+}
+.shoppingcart #cartTable .count{
+    width: 90px;
+
+}
+.shoppingcart #cartTable .price{
+    width: 130px;
+}
+.shoppingcart #cartTable .count .add,.count input,.count .reduce{
+    float: left;
+
+    position: relative;
+    z-index: 0;
+}
+.count input {
+    width: 50px;
+    height: 23px;
+    line-height: 23px;
+    border: 1px solid #aaa;
+    color: #343434;
+    text-align: center;
+    padding: 4px 0;
+    background-color: #fff;
+    z-index: 2;
+    margin-left: -1px;
+
+}
+.count .reduce{
+    margin-left: 5px;
+}
+.count .add, .count .reduce {
+    height: 23px;
+    width: 17px;
+    border: 1px solid #e5e5e5;
+    background: #f0f0f0;
+    text-align: center;
+    line-height: 23px;
+    color: #444;
+}
+.count .add:hover,.count .reduce:hover{
+    color: #f50;
+    border-color: #f60;
+    cursor: pointer;
+    z-index: 3;
+}
+.subtotal{
+    width: 150px;
+    color: red;
+    font-weight: bold;
+}
+.operation span:hover ,a:hover{
+    cursor: pointer;
+    color: red;
+    text-decoration: underline;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.foot{
+    height: 50px;
+    margin-top: 10px;
+    color: #666;
+    border: 1px solid #8c8c8c;
+    background-color: #eaeaea;
+    background-image: linear-gradient(RGB(241,241,241),RGB(226,226,226));
+    position: relative;
+    z-index: 8;
+
+
+}
+.foot div ,.foot a{
+    line-height: 48px;
+    height: 48px;
+}
+.foot .select-all{
+    width: 100px;
+    height: 48px;
+    line-height: 48px;
+    padding-left: 5px;
+    color: #666;
+}
+.foot .closing{
+
+    width: 100px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    background: #ff5417;
+    cursor: pointer;
+}
+.foot .total{
+    margin: 0 20px;
+    cursor: pointer;
+}
+.foot #priceTotal{
+    font-size: 20px;
+}
+.foot #priceTotal, .foot #selectedTotal,.foot .total e{
+    color: #ff5417;
+    font-weight: bolder;
+}
+.foot .selected{
+    cursor: pointer;
+}
+.foot .selected .arrow{
+    position: relative;
+    top: -3px;
+    margin-left: 3px;
+}
+.foot .selected .down{
+    position: relative;
+    top: 3px;
+    display: none;
+
+}
+.foot .selected .down{
+    display: inline;
+}
+.foot .selected .up{
+    display: none;
+}
+.foot .selected:hover .arrow{
+    color: #ff5417;
+}
+.foot .selected-view{
+    width: 1000px;
+    border: 1px solid #c8c8c8;
+    position: absolute;
+    height: auto;
+    background: #fff;
+    z-index: 9;
+    bottom: 48px;
+    left: -1px;
+    display: none;
+
+}
+.show .selected-view{
+    display: block;
+}
+.foot .selected-view div{
+    height: auto;
+}
+.foot .selected-view .arrow{
+    font-size: 16px;
+    line-height: 100%;
+    color: #c8c8c8;
+    position: absolute;
+    right: 330px;
+    bottom: -9px;
+
+}
+.foot .selected-view .arrow span{
+    color: #fff;
+    position: absolute;
+    left: 0px;
+    bottom: 1px;
+}
+#selectedViewList{
+    padding: 20px;
+    margin-bottom: -20px;
+
+}
+#selectedViewList div{
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+    border: 1px solid #ccc;
+    margin: 10px;
+}
+#selectedViewList div img{
+    width: 78px;
+    height:78px ;
+}
+#selectedViewList div span{
+    display: none;
+    color: #fff;
+    font-size: 12px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 60px;
+    height: 18px;
+    line-height: 18px;
+    text-align: center;
+    background: rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+#selectedViewList div:hover span{
+    display: block;
+}

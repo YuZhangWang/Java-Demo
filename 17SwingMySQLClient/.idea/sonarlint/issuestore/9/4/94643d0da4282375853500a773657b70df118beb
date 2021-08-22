@@ -1,0 +1,60 @@
+
+V	java:S110"<This class has 6 parents which is greater than 5 authorized.(îËîÑıÿÿÿÿ
+E
+java:S1874ù"/Remove this use of "getText"; it is deprecated.(·Öóv
+F
+java:S1068""0Remove this unused "passwordname" private field.(·—ä¯
+Q	java:S1255"<This block of commented-out lines of code should be removed.(¶üÁ
+b
+java:S1192È"KDefine a constant instead of duplicating this literal "<html><h4>" 8 times.(²–šº
+2
+java:S3626¹"Remove this redundant jump.(ûÁİ…
+q
+java:S1450""[Remove the "passwordname" field and declare it as a local variable in the relevant methods.(·—ä¯
+?
+java:S1659 ")Declare "resetButton" on a separate line.(º¥³»
+P
+java:S4973É"9Use the "equals" method if value comparison was intended.(ñæ«º
+O
+java:S4973Ë"9Use the "equals" method if value comparison was intended.(—µ
+?
+java:S1659"")Declare "duankouname" on a separate line.(·—ä¯
+W	java:S125æ"<This block of commented-out lines of code should be removed.(»¡œúşÿÿÿÿ
+e
+java:S1192Ë"ODefine a constant instead of duplicating this literal ";DatabaseName=" 3 times.(—µ
+D
+java:S1659#")Declare "dbusernames" on a separate line.(‹³ì‰ıÿÿÿÿ
+O
+java:S4973Ë"9Use the "equals" method if value comparison was intended.(—µ
+@
+java:S1659""*Declare "passwordname" on a separate line.(·—ä¯
+O
+java:S4973Ë"9Use the "equals" method if value comparison was intended.(—µ
+N	java:S106Ò"9Replace this use of System.out or System.err by a logger.(Ò­p
+c
+java:S1871ñ"MThis branch's code block is the same as the block for the branch on line 238.(±æ¯X
+{
+java:S1149å"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(â­º¿ûÿÿÿÿ
+’
+java:S1192T"wDefine a constant instead of duplicating this literal "(sql 2000)com.microsoft.sqlserver.jdbc.SQLServerDriver" 3 times.(‹—‹•ùÿÿÿÿ
+>
+java:S1659""(Declare "drivername" on a separate line.(·—ä¯
+A
+java:S1659#"&Declare "dbipname" on a separate line.(‹³ì‰ıÿÿÿÿ
+v
+java:S1149ı"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(í…Ò‰
+F
+java:S1144…"*Remove this unused private "reset" method.(¤¹§çúÿÿÿÿ
+;
+java:S1659""%Declare "urlname" on a separate line.(·—ä¯
+N	java:S106Ñ"9Replace this use of System.out or System.err by a logger.(ç¾€Y
+“
+java:S1192U"}Define a constant instead of duplicating this literal "(sql 2005or2008)com.microsoft.sqlserver.jdbc.SQLServerDriver" 3 times.(€ÈÉí
+K
+java:S1066´"/Merge this if statement with the enclosing one.(ıƒÿÖùÿÿÿÿ
+_
+java:S3252«"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(ºÀœx
+{
+java:S1149â"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(’’„ºıÿÿÿÿ
+i
+java:S1871ô"MThis branch's code block is the same as the block for the branch on line 238.(Ğ§²Ğûÿÿÿÿ

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="81552537-f176-4693-9994-6cfd98d5ce20" name="默认更改列表" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YbE9y4wdaf93xYKU1J7yX9ePsp" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+  </component>
+  <component name="RunManager" selected="Application.Prime">
+    <configuration name="Prime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Prime" />
+      <module name="05判断随机素数" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="suijisushu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="suijisushu" />
+      <module name="05判断随机素数" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Prime" />
+        <item itemvalue="Application.suijisushu" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="81552537-f176-4693-9994-6cfd98d5ce20" name="默认更改列表" comment="" />
+      <created>1583202745765</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583202745765</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="91" key="#Inspections" timestamp="1583367730854">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="361" y="91" key="#Inspections/0.0.1536.864@0.0.1536.864" timestamp="1583367730854" />
+    <state width="1537" height="793" key="GridCell.Tab.0.bottom" timestamp="1583639339945">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1537" height="793" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1583639339945" />
+    <state width="1537" height="793" key="GridCell.Tab.0.center" timestamp="1583639339945">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1537" height="793" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1583639339945" />
+    <state width="1537" height="793" key="GridCell.Tab.0.left" timestamp="1583639339945">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1537" height="793" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1583639339945" />
+    <state width="1537" height="793" key="GridCell.Tab.0.right" timestamp="1583639339945">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1537" height="793" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1583639339945" />
+    <state width="1537" height="793" key="GridCell.Tab.1.bottom" timestamp="1583559486875">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1537" height="793" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1583559486875" />
+    <state width="1537" height="793" key="GridCell.Tab.1.center" timestamp="1583559486875">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1537" height="793" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1583559486875" />
+    <state width="1537" height="793" key="GridCell.Tab.1.left" timestamp="1583559486875">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1537" height="793" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1583559486875" />
+    <state width="1537" height="793" key="GridCell.Tab.1.right" timestamp="1583559486875">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1537" height="793" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1583559486875" />
+    <state x="325" y="82" width="996" height="707" key="SettingsEditor" timestamp="1583373075089">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="325" y="82" width="996" height="707" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1583373075089" />
+    <state x="178" y="7" key="new project wizard" timestamp="1583373048196">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="178" y="7" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1583373048196" />
+    <state x="425" y="197" key="run.anything.popup" timestamp="1583203084726">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="425" y="197" key="run.anything.popup/0.0.1536.864@0.0.1536.864" timestamp="1583203084726" />
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1583202935612">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1583202935612" />
+    <state x="491" y="337" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1583368380241">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="491" y="337" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1536.864@0.0.1536.864" timestamp="1583368380241" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/05$suijisushu.ic" NAME="suijisushu Coverage Results" MODIFIED="1583204716950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

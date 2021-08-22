@@ -1,0 +1,13 @@
+
+I
+java:S1128".Remove this unused import 'java.util.Scanner'.(ÒÜÅ¸úÿÿÿÿ
+E
+java:S1066A"/Merge this if statement with the enclosing one.(ÊĞÒÀ
+O
+java:S1128"4Remove this unused import 'java.util.regex.Pattern'.(Ã•…Äúÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(íö‚Š
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Òß·ù
+J
+java:S1066/"/Merge this if statement with the enclosing one.(×üÙ‡ùÿÿÿÿ
+J
+java:S1066"/Merge this if statement with the enclosing one.(×üÙ‡ùÿÿÿÿ

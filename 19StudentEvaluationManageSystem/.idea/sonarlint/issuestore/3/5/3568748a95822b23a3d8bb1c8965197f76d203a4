@@ -1,0 +1,17 @@
+
+_
+java:S3252U"IUse static access with "javax.swing.WindowConstants" for "HIDE_ON_CLOSE".(Ž«é¥
+C
+java:S1604?"(Make this anonymous inner class a lambda(ù”ßŽüÿÿÿÿ
+N
+java:S2589E"8Remove this expression which always evaluates to "false"(ü˜Þ
+_
+java:S3252f"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(É’­Ÿ
+‡
+java:S1130q"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(ÙØ¤Þýÿÿÿÿ
+>
+java:S1604S"(Make this anonymous inner class a lambda(¥óº«
+_
+java:S3252i"IUse static access with "javax.swing.WindowConstants" for "HIDE_ON_CLOSE".(Ž«é¥
+N
+java:S2589F"8Remove this expression which always evaluates to "false"(­½Á 

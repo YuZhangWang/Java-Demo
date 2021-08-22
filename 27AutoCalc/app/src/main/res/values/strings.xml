@@ -1,0 +1,173 @@
+<resources>
+    <string name="app_name">AutoCalc</string>
+    <string name="app_description">一款超级简单的 Android 计算器</string>
+    <string name="app_version">V1.3.Dev-0517</string>
+    <string name="app_copyright">© 2020 By 梦欤</string>
+    <string name="app_description_long">这是一款超级简单的 Android 计算器，是梦欤的学习作品</string>
+
+    <string name="action_about">关于</string>
+    <string name="action_exit">退出程序</string>
+    <string name="action_help">帮助</string>
+    <string name="action_back">返回</string>
+    <string name="action_settings">设置</string>
+    <string name="action_close">关闭</string>
+    <string name="action_show_functions">查看所有函数</string>
+    <string name="action_show_calc_step">查看计算步骤</string>
+    <string name="action_retry">再试一次</string>
+
+    <string name="action_choose_mode">选择模式</string>
+    <string name="action_ok">确定</string>
+    <string name="action_cancel">取消</string>
+
+    <string name="text_zero">0</string>
+    <string name="text_help_top">您可以在我的 Github 上查看此计算器的源代码。您可以点击“菜单”&gt;“帮助”了解更多帮助信息。</string>
+
+    <string name="text_dec">十进制</string>
+    <string name="text_oct">八进制</string>
+    <string name="text_bin">二进制</string>
+    <string name="text_hex">十六进制</string>
+
+    <string name="text_please_open_record_step">您需要先在设置中开启“记录计算步骤”才能查看当前算式的计算步骤</string>
+
+    <string name="text_history_cleared">所有历史记录已清空</string>
+    <string name="text_error">错误</string>
+    <string name="text_auto_bc_error">数值超出运算范围</string>
+    <string name="text_out_of_range">超出范围</string>
+    <string name="text_use_deg">当前使用角度制</string>
+    <string name="text_use_rad">当前使用弧度制</string>
+    <string name="text_please_choose">请选择</string>
+
+    <string name="text_none">暂无数据</string>
+    <string name="text_none_calc_step">暂时还没有计算步骤哦，您可以输入并计算算式后再查看计算步骤</string>
+    <string name="text_i_new">我知道了</string>
+    <string name="text_mode_normal">标准</string>
+    <string name="text_mode_expand">科学</string>
+    <string name="text_mode_programmer">程序员</string>
+    <string name="text_mode_date_calc">日期相差计算</string>
+    <string name="text_mode_conversion">换算</string>
+
+
+    <string name="text_same_day">同一天</string>
+    <string name="text_same_time">相同时间</string>
+    <string name="text_all">总共</string>
+    <string name="text_add">添加</string>
+    <string name="text_sub">减去</string>
+    <string name="text_week">周</string>
+    <string name="text_hour">时</string>
+    <string name="text_minute">分</string>
+    <string name="text_second">秒</string>
+    <string name="text_day">天</string>
+    <string name="text_month">月</string>
+    <string name="text_year">年</string>
+    <string name="text_date">日期</string>
+    <string name="text_time">时间</string>
+    <string name="text_start_date">开始日期</string>
+    <string name="text_end_date">结束日期</string>
+    <string name="text_result_date">结果日期</string>
+    <string name="text_days_between">相隔天数</string>
+    <string name="text_time_between">相隔时间</string>
+    <string name="text_please_choose_date">请选择日期</string>
+    <string name="text_date_diff">日期间隔计算</string>
+    <string name="text_addsub_date">添加或减去天数</string>
+
+    <string name="text_choose_unit">选择单位</string>
+    <string name="text_dot">.</string>
+    <string name="text_title">标题</string>
+    <string name="text_more">更多</string>
+    <string name="text_clear">清空</string>
+    <string name="text_show_full">显示完整</string>
+
+    <string name="text_calculator">计算器</string>
+    <string name="text_converter">换算器</string>
+    <string name="text_calculator_mode">{0}计算器</string>
+
+    <string name="text_text_too_long">字符过长不能显示，请点击菜单>显示完整</string>
+    <string name="text_click_to_input_function">您可以点击某个函数进行输入</string>
+    <string name="text_custom_input">您可以手动输入算式进行计算，例如 1 + 2 * 16 + cos(pi)</string>
+    <string name="text_help_1">此计算对算式非常敏感，您在输入算式的时候格式必须正确，千万不要忘记任何一个括号</string>
+
+    <string name="title_activity_about">关于 AutoCalc</string>
+    <string name="title_activity_help">AutoCalc 帮助</string>
+    <string name="title_activity_settings">设置</string>
+    <string name="title_activity_date_range">日期相差计算</string>
+    <string name="title_to_converter">换算</string>
+    <string name="title_full_text">完整字符</string>
+    <string name="title_reminder">温馨提示</string>
+
+    <string name="title_show_functions">所有函数</string>
+    <string name="title_custom_input">手动输入算式</string>
+    <string name="title_help">AutoCalc 简要帮助</string>
+    <string name="title_choose_mode">选择模式</string>
+    <string name="title_calc_exception">Oops！计算模块发生了异常</string>
+    <string name="title_calc_step">当前算式的计算步骤</string>
+
+    <!-- Preference Titles -->
+    <string name="settings_general_header">通用</string>
+    <string name="settings_others_header">其他</string>
+    <string name="settings_about_header">关于</string>
+
+    <!-- Preferences -->
+    <string name="settings_key_history_count">计算保存历史记录条数</string>
+    <string name="settings_key_vibrator">按键触摸震动</string>
+    <string name="settings_key_free_input">开启随意输入模式</string>
+    <string name="settings_key_free_input_summary">随意输入模式允许您随意输入算式，您可以运算更复杂的算式，但需要您的算式输入无误</string>
+    <string name="settings_key_computation_accuracy">计算精度</string>
+    <string name="settings_key_computation_accuracy_summary">仅用于四则运算</string>
+    <string name="settings_key_auto_scientific_notation">过大的数值自动使用科学计数法</string>
+    <string name="settings_key_scientific_notation_max">自动科学计数法开始大小</string>
+    <string name="settings_key_record_step">记录计算步骤</string>
+    <string name="settings_key_record_step_summary">开启后可以显示当前算式的计算步骤，您可以在顶部按钮查看</string>
+    <string name="settings_key_auto_update">自动检查更新</string>
+    <string name="settings_key_version">当前版本，点击这里可检查更新</string>
+    <string name="settings_key_about">关于软件</string>
+
+    <string name="settings_key_privacy_policy">隐私政策以及许可协议</string>
+    <string name="settings_key_check_update">检查更新</string>
+
+    <string name="text_update_rate_failed">联网获取汇率失败！<br />{0}</string>
+    <string name="text_update_rate_success">联网更新汇率成功！{0}</string>
+    <string name="text_updating_rate">正在请求汇率数据<br />请稍后</string>
+    <string name="text_check_update">正检查更新, 请稍后</string>
+    <string name="text_check_update_failed">检查更新失败, 请检查您的网络后重试</string>
+    <string name="text_new_update">软件有新版本啦，是否要更新?</string>
+    <string name="text_latest">您的软件版本是最新的</string>
+    <string name="text_update_to_latest">更新到最新版本</string>
+    <string name="text_do_not_update">暂不更新</string>
+    <string name="text_continue_update">仍然要更新</string>
+    <string name="text_new_ver">新版本：</string>
+    <string name="text_downloading_update">请稍后，正在下载更新，稍后将为您安装</string>
+    <string name="text_no_network">当前似乎未连上网哦，请连接网络后重试</string>
+    <string name="text_in_mobile_network">您当前处于移动网络中，可能会产生流量费用，是否继续</string>
+    <string name="text_downloading_update_title">AutoCalc 更新</string>
+    <string name="text_update_rate"><u>更新汇率</u></string>
+    <string name="text_rate_updated_at">汇率数据更新于 </string>
+
+    <!-- agreement -->
+    <string name="text_agreement_base_welecome">
+        欢迎使用 AutoCalc ！
+        \nAutoCalc 非常重视您的隐私和个人信息保护。
+        \n在您使用 AutoCalc 前，请认真阅读 <a href="https://imengyu.top/linkJump/?to=autocalc_argeement">《用户协议》</a> 及 <a href="https://imengyu.top/linkJump/?to=privacy_policy">《隐私政策》</a> ，您同意并接受全部条款后方可开始使用“AutoCalc”。
+        \n另外为了更好地使用产品功能，需征求您的允许，获得以下权限：
+    </string>
+    <string name="text_agreement_base"><a href="https://imengyu.top/linkJump/?to=autocalc_argeement">《用户协议》</a>\n<a href="https://imengyu.top/linkJump/?to=privacy_policy">《隐私政策》</a>
+        \n\n为了更好地使用产品功能，应用还征求您的允许获得以下权限：
+    </string>
+
+    <string name="text_agreement_devinfo">设备信息</string>
+    <string name="text_agreement_devinfo_sub">包括设备ID/屏幕尺寸/操作系统/设备型号/网络连接模式/移动国家代码/屏幕分辨率及系统语言；用于根据不同的设备及系统版本来提供不同的功能和体验，获取产品的使用情况及Bug信息，帮助我们不断改进产品功能和体验。</string>
+
+    <string name="text_agreement_interenet">网络</string>
+    <string name="text_agreement_interenet_sub">
+        包括IP地址；我们需要联网下载计算数据；以及帮助我们统计产品使用情况、反馈产品BUG，帮助我们不断改进产品功能和体验。
+    </string>
+
+    <string name="text_agreement_write_storage">读写存储</string>
+    <string name="text_agreement_write_storage_sub">
+        我们需要临时写入程序数据、程序计算缓存等等。
+    </string>
+
+    <string name="text_agreement_lost">如果您不同意或拒绝授予这些权限，您将无法使用 App 的部分或全部功能。</string>
+    <string name="text_agreement_allow">同意并继续</string>
+    <string name="text_agreement_not_allow">不同意并退出</string>
+
+</resources>

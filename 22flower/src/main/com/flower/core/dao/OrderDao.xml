@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.flower.core.dao.OrderDao">	
+	
+	
+	<insert id="insert" parameterType="Orders" useGeneratedKeys="true" keyProperty="ordersID">
+	    INSERT INTO orders(userID,userName,userPhone,userEmail,consigneeName,consigneePhone,consigneeAddress,ordersTime,verify,ordersMoney) 
+	    	values(#{userID},#{userName},#{userPhone},#{userEmail},#{consigneeName},#{consigneePhone},#{consigneeAddress},#{ordersTime},#{verify},#{ordersMoney});
+	</insert>
+	
+	
+</mapper>
+
+
+
+

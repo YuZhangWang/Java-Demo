@@ -1,0 +1,138 @@
+.f_buy{
+    margin: 0 auto;
+    width: 1200px;
+    height: 600px;
+    border-bottom: 1px solid orange;
+    margin-top: 20px;
+    overflow:hidden;
+}
+.f_buy .f_buyContainer .left img{
+    border: 1px solid #cccccc;
+    width: 422px;
+    float: left;
+
+
+}
+.f_buy .f_buyContainer .middle{
+    width: 556px;
+
+    float: left;
+    margin-left: 25px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    border-right: 1px solid #cccccc;
+
+}
+.f_buy .f_buyContainer .middle .pro_info{
+    font-size: 12px;
+    height: 164px;
+}
+.f_buy .f_buyContainer .middle .pro_price{
+    width: 530px;
+    height: 108px;
+    background: url("../image/pro_bg_03.png") no-repeat;
+    margin-top: 20px;
+    padding: 20px 20px;
+    line-height: 1.5;
+
+}
+.f_buy .f_buyContainer .middle .pro_price .f_price .f_rmb{
+    font-size: 12px;
+    text-decoration: line-through;
+}
+.f_buy .f_buyContainer .middle .pro_price .t_price .t_rmb{
+    color: red;
+    font-size: 30px;
+}
+.f_buy .f_buyContainer .middle .pro_num{
+    width: 530px;
+    height: 40px;
+    line-height: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 10px;
+    border-bottom: 1px dashed #cccccc;
+    font-size: 12px;
+
+}
+.f_buy .f_buyContainer .middle .pro_num e{
+    color: orange;
+}
+.f_buy .f_buyContainer .middle .pro_num .sales{
+    float: left;
+    flex: 50%;
+    border-right: 1px dotted orange;
+
+}
+.f_buy .f_buyContainer .middle .pro_num .assess{
+    flex: 50%;
+}
+.f_buy .f_buyContainer .middle .pro_buy{
+    margin-top: 15px;
+    padding-left: 20px;
+}
+.f_buy .f_buyContainer .middle .pro_buy .count-input{
+    width: 76px;
+    height: 40px;
+    line-height: 40px;
+    padding: 5px 22px;
+    text-align: center;
+}
+.f_buy .f_buyContainer .middle .pro_buy .reduce{
+    width: 30px;
+    height: 30px;
+    background-color: #cccccc;
+    margin-left: 30px;
+    border: none;
+    text-align: center;
+}
+.f_buy .f_buyContainer .middle .pro_buy .add{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border: none;
+    background-color: #cccccc;
+}
+.f_buy .f_buyContainer .middle .buy{
+    margin-top: 20px;
+    padding-left: 20px;
+}
+.f_buy .f_buyContainer .middle .buy .nowbuy{
+    width:130px;
+    height: 40px;
+    font-size: 16px;
+    border: 2px solid orange;
+    float: left;
+    line-height: 40px;
+    text-align: center;
+}
+.f_buy .f_buyContainer .middle .buy .nowbuy a{
+    color: orange;
+    cursor: pointer;
+}
+.f_buy .f_buyContainer .middle .buy .intoshopping{
+    width: 130px;
+    height: 40px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 40px;
+    background-color: #ff5722;
+    float: left;
+    margin-left: 15px;
+
+
+}
+
+.f_buy .f_buyContainer .middle .buy .intoshopping a{
+
+    color: white;
+    cursor: pointer;
+
+}
+.f_buy  .right{
+    width: 110px;
+    padding-left: 20px;
+    float: left;
+}
+

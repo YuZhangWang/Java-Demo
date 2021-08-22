@@ -1,0 +1,170 @@
+
+U
+java:S1135ë"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ8É‹µ¡.
+U
+java:S1135¾"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ8É‹µ¡.
+F
+java:S1148¹"#Use a logger to log this exception.(Âşÿâûÿÿÿÿ8É‹µ¡.
+U
+java:S1135„"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ8É‹µ¡.
+K
+java:S37403"/Provide the parametrized type for this generic.(œ¡¨n8Ã€±Ø£.
+F
+java:S1148…"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8É‹µ¡.
+^	java:S125®"<This block of commented-out lines of code should be removed.(±Î³Ñøÿÿÿÿ8É‹µ¡.
+Y
+java:S1854¬";Remove this useless assignment to local variable "editSql".(šÅÇ©8É‹µ¡.
+[	java:S106ã"9Replace this use of System.out or System.err by a logger.(Ôèê¼úÿÿÿÿ8É‹µ¡.
+L
+java:S1125ñ")Remove the literal "false" boolean value.(Ì«Â™ùÿÿÿÿ8É‹µ¡.
+`
+java:S1117ú"=Rename "execStat1" which hides the field declared at line 36.(ÑÊê¸úÿÿÿÿ8É‹µ¡.
+i
+java:S2142ê"FEither re-interrupt this method or rethrow the "InterruptedException".(Ÿšê°ıÿÿÿÿ8É‹µ¡.
+]	java:S125s"<This block of commented-out lines of code should be removed.(Í³ªıÿÿÿÿ8É‹µ¡.
+Y	java:S125€"<This block of commented-out lines of code should be removed.(İÖü¡8É‹µ¡.
+J
+java:S1481¬",Remove this unused "editSql" local variable.(šÅÇ©8É‹µ¡.
+C
+java:S1659"-Declare "jLabel_rootPass" on a separate line.(¿ƒĞ’
+r	java:S116"XRename this field "jBtn_editUser" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰‡Öşÿÿÿÿ
+T
+java:S2696´"6Make the enclosing method "static" or remove this set.(Ö±ª€8É‹µ¡.
+Y	java:S125´"<This block of commented-out lines of code should be removed.(‰¥“8É‹µ¡.
+V	java:S106ˆ"9Replace this use of System.out or System.err by a logger.(ş“İƒ8É‹µ¡.
+F
+java:S1148¼"#Use a logger to log this exception.(Âşÿâûÿÿÿÿ8É‹µ¡.
+h
+java:S2147º"ECombine this catch with the one at line 183, which has the same body.(ğ³Ëûÿÿÿÿ8É‹µ¡.
+U
+java:S1135»"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ8É‹µ¡.
+p	java:S116 "VRename this field "jBtn_rootOK" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Š·„ÿÿÿÿÿ
+l
+java:S3252"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(Õû»öşÿÿÿÿ8É‹µ¡.
+K
+java:S4925"-Remove this "Class.forName()", it is useless.(Æ…ÈŸ8É‹µ¡.
+L
+java:S3740&"/Provide the parametrized type for this generic.(ÒÙüË8Ã€±Ø£.
+]	java:S125>"<This block of commented-out lines of code should be removed.(Õê±ıÿÿÿÿ8É‹µ¡.
+U
+java:S1135¢"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ8É‹µ¡.
+^	java:S125¥"<This block of commented-out lines of code should be removed.(´§å´üÿÿÿÿ8É‹µ¡.
+e
+java:S2095Ñ"GUse try-with-resources or close this "Statement" in a "finally" clause.(¡İ• 8É‹µ¡.
+d
+java:S2142¡"FEither re-interrupt this method or rethrow the "InterruptedException".(ò¶È8É‹µ¡.
+F
+java:S1948$"+Make "execStat1" transient or serializable.(ÑÊê¸úÿÿÿÿ
+F
+java:S1148ì"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8É‹µ¡.
+n	java:S116"ZRename this field "jText_dataTable" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ß…ê
+e
+java:S2095ü"GUse try-with-resources or close this "Statement" in a "finally" clause.(üìÙû8É‹µ¡.
+Y	java:S125’"<This block of commented-out lines of code should be removed.(½´ê¨8É‹µ¡.
+b	java:S116"MRename this field "UI" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿ƒĞ’
+H
+java:S1068"3Remove this unused "jText_dataTable" private field.(ß…ê
+6
+java:S1659" Declare "pw" on a separate line.(¿ƒĞ’
+C
+java:S2116Ë"%Use "Arrays.toString(array)" instead.(ºé´¿8É‹µ¡.
+o
+java:S3776†"RRefactor this method to reduce its Cognitive Complexity from 45 to the 15 allowed.(¡£‰{8É‹µ¡.
+g
+java:S3008"QRename this field "PASSWD" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œù¤û
+V	java:S106ù"9Replace this use of System.out or System.err by a logger.(úÕ‡ 8É‹µ¡.
+Y
+java:S1117"6Rename "pw" which hides the field declared at line 30.(ç ²ÿûÿÿÿÿ8É‹µ¡.
+g	java:S116"RRename this field "Fheight" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ß£‘â
+R
+java:S2696³"6Make the enclosing method "static" or remove this set.(µ†²ğûÿÿÿÿ
+r	java:S116"^Rename this field "jTextField_rootUser" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ß…ê
+F
+java:S1148Â"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8É‹µ¡.
+_
+java:S1858¬"A"getText" returns a string, there's no need to call "toString()".(šÅÇ©8É‹µ¡.
+Y	java:S125æ"<This block of commented-out lines of code should be removed.(›ı—ş8É‹µ¡.
+H
+java:S2116­"%Use "Arrays.toString(array)" instead.(³ë¾Óÿÿÿÿÿ8É‹µ¡.
+F
+java:S1659"1Declare "jTextField_rootUser" on a separate line.(ß…ê
+F
+java:S1148£"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8É‹µ¡.
+J
+java:S1128"/Remove this unused import 'java.io.FileWriter'.(Ã‘ÅÃıÿÿÿÿ
+D
+java:S1659")Declare "btn_editeOk" on a separate line.(‰‡Öşÿÿÿÿ
+U
+java:S1135‡"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ8É‹µ¡.
+Q
+java:S3740!"/Provide the parametrized type for this generic.(Î÷Ş’üÿÿÿÿ8Ã€±Ø£.
+E
+java:S1659 "*Declare "cancelButton" on a separate line.(Š·„ÿÿÿÿÿ
+F
+java:S1128"+Remove this unused import 'java.io.Writer'.(Î”øÿÿÿÿ
+B
+java:S1948#"'Make "myCon" transient or serializable.(Œî«„ùÿÿÿÿ
+f	java:S116"QRename this field "Fwidth" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ß£‘â
+Q
+java:S1874"3Remove this use of "newInstance"; it is deprecated.(Æ…ÈŸ8É‹µ¡.
+X	java:S125}"<This block of commented-out lines of code should be removed.(Ï£æ‹8É‹µ¡.
+c
+java:S2147½"ECombine this catch with the one at line 183, which has the same body.(†ğË¹8É‹µ¡.
+C
+java:S1659"-Declare "jLabel_rootUser" on a separate line.(¿ƒĞ’
+L
+java:S3740Y"/Provide the parametrized type for this generic.(¥Ğƒ…8Ã€±Ø£.
+D
+java:S1659 ")Declare "jBtn_rootOK" on a separate line.(Š·„ÿÿÿÿÿ
+Z
+java:S1117¡"=Rename "execStat1" which hides the field declared at line 36.(€ó8É‹µ¡.
+U
+java:S1135Á"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ8É‹µ¡.
+^	java:S125ó"<This block of commented-out lines of code should be removed.(æ¹µ˜øÿÿÿÿ8É‹µ¡.
+U
+java:S1135¸"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ8É‹µ¡.
+_
+java:S2095Ï"HUse try-with-resources or close this "Connection" in a "finally" clause.(­ÿ¨
+B
+java:S1659",Declare "Jpass_rootPass" on a separate line.(æªÀ¿
+U
+java:S1135Õ"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ8É‹µ¡.
+o	java:S116"ZRename this field "jLabel_rootUser" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿ƒĞ’
+X	java:S125±"<This block of commented-out lines of code should be removed.(Óï8É‹µ¡.
+V	java:S106Ë"9Replace this use of System.out or System.err by a logger.(ƒîó‚8É‹µ¡.
+^	java:S125ì"<This block of commented-out lines of code should be removed.(±‘‹ßùÿÿÿÿ8É‹µ¡.
+d
+java:S2095¡"GUse try-with-resources or close this "Statement" in a "finally" clause.(€ó8É‹µ¡.
+e
+java:S2095¤"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(šå¾8É‹µ¡.
+F
+java:S1148¿"#Use a logger to log this exception.(Âşÿâûÿÿÿÿ8É‹µ¡.
+n
+java:S3008"SRename this field "USERNAME" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒÜë¾øÿÿÿÿ
+o	java:S116"ZRename this field "jLabel_rootPass" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿ƒĞ’
+9
+java:S1128
+"Remove this duplicated import.(ªº»Úıÿÿÿÿ
+Q	java:S110"<This class has 6 parents which is greater than 5 authorized.(¥‡ƒ»
+Y	java:S125è"<This block of commented-out lines of code should be removed.(şîüü8É‹µ¡.
+?
+java:S1128")Remove this unused import 'java.io.File'.(†Ğ¥Å
+p	java:S116"VRename this field "btn_editeOk" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰‡Öşÿÿÿÿ
+U	java:S106ç"9Replace this use of System.out or System.err by a logger.(³©Ğ98É‹µ¡.
+;
+java:S1659"%Declare "Fheight" on a separate line.(ß£‘â
+^	java:S125©"<This block of commented-out lines of code should be removed.(æ¹µ˜øÿÿÿÿ8É‹µ¡.
+F
+java:S1148Ö"#Use a logger to log this exception.(Âşÿâûÿÿÿÿ8É‹µ¡.
+B
+java:S1659"-Declare "jText_dataTable" on a separate line.(ß…ê
+V	java:S106›"9Replace this use of System.out or System.err by a logger.(ßèœá8É‹µ¡.
+A
+java:S1659"&Declare "register" on a separate line.(‰‡Öşÿÿÿÿ
+n	java:S116"YRename this field "Jpass_rootPass" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æªÀ¿
+^	java:S125š"<This block of commented-out lines of code should be removed.(€ÍÊ©øÿÿÿÿ8É‹µ¡.
+Y	java:S125æ"<This block of commented-out lines of code should be removed.(İ‹‰Õ8É‹µ¡.
+|
+java:S1845"gRename field "username" to prevent any misunderstanding/clash with field "USERNAME" defined on line 25.(ß…ê
+F
+java:S1659"+Declare "jBtn_editUser" on a separate line.(‰‡Öşÿÿÿÿ

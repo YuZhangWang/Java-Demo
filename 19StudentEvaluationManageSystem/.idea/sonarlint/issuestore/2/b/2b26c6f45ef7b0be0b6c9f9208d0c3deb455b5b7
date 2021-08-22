@@ -1,0 +1,8 @@
+
+[	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(úş†ø
+
+java:S1130"zRemove the declaration of thrown exception 'java.lang.NumberFormatException' which is a subclass of 'java.lang.Exception'.(•’¡ö
+`	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(††š±ÿÿÿÿÿ
+[	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(•’¡ö
+Z	java:S112
+"FDefine and throw a dedicated exception instead of using a generic one.(Äµ¡2

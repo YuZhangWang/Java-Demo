@@ -1,0 +1,10 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¸•«¬
+u
+java:S1450"SRemove the "help" field and declare it as a local variable in the relevant methods.(¸†ûƒøÿÿÿÿ8ğ¾è·.
+p
+java:S1450"SRemove the "info" field and declare it as a local variable in the relevant methods.(®üÎç8ğ¾è·.
+z
+java:S1450"XRemove the "startGame" field and declare it as a local variable in the relevant methods.(‚«ÎËûÿÿÿÿ8ğ¾è·.
+N
+java:S1602",Remove useless curly braces around statement(¼üİœøÿÿÿÿ8ğ¾è·.

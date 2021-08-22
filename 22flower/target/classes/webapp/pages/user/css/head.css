@@ -1,0 +1,55 @@
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+.flower_header{
+    background-color: orange;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+}
+.flower_header .container .title{
+    color: white;
+}
+.flower_header .container .logo .username{
+    margin-left: 10px;
+    color: white;
+}
+.flower_header .container .logo .username a:hover{
+    color: red;  
+}
+
+.login{
+    height: 30px;
+    text-align: center;
+    width: 95px;
+
+}
+.login a{
+    color: white;
+}
+.login span{
+    margin-right:5px ;
+}
+.login a:hover{
+    color: #2b669a;
+}
+.register{
+    height: 30px;
+    text-align: center;
+    width: 95px;
+}
+.register span{
+    margin-right: 5px;
+}
+.register a{
+    color: white;
+
+}
+.register a:hover{
+    color: #2b669a;
+    text-decoration: none;
+}
+

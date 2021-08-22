@@ -1,0 +1,91 @@
+
+S
+java:S1854¥"7Remove this useless assignment to local variable "ter".(êĞÀıÿÿÿÿ
+z
+java:S3252®"^Use static access with "javax.swing.ScrollPaneConstants" for "HORIZONTAL_SCROLLBAR_AS_NEEDED".(çÈ¶‹ıÿÿÿÿ
+?
+java:S1604ù"(Make this anonymous inner class a lambda(Ã¼‹—
+?
+java:S1148Ğ"#Use a logger to log this exception.(Âşÿâûÿÿÿÿ
+R	java:S125ø"<This block of commented-out lines of code should be removed.(Ë£Ï¶
+K
+java:S3740“"/Provide the parametrized type for this generic.(ŒƒÉíüÿÿÿÿ
+F
+java:S3740‰"/Provide the parametrized type for this generic.(œ¾ü÷
+W	java:S125§"<This block of commented-out lines of code should be removed.(©ÀàÛÿÿÿÿÿ
+J
+java:S3740$"/Provide the parametrized type for this generic.(›Ùï¶úÿÿÿÿ
+L
+java:S1117|"6Rename "id" which hides the field declared at line 85.(Ğï¦Î
+N
+java:S1854¦"7Remove this useless assignment to local variable "gra".(Ö°¢’
+?
+java:S1604±"(Make this anonymous inner class a lambda(‚©ñÑ
+=
+java:S1905†"&Remove this unnecessary cast to "int".(£Ãáú
+@
+java:S1068@"*Remove this unused "pGrade" private field.(ÈÑîş
+s
+java:S3252­"\Use static access with "javax.swing.ScrollPaneConstants" for "VERTICAL_SCROLLBAR_AS_NEEDED".(™ñü
+W	java:S125»"<This block of commented-out lines of code should be removed.(µ®ºôşÿÿÿÿ
+<
+java:S1905…"&Remove this unnecessary cast to "int".(½úµ
+S
+java:S1117{"8Rename "term" which hides the field declared at line 87.(øêíÊşÿÿÿÿ
+?
+java:S1068A")Remove this unused "pTerm" private field.(¯Åó’
+`
+java:S3252›"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(É’­Ÿ
+>
+java:S1604È"(Make this anonymous inner class a lambda(››ıi
+:
+java:S1148„"#Use a logger to log this exception.(òçøì
+t
+java:S1450."^Remove the "tableScrollPane" field and declare it as a local variable in the relevant methods.(Ï­õ‡
+:
+java:S1148—"#Use a logger to log this exception.(òçøì
+?
+java:S1604ì"(Make this anonymous inner class a lambda(«İü
+?
+java:S1148â"#Use a logger to log this exception.(Âşÿâûÿÿÿÿ
+F
+java:S3740š"/Provide the parametrized type for this generic.(œ¾ü÷
+J
+java:S3740$"/Provide the parametrized type for this generic.(›Ùï¶úÿÿÿÿ
+h
+java:S3776Y"RRefactor this method to reduce its Cognitive Complexity from 54 to the 15 allowed.( Üó
+J
+java:S3740&"/Provide the parametrized type for this generic.(Ÿ¶Û­ıÿÿÿÿ
+K
+java:S3740€"/Provide the parametrized type for this generic.(ŒƒÉíüÿÿÿÿ
+Y
+java:S2259‰"BA "NullPointerException" could be thrown; "list" is nullable here.(œ¾ü÷
+Q	java:S125F"<This block of commented-out lines of code should be removed.(Ëßâ 
+D
+java:S1068V")Remove this unused "grade" private field.(æÊôˆúÿÿÿÿ
+Q	java:S125M"<This block of commented-out lines of code should be removed.(ÇÙ¸Ò
+O
+java:S1117z"9Rename "grade" which hides the field declared at line 86.(Áñ˜ï
+D
+java:S1481¥"(Remove this unused "ter" local variable.(êĞÀıÿÿÿÿ
+?
+java:S1604¸"(Make this anonymous inner class a lambda(³Ô¦Ô
+W	java:S125»"<This block of commented-out lines of code should be removed.(ï¹¨öùÿÿÿÿ
+>
+java:S1604x"(Make this anonymous inner class a lambda(„“åç
+?
+java:S1481¦"(Remove this unused "gra" local variable.(Ö°¢’
+=
+java:S1604m"(Make this anonymous inner class a lambda(ûÂÈk
+C
+java:S1068W"(Remove this unused "term" private field.(å¥©¦øÿÿÿÿ
+?
+java:S1148ê"#Use a logger to log this exception.(Âşÿâûÿÿÿÿ
+Y
+java:S2259š"BA "NullPointerException" could be thrown; "list" is nullable here.(œ¾ü÷
+J
+java:S3740&"/Provide the parametrized type for this generic.(Ÿ¶Û­ıÿÿÿÿ
+Z
+java:S2583›"CChange this condition so that it does not always evaluate to "true"(¸ïøº
+X
+java:S1126o"BReplace this if-then-else statement by a single method invocation.(Â²Õ™

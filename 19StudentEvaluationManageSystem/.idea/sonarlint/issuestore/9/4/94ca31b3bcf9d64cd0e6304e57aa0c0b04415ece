@@ -1,0 +1,28 @@
+
+y
+java:S3252~"^Use static access with "javax.swing.ScrollPaneConstants" for "HORIZONTAL_SCROLLBAR_AS_NEEDED".(çÈ¶‹ıÿÿÿÿ
+?
+java:S1604”"(Make this anonymous inner class a lambda(Ã¼‹—
+B
+java:S1905¥"&Remove this unnecessary cast to "int".(Æüüÿÿÿÿ
+t
+java:S1450'"^Remove the "tableScrollPane" field and declare it as a local variable in the relevant methods.(Ï­õ‡
+W	java:S125‰"<This block of commented-out lines of code should be removed.(µ®ºôşÿÿÿÿ
+h
+java:S3776Z"RRefactor this method to reduce its Cognitive Complexity from 30 to the 15 allowed.( Üó
+r
+java:S3252}"\Use static access with "javax.swing.ScrollPaneConstants" for "VERTICAL_SCROLLBAR_AS_NEEDED".(™ñü
+>
+java:S1604™"(Make this anonymous inner class a lambda(››ıi
+<
+java:S1905¤"&Remove this unnecessary cast to "int".(½úµ
+?
+java:S1604†"(Make this anonymous inner class a lambda(³Ô¦Ô
+?
+java:S1604²"(Make this anonymous inner class a lambda(«İü
+>
+java:S1604a"(Make this anonymous inner class a lambda(„“åç
+`
+java:S3252Ş"IUse static access with "javax.swing.WindowConstants" for "HIDE_ON_CLOSE".(«é¥
+?
+java:S1604ö"(Make this anonymous inner class a lambda(‚©ñÑ

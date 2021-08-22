@@ -1,0 +1,17 @@
+
+Q
+java:S1854";Remove this useless assignment to local variable "picPaht".(ôó„Á
+H
+java:S1128"2Remove this unused import 'javax.imageio.ImageIO'.(‘çÔû
+M
+java:S1135"2Complete the task associated to this TODO comment.(ÕÌ®þÿÿÿÿ
+S	java:S1063"9Replace this use of System.out or System.err by a logger.(¥°‹Äüÿÿÿÿ
+>
+java:S1148"#Use a logger to log this exception.(Âþÿâûÿÿÿÿ
+B
+java:S1481",Remove this unused "picPaht" local variable.(ôó„Á
+c
+java:S1126E"AReplace this if-then-else statement by a single return statement.(ƒ¢©Ýýÿÿÿÿ8„Ð“¡ž.
+T
+java:S1128"9Remove this unused import 'java.awt.image.BufferedImage'.(×íÐ‡þÿÿÿÿ
+Z	java:S106D"9Replace this use of System.out or System.err by a logger.(Â­¹êÿÿÿÿÿ8„Ð“¡ž.

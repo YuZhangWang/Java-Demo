@@ -1,0 +1,554 @@
+
+N
+java:S1135œ"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+Q
+java:S3740."/Provide the parametrized type for this generic.(‹Õà‰ûÿÿÿÿ8Ã€±Ø£.
+:
+java:S16590"%Declare "Fheight" on a separate line.(Ó¸
+F
+java:S1125¼"(Remove the literal "true" boolean value.(ˆÕ»£8ÎÆóŞ.
+{
+java:S1450ü"XRemove the "prestate2" field and declare it as a local variable in the relevant methods.(óÅ—×üÿÿÿÿ8ÎÆóŞ.
+H
+java:S1659ö"%Declare "pNorth1" on a separate line.(–ÎÕ²üÿÿÿÿ8ÎÆóŞ.
+g
+java:S2259Õ
+"DA "NullPointerException" could be thrown; "writer" is nullable here.(ÄËªŸÿÿÿÿÿ8ÎÆóŞ.
+F
+java:S1148ù"#Use a logger to log this exception.(Âşÿâûÿÿÿÿ8ÎÆóŞ.
+Y	java:S125š
+"<This block of commented-out lines of code should be removed.(ààæÃ8ÎÆóŞ.
+“
+java:S1319Ş
+"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Û©§Èüÿÿÿÿ8ÎÆóŞ.
+e
+java:S2095«"GUse try-with-resources or close this "Statement" in a "finally" clause.(üÒ¼”8ÎÆóŞ.
+c
+java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(ù–øüÿÿÿÿ
+?
+java:S1148"#Use a logger to log this exception.(Âşÿâûÿÿÿÿ
+N
+java:S1135"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+O	java:S106¶"9Replace this use of System.out or System.err by a logger.(’ª„
+V	java:S106ê	"9Replace this use of System.out or System.err by a logger.(¡›¸È8ÎÆóŞ.
+i
+java:S3776ß"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(ığ„Ò
+:
+java:S1659%"$Declare "modify" on a separate line.(¢ğåú
+n
+java:S1192£"WDefine a constant instead of duplicating this literal "Please select a Table!" 6 times.(²…Ğ—
+Q	java:S110"<This class has 6 parents which is greater than 5 authorized.(ìæóœ
+8
+java:S1643ˆ"Use a StringBuilder instead.(³æàÿÿÿÿÿ
+9
+java:S1659;"#Declare "newID" on a separate line.(ƒÖºš
+?
+java:S1148æ
+"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+F
+java:S1148“
+"#Use a logger to log this exception.(Âşÿâûÿÿÿÿ8ÎÆóŞ.
+U
+java:S1117¨	"7Rename "con" which hides the field declared at line 40.(ÂÕÖ£8ÎÆóŞ.
+<
+java:S1659é"%Declare "query10" on a separate line.(¢¼åñ
+]
+java:S2259ï"FA "NullPointerException" could be thrown; "prestate" is nullable here.(¬ÆØˆ
+]
+java:S1192•"FDefine a constant instead of duplicating this literal "Field" 6 times.(»Ì¯å
+e
+java:S1192µ"NDefine a constant instead of duplicating this literal " to be edited" 3 times.(Î‰±×
+N
+java:S1948ü"+Make "prestate1" transient or serializable.(óÅ—×üÿÿÿÿ8ÎÆóŞ.
+[
+java:S1197ò"8Move the array designator from the variable to the type.(‘¬áÑşÿÿÿÿ8ÎÆóŞ.
+J
+java:S1481©".Remove this unused "fieldName" local variable.(Áœ ùÿÿÿÿ
+I
+java:S1481»"&Remove this unused "i" local variable.(ùó›Ìøÿÿÿÿ8ÎÆóŞ.
+m
+java:S14507"WRemove the "prestate" field and declare it as a local variable in the relevant methods.(Åõ¤¡
+W	java:S125ä"<This block of commented-out lines of code should be removed.(ÜƒÚüÿÿÿÿ
+R	java:S125‘"<This block of commented-out lines of code should be removed.(ûèéñ
+U
+java:S1135’
+"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ8ÎÆóŞ.
+?
+java:S1148‚"#Use a logger to log this exception.(Âşÿâûÿÿÿÿ
+8
+java:S1643¥"Use a StringBuilder instead.(ÒÅ§Êúÿÿÿÿ
+@
+java:S1659â"$Declare "query3" on a separate line.(î¼Ãüøÿÿÿÿ
+O	java:S106®"9Replace this use of System.out or System.err by a logger.(Øå€œ
+U
+java:S1135±"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ8ÎÆóŞ.
+W
+java:S4719â
+"9Replace charset name argument with StandardCharsets.UTF_8(à¼ˆë8Ã€±Ø£.
+J
+java:S1481Ğ".Remove this unused "prequery1" local variable.(è÷Â¢üÿÿÿÿ
+W	java:S125Ó"<This block of commented-out lines of code should be removed.(ğûÌ¶øÿÿÿÿ
+o
+java:S3776Ã"SRefactor this method to reduce its Cognitive Complexity from 163 to the 15 allowed.(¼ Òşüÿÿÿÿ
+^
+java:S2095±"GUse try-with-resources or close this "Statement" in a "finally" clause.(üÒ¼”
+X
+java:S1075ô"ARefactor your code to get this URI from a customizable parameter.(éâì›
+?
+java:S1148Ç"#Use a logger to log this exception.(Âşÿâûÿÿÿÿ
+M
+java:S3740û"/Provide the parametrized type for this generic.(ì¨İ•8Ã€±Ø£.
+{
+java:S1450ü"XRemove the "prestate1" field and declare it as a local variable in the relevant methods.(óÅ—×üÿÿÿÿ8ÎÆóŞ.
+C
+java:S1481"-Remove this unused "newnames" local variable.(°äÀ9
+J
+java:S1481Ã".Remove this unused "fieldName" local variable.(Áœ ùÿÿÿÿ
+F
+java:S1481Ï"*Remove this unused "query" local variable.(™ÑÎ×üÿÿÿÿ
+U
+java:S1135Ø	"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ8ÎÆóŞ.
+E
+java:S1481Ñ".Remove this unused "prequery2" local variable.(äŸ‹‘
+A
+java:S1659."&Declare "dataType" on a separate line.(‹Õà‰ûÿÿÿÿ
+J
+java:S1481¿".Remove this unused "execStat1" local variable.(ÑÊê¸úÿÿÿÿ
+_
+java:S1192•"HDefine a constant instead of duplicating this literal "varchar" 3 times.(²ÜÓÁ
+N
+java:S1135õ"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+N
+java:S1135â"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+]
+java:S1858¥"A"getText" returns a string, there's no need to call "toString()".(òıÌÍüÿÿÿÿ
+;
+java:S1659å"$Declare "query6" on a separate line.(Î´ÿ
+o
+java:S1192ç"XDefine a constant instead of duplicating this literal "LOAD DATA LOCAL INFILE " 6 times.(„åÈ¸
+T	java:S106¾"9Replace this use of System.out or System.err by a logger.(ºË¸«ÿÿÿÿÿ
+L
+java:S3740‡"/Provide the parametrized type for this generic.(Éœy8Ã€±Ø£.
+X
+java:S1161å":Add the "@Override" annotation above this method signature(®¸ù8ÎÆóŞ.
+R	java:S125¬"<This block of commented-out lines of code should be removed.(ûèéñ
+X	java:S125Ó"<This block of commented-out lines of code should be removed.(×òå(8ÎÆóŞ.
+N
+java:S1135à"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+?
+java:S1148µ"#Use a logger to log this exception.(Âşÿâûÿÿÿÿ
+L
+java:S37403"/Provide the parametrized type for this generic.(éÓª¿8Ã€±Ø£.
+O	java:S106û"9Replace this use of System.out or System.err by a logger.(×øÅ¯
+O	java:S106"9Replace this use of System.out or System.err by a logger.(ØĞ‹†
+O	java:S106Û"9Replace this use of System.out or System.err by a logger.(ñàŒÆ
+;
+java:S1659á"$Declare "query2" on a separate line.(»­
+N
+java:S1135Ÿ"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+w
+java:S2293Í"YReplace the type specification in this constructor call with the diamond operator ("<>").(ä¤¿™8ÎÆóŞ.
+U
+java:S1135ğ"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ8ÎÆóŞ.
+H
+java:S1659ö"%Declare "pSouth1" on a separate line.(–ÎÕ²üÿÿÿÿ8ÎÆóŞ.
+@
+java:S19487"*Make "prestate" transient or serializable.(Åõ¤¡
+L
+java:S10686"6Remove this unused "currentSelectedRow" private field.(ÍÕÕÑ
+_
+java:S1126ç"AReplace this if-then-else statement by a single return statement.(®—Àˆ8ÎÆóŞ.
+T	java:S106Æ"9Replace this use of System.out or System.err by a logger.(¡Ü®ªşÿÿÿÿ
+B
+java:S1659#",Declare "jField_colName" on a separate line.(¦ŠõÆ
+3
+java:S1643”"Use a StringBuilder instead.(‹“»Ë
+;
+java:S1659à"$Declare "query1" on a separate line.(È½ğï
+e
+java:S2095 "GUse try-with-resources or close this "Statement" in a "finally" clause.(üÒ¼”8ÎÆóŞ.
+]
+java:S2259"FA "NullPointerException" could be thrown; "prestate" is nullable here.(ğÂö
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ÅÈğA
+U
+java:S1135Ê"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ8ÎÆóŞ.
+2
+java:S1643¨"Use a StringBuilder instead.(„¤ã!
+T	java:S106‡"9Replace this use of System.out or System.err by a logger.(­³±êıÿÿÿÿ
+N
+java:S1135½"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+?
+java:S1643Ğ"Use a StringBuilder instead.(ò‘ö€üÿÿÿÿ8ÎÆóŞ.
+
+java:S1845û"qRename field "oldTableName" to prevent any misunderstanding/clash with field "oldtablename" defined on line 1140.(Õ·°k8ÎÆóŞ.
+U
+java:S1135ñ	"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ8ÎÆóŞ.
+N
+java:S1135İ"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+R	java:S125°"<This block of commented-out lines of code should be removed.(¸¶²©
+9
+java:S1643­
+"Use a StringBuilder instead.(›µÚu8ÎÆóŞ.
+M
+java:S1481Â"1Remove this unused "attributesRS" local variable.(ëÅğ‘úÿÿÿÿ
+U
+java:S1135¿
+"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ8ÎÆóŞ.
+^	java:S125ù"<This block of commented-out lines of code should be removed.(‚²Éøûÿÿÿÿ8ÎÆóŞ.
+U
+java:S1135²"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ8ÎÆóŞ.
+R	java:S125¡"<This block of commented-out lines of code should be removed.(ôŞ™¯
+;
+java:S1659ç"$Declare "query8" on a separate line.(„åÈ¸
+n	java:S116#"YRename this field "jField_colName" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦ŠõÆ
+V	java:S106É"9Replace this use of System.out or System.err by a logger.(µëÿ—8ÎÆóŞ.
+n	java:S117ş"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼¶8ÎÆóŞ.
+W	java:S125"<This block of commented-out lines of code should be removed.(“‚Öšøÿÿÿÿ
+O	java:S106»"9Replace this use of System.out or System.err by a logger.(¿æ½Ğ
+T	java:S106¼"9Replace this use of System.out or System.err by a logger.(ÁĞ•¡ùÿÿÿÿ
+8
+java:S1643’"Use a StringBuilder instead.(Ÿ·ØÌùÿÿÿÿ
+9
+java:S1643µ
+"Use a StringBuilder instead.(„¤ã!8ÎÆóŞ.
+l
+java:S14505"QRemove the "ce" field and declare it as a local variable in the relevant methods.(™˜ÒÜüÿÿÿÿ
+^	java:S125Ú"<This block of commented-out lines of code should be removed.(â“–üÿÿÿÿ8ÎÆóŞ.
+>
+java:S1125¬"(Remove the literal "true" boolean value.(ş¤Ój
+U
+java:S1135Ğ"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ8ÎÆóŞ.
+F
+java:S1148Ò
+"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ÎÆóŞ.
+?
+java:S1148¾"#Use a logger to log this exception.(Âşÿâûÿÿÿÿ
+X	java:S899÷"BDo something with the "boolean" value returned by "createNewFile".(œ„²Ï
+8
+java:S1643·"Use a StringBuilder instead.(¾©–üÿÿÿÿ
+?
+java:S1148 "#Use a logger to log this exception.(Âşÿâûÿÿÿÿ
+:
+java:S1659ı"#Declare "atEnd" on a separate line.(¿ğÊš
+^
+java:S2095ƒ"GUse try-with-resources or close this "Statement" in a "finally" clause.(ù‡—
+M
+java:S3740ˆ"/Provide the parametrized type for this generic.(òˆ³«8Ã€±Ø£.
+X	java:S125û	"<This block of commented-out lines of code should be removed.(ğáüp8ÎÆóŞ.
+:
+java:S1148Û"#Use a logger to log this exception.( õüí
+l
+java:S1192©
+"IDefine a constant instead of duplicating this literal " CHANGE " 3 times.(Ÿø¬Œüÿÿÿÿ8ÎÆóŞ.
+A
+java:S1659$"+Declare "btn_importSql" on a separate line.(¯§
+Q
+java:S3740i"/Provide the parametrized type for this generic.(÷À°ıÿÿÿÿ8Ã€±Ø£.
+O	java:S106¤"9Replace this use of System.out or System.err by a logger.(Ì‡ 
+c
+java:S2095Ñ"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(ÚŞçËøÿÿÿÿ
+?
+java:S1148à"#Use a logger to log this exception.(‰œ‰Õúÿÿÿÿ
+?
+java:S1148š"#Use a logger to log this exception.(‰œ‰Õúÿÿÿÿ
+p	java:S116<"[Rename this field "arrayList_allSql" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„îĞÚ
+O	java:S106™"9Replace this use of System.out or System.err by a logger.(ñàŒÆ
+V	java:S106ò"9Replace this use of System.out or System.err by a logger.(ñàŒÆ8ÎÆóŞ.
+T	java:S106Ã"9Replace this use of System.out or System.err by a logger.(‘‰²Òûÿÿÿÿ
+@
+java:S1659""%Declare "sqlText" on a separate line.(Ú´†Üÿÿÿÿÿ
+W	java:S125Î"<This block of commented-out lines of code should be removed.(´§å´üÿÿÿÿ
+]
+java:S2259²"FA "NullPointerException" could be thrown; "prestate" is nullable here.(³ÇÛ
+M
+java:S1659º"*Declare "attributesRS" on a separate line.(Ùù½•şÿÿÿÿ8ÎÆóŞ.
+F
+java:S1148²"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ÎÆóŞ.
+>
+java:S19481")Make "connect" transient or serializable.(Á»·
+O	java:S106Í"9Replace this use of System.out or System.err by a logger.(›ÿ¾ó
+V	java:S106—"9Replace this use of System.out or System.err by a logger.(ñàŒÆ8ÎÆóŞ.
+?
+java:S1643“"Use a StringBuilder instead.(ûñïÙûÿÿÿÿ8ÎÆóŞ.
+l
+java:S14502"VRemove the "vColumn" field and declare it as a local variable in the relevant methods.(ë«Ì
+@
+java:S1659ã"$Declare "query4" on a separate line.(¾ÿ¢’ÿÿÿÿÿ
+@
+java:S10680"+Remove this unused "Fheight" private field.(Ó¸
+R	java:S125™"<This block of commented-out lines of code should be removed.(¡¨¤
+L
+java:S3740‡"/Provide the parametrized type for this generic.(Éœy8Ã€±Ø£.
+T	java:S106–"9Replace this use of System.out or System.err by a logger.(ğÃÔàıÿÿÿÿ
+N
+java:S1135Æ"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+?
+java:S1148í"#Use a logger to log this exception.(Âşÿâûÿÿÿÿ
+?
+java:S1148"#Use a logger to log this exception.(Âşÿâûÿÿÿÿ
+O	java:S106¹"9Replace this use of System.out or System.err by a logger.(óéÚê
+_
+java:S1854ˆ"CRemove this useless assignment to local variable "arrayList_inSQL".(Ã”Æúÿÿÿÿ
+m	java:S116$"XRename this field "btn_exportAll" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯§
+O	java:S106’"9Replace this use of System.out or System.err by a logger.(ˆ¬¯ı
+d
+java:S2147å
+"FCombine this catch with the one at line 1379, which has the same body.(‹±ÃÆ8ÎÆóŞ.
+Q	java:S125O"<This block of commented-out lines of code should be removed.(Í›£ğ
+c
+java:S2095"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(®äúõıÿÿÿÿ
+Y	java:S125Ñ"<This block of commented-out lines of code should be removed.(â–úÿ8ÎÆóŞ.
+f
+java:S1192“"JDefine a constant instead of duplicating this literal "describe " 7 times.(ü’áøÿÿÿÿ
+:
+java:S1643‘"Use a StringBuilder instead.(ë¡Äà8ÎÆóŞ.
+X
+java:S1075è"ARefactor your code to get this URI from a customizable parameter.(éâì›
+:
+java:S1659%"$Declare "addNew" on a separate line.(¢ğåú
+e	java:S1160"QRename this field "Fwidth" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ó¸
+?
+java:S19485"$Make "ce" transient or serializable.(™˜ÒÜüÿÿÿÿ
+A
+java:S1659ì"%Declare "query13" on a separate line.(£«ïäúÿÿÿÿ
+U
+java:S1135Á"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ8ÎÆóŞ.
+F
+java:S1148Ø
+"#Use a logger to log this exception.(‰œ‰Õúÿÿÿÿ8ÎÆóŞ.
+Q
+java:S3740."/Provide the parametrized type for this generic.(‹Õà‰ûÿÿÿÿ8Ã€±Ø£.
+L
+java:S1481ë".Remove this unused "prequery2" local variable.(äŸ‹‘8ÎÆóŞ.
+R	java:S125Ÿ"<This block of commented-out lines of code should be removed.(±¯€¤
+T	java:S106‰"9Replace this use of System.out or System.err by a logger.(„ò¹Şüÿÿÿÿ
+n	java:S117º"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³™ßÎ8ÎÆóŞ.
+[	java:S106ë	"9Replace this use of System.out or System.err by a logger.(¹ ²ûùÿÿÿÿ8ÎÆóŞ.
+M
+java:S2093Ê
+"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8ÎÆóŞ.
+X	java:S125â"<This block of commented-out lines of code should be removed.(×òå(8ÎÆóŞ.
+A
+java:S1659ë"%Declare "query12" on a separate line.(¢ª±®ıÿÿÿÿ
+”
+java:S1130Ş
+"qRemove the declaration of thrown exception 'java.text.ParseException', as it cannot be thrown from method's body.(Û©§Èüÿÿÿÿ8ÎÆóŞ.
+F
+java:S1948ù")Make "connect" transient or serializable.(Á»·8ÎÆóŞ.
+l	java:S117ˆ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ã”Æúÿÿÿÿ
+G
+java:S1481Ô"+Remove this unused "tempQ2" local variable.(ÒûË¦úÿÿÿÿ
+j
+java:S2095è
+"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(âûáş8ÎÆóŞ.
+;
+java:S1659ä"$Declare "query5" on a separate line.(ÅÑ£¼
+\
+java:S1117³	"9Rename "input" which hides the field declared at line 34.(’“Œ†ıÿÿÿÿ8ÎÆóŞ.
+R
+java:S3740¸"/Provide the parametrized type for this generic.(ìÜ’×üÿÿÿÿ8Ã€±Ø£.
+o
+java:S22932"YReplace the type specification in this constructor call with the diamond operator ("<>").(ë«Ì
+K
+java:S16598"0Declare "alreadyClickModify" on a separate line.(„à»éûÿÿÿÿ
+Y	java:S125Ô"<This block of commented-out lines of code should be removed.(âàÉ±8ÎÆóŞ.
+?
+java:S10680"*Remove this unused "Fwidth" private field.(Ó¸
+?
+java:S1148Ş"#Use a logger to log this exception.(Âşÿâûÿÿÿÿ
+?
+java:S1643©
+"Use a StringBuilder instead.(Ÿø¬Œüÿÿÿÿ8ÎÆóŞ.
+?
+java:S1148é"#Use a logger to log this exception.(Âşÿâûÿÿÿÿ
+O	java:S106®"9Replace this use of System.out or System.err by a logger.(”¾¾
+m	java:S116$"XRename this field "btn_exportOne" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯§
+\
+java:S1854Å"ERemove this useless assignment to local variable "selectColumnIndex".(ù´¿Ô
+N
+java:S1135´"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+]
+java:S2259Ş"FA "NullPointerException" could be thrown; "prestate" is nullable here.(³ÇÛ
+N
+java:S1135œ"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+B
+java:S1481Ó"+Remove this unused "tempQ1" local variable.(Š”İí
+?
+java:S1148á"#Use a logger to log this exception.(Âşÿâûÿÿÿÿ
+A
+java:S1659$"+Declare "btn_exportOne" on a separate line.(¯§
+N
+java:S1948ü"+Make "prestate2" transient or serializable.(óÅ—×üÿÿÿÿ8ÎÆóŞ.
+O	java:S106"9Replace this use of System.out or System.err by a logger.(×â‰ˆ
+R
+java:S3740Ö"/Provide the parametrized type for this generic.(—®×Üşÿÿÿÿ8Ã€±Ø£.
+M
+java:S1481Õ"1Remove this unused "attributesRS" local variable.(ëÅğ‘úÿÿÿÿ
+F
+java:S1148À
+"#Use a logger to log this exception.(Âşÿâûÿÿÿÿ8ÎÆóŞ.
+Y	java:S110ğ"<This class has 6 parents which is greater than 5 authorized.(ûçñ8ÎÆóŞ.
+Y	java:S125Ü"<This block of commented-out lines of code should be removed.(§—Ç8ÎÆóŞ.
+Y	java:S125Á	"<This block of commented-out lines of code should be removed.(ààæÃ8ÎÆóŞ.
+W	java:S125¨"<This block of commented-out lines of code should be removed.(“‚Öšøÿÿÿÿ
+^
+java:S2095Ğ"GUse try-with-resources or close this "Statement" in a "finally" clause.(üÒ¼”
+3
+java:S1643»"Use a StringBuilder instead.(‹“»Ë
+F
+java:S1148ñ"#Use a logger to log this exception.(Âşÿâûÿÿÿÿ8ÎÆóŞ.
+^
+java:S2095î"GUse try-with-resources or close this "Statement" in a "finally" clause.(üÒ¼”
+T	java:S106Š"9Replace this use of System.out or System.err by a logger.(—£Ÿ©úÿÿÿÿ
+A
+java:S1659$"+Declare "btn_exportAll" on a separate line.(¯§
+e
+java:S2095Š"GUse try-with-resources or close this "Statement" in a "finally" clause.(üÒ¼”8ÎÆóŞ.
+3
+java:S1643"Use a StringBuilder instead.(ø¬¢œ
+O	java:S106“"9Replace this use of System.out or System.err by a logger.(Øå€œ
+^	java:S125Õ"<This block of commented-out lines of code should be removed.(¸¢ğ¡ıÿÿÿÿ8ÎÆóŞ.
+J
+java:S1659ü"'Declare "prestate2" on a separate line.(óÅ—×üÿÿÿÿ8ÎÆóŞ.
+^
+java:S2095Í"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(šå¾
+p
+java:S3776¸"RRefactor this method to reduce its Cognitive Complexity from 33 to the 15 allowed.(öî­Ü8ÎÆóŞ.
+|
+java:S2293Ö"YReplace the type specification in this constructor call with the diamond operator ("<>").(—®×Üşÿÿÿÿ8ÎÆóŞ.
+9
+java:S1659$"#Declare "reset" on a separate line.(¯§
+F
+java:S1148³"#Use a logger to log this exception.(Âşÿâûÿÿÿÿ8ÎÆóŞ.
+O	java:S106À"9Replace this use of System.out or System.err by a logger.(ñàŒÆ
+@
+java:S1172ß")Remove this unused method parameter "id".(ığ„Ò
+e
+java:S2095Å"GUse try-with-resources or close this "Statement" in a "finally" clause.(üÒ¼”8ÎÆóŞ.
+[	java:S106ì
+"9Replace this use of System.out or System.err by a logger.(©İ¢Øùÿÿÿÿ8ÎÆóŞ.
+T	java:S106Ğ"9Replace this use of System.out or System.err by a logger.(ú¦êşÿÿÿÿ
+R	java:S125•"<This block of commented-out lines of code should be removed.(¸¶²©
+T	java:S106ç"9Replace this use of System.out or System.err by a logger.(İµÛàøÿÿÿÿ
+j
+java:S2259é	"GA "NullPointerException" could be thrown; "prestate1" is nullable here.(Â»Ç«ıÿÿÿÿ8ÎÆóŞ.
+^
+java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(üÒ¼”
+T
+java:S1854´"=Remove this useless assignment to local variable "fieldName".(»Ì¯å
+?
+java:S1148ö"#Use a logger to log this exception.(Âşÿâûÿÿÿÿ
+T	java:S106§"9Replace this use of System.out or System.err by a logger.(àıËïûÿÿÿÿ
+:
+java:S1643²
+"Use a StringBuilder instead.(¸‹’8ÎÆóŞ.
+s	java:S117à
+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥Ó©Ûùÿÿÿÿ8ÎÆóŞ.
+p
+java:S3776¾	"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(¨ø ¥8ÎÆóŞ.
+Q	java:S125"<This block of commented-out lines of code should be removed.(ÑÁ¬[
+i
+java:S1192Á"MDefine a constant instead of duplicating this literal "sqlè¯­å¥ï¼š" 4 times.(¶ÈÛ¥ùÿÿÿÿ
+E
+java:S1659&"*Declare "deleteColumn" on a separate line.(¹·‹Ùûÿÿÿÿ
+E
+java:S1905¸")Remove this unnecessary cast to "Vector".(ìÜ’×üÿÿÿÿ
+D
+java:S1481Ô"&Remove this unused "j" local variable.(èê»8ÎÆóŞ.
+O	java:S106­"9Replace this use of System.out or System.err by a logger.(ˆ¬¯ı
+]
+java:S1858Ù"A"getText" returns a string, there's no need to call "toString()".(™É¾üÿÿÿÿ
+w
+java:S2293Ù"YReplace the type specification in this constructor call with the diamond operator ("<>").(‘Ú¦8ÎÆóŞ.
+g	java:S117È"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ãş¿÷
+l	java:S117†"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«×ì¢ûÿÿÿÿ
+J
+java:S1481Ö".Remove this unused "execStat1" local variable.(ÑÊê¸úÿÿÿÿ
+X	java:S899ë"BDo something with the "boolean" value returned by "createNewFile".(œ„²Ï
+o
+java:S22933"YReplace the type specification in this constructor call with the diamond operator ("<>").(éÓª¿
+=
+java:S1659ü"Declare "r" on a separate line.(æĞ¬Ç8ÎÆóŞ.
+?
+java:S1148˜"#Use a logger to log this exception.(Âşÿâûÿÿÿÿ
+<
+java:S1659ê"%Declare "query11" on a separate line.(ÔÆèÓ
+V	java:S106ó"9Replace this use of System.out or System.err by a logger.(å—šØ8ÎÆóŞ.
+^
+java:S2095×"GUse try-with-resources or close this "Statement" in a "finally" clause.(‘ô¥ü
+U
+java:S1135ø"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ8ÎÆóŞ.
+Y	java:S125Ê"<This block of commented-out lines of code should be removed.(Åë á8ÎÆóŞ.
+m	java:S116$"XRename this field "btn_importSql" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯§
+8
+java:S1643¸"Use a StringBuilder instead.(ŞÀµúøÿÿÿÿ
+O	java:S106ã"9Replace this use of System.out or System.err by a logger.(Î‰±×
+^
+java:S2095Ì"GUse try-with-resources or close this "Statement" in a "finally" clause.(üÒ¼”
+M
+java:S3740Ë	"/Provide the parametrized type for this generic.(¯ß¾¼8Ã€±Ø£.
+:
+java:S1643Û"Use a StringBuilder instead.( ‡“8ÎÆóŞ.
+;
+java:S1659æ"$Declare "query7" on a separate line.(å†å…
+O	java:S106ÿ"9Replace this use of System.out or System.err by a logger.(£©Ã¼
+Q	java:S125“"<This block of commented-out lines of code should be removed.(É™æp
+F
+java:S1659„"(Declare "currentPID" on a separate line.(‘ÑÚñ8ÎÆóŞ.
+f	java:S1160"RRename this field "Fheight" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ó¸
+:
+java:S1659$"$Declare "detail" on a separate line.(¯§
+V	java:S106º
+"9Replace this use of System.out or System.err by a logger.(ñàŒÆ8ÎÆóŞ.
+F
+java:S1148ä
+"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ÎÆóŞ.
+N
+java:S1135“"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+^	java:S125ê"<This block of commented-out lines of code should be removed.(Ö®Áæûÿÿÿÿ8ÎÆóŞ.
+M
+java:S3740Ë	"/Provide the parametrized type for this generic.(¯ß¾¼8Ã€±Ø£.
+>
+java:S1659Ç"'Declare "execStat1" on a separate line.(Ñ×Ò¦
+W
+java:S3516å"9Refactor this method to not always return the same value.(®¸ù8ÎÆóŞ.
+8
+java:S1659%""Declare "save" on a separate line.(¢ğåú
+?
+java:S1148”"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+i
+java:S1192Ù"MDefine a constant instead of duplicating this literal "ALTER TABLE " 4 times.(™É¾üÿÿÿÿ
+g	java:S117µ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ß€²³
+?
+java:S1148ù"#Use a logger to log this exception.(Âşÿâûÿÿÿÿ
+N
+java:S1135è"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+F
+java:S1148Â"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ÎÆóŞ.
+e
+java:S2095Á"GUse try-with-resources or close this "Statement" in a "finally" clause.(üÒ¼”8ÎÆóŞ.
+2
+java:S1643º"Use a StringBuilder instead.(„¤ã!
+^
+java:S2095±"GUse try-with-resources or close this "Statement" in a "finally" clause.(üÒ¼”
+e
+java:S2259î
+"BA "NullPointerException" could be thrown; "read" is nullable here.(Í‰ª†ÿÿÿÿÿ8ÎÆóŞ.
+V	java:S106
+"9Replace this use of System.out or System.err by a logger.(ñàŒÆ8ÎÆóŞ.
+;
+java:S1659è"$Declare "query9" on a separate line.(ÿ§É 
+?
+java:S1125³"(Remove the literal "true" boolean value.(¨›™„
+?
+java:S1148ã"#Use a logger to log this exception.(Âşÿâûÿÿÿÿ
+O	java:S106µ"9Replace this use of System.out or System.err by a logger.(Î‰±×
+^	java:S125Ï"<This block of commented-out lines of code should be removed.(³©ºûÿÿÿÿ8ÎÆóŞ.
+^
+java:S2095’"GUse try-with-resources or close this "Statement" in a "finally" clause.(üÒ¼”
+m
+java:S1192À"QDefine a constant instead of duplicating this literal " where movie_id=" 3 times.(Š¾Î…ûÿÿÿÿ
+Q	java:S125R"<This block of commented-out lines of code should be removed.(’Šôø
+Y	java:S125Ù	"<This block of commented-out lines of code should be removed.(†€éˆ8ÎÆóŞ.
+L
+java:S37403"/Provide the parametrized type for this generic.(éÓª¿8Ã€±Ø£.

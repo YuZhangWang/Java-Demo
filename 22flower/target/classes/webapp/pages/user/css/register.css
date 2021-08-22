@@ -1,0 +1,136 @@
+body{
+    background-color: #eeeeee;
+    margin: 0 auto;
+}
+
+.header{
+
+    background-color: white;
+    padding-top: 10px;
+	width:100%;
+    border-bottom: 2px solid orange;
+}
+.logo{
+    height: 100px;
+    width: 1100px;
+    margin: 0 auto;
+}
+.header .logo .text1{
+    float: left;
+    width: 300px;
+    height: 100px;
+   padding-right: 10px;
+    text-align: center;
+    font-size: 48px;
+   line-height: 100px;
+    border-right: 1px solid orange;
+}
+.header .logo .text1 a{
+    cursor: pointer;
+    color: black;
+}
+.header .logo .text1 a:hover{
+    color: orange;
+}
+.header .logo .text2{
+    padding-left: 10px;
+    color: orange;
+    font-size: 18px;
+    overflow: hidden;
+    margin-left: 10px;
+    height: 100px;
+	line-height: 100px;
+}
+.header .go{
+    text-align: right;
+    width: 1100px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+.header .go a{
+    color: orange;
+}
+.header .go a:hover{
+    color: red;
+}
+.register{
+    width:800px;
+    height: 600px;
+    background-color: white;
+    margin: 30px auto;
+    box-shadow: 0 3px 30px rgba(251, 172, 143, 0.25);
+}
+.register .toForm{
+    margin: 0 auto;
+    overflow: hidden;
+}
+.register form{
+    float: left;
+    padding: 50px 40px 300px 120px;
+    display: block;
+
+
+}
+.register ul{
+    padding:0px;
+    overflow: hidden;
+}
+.register ul li{
+    list-style: none;
+    margin-top: 10px;
+    width:600px;
+    display: flex;
+    line-height: 40px;
+	height:40px;
+	overflow: hidden;
+}
+.register ul li #chkAgree{
+	height: 14px;
+    line-height: 14px;
+    margin-top:14px;
+    margin-left:-8px;
+}
+.register ul li span{
+    font-size: 18px;
+    color: #999;
+    width: 100px;
+    margin-right:-10px;
+}
+.register ul li input{
+	margin-left:20px;
+    height: 30px;
+    display: block;
+    width:250px;
+    border: #aaaaaa 1px solid;
+}
+.register ul li #verifyCode{
+    display: block;
+    width: 120px;
+    margin-right: 20px;
+}
+.register ul li .errorClass{
+	padding-left:10px;
+	color:#999;
+	text-size:8px;
+}
+.register ul li .xy_xuanze{
+	display: block;
+	width:250px;
+	margin-left:-100px;
+	font-size:12px;
+}
+.register ul li .xy_xuanze label{
+    vertical-align:top;
+}
+.register ul li .xy_xuanze a{
+	color:red;
+}
+
+.register .toRegister{
+    width:280px;
+    height: 40px;
+    margin-left: 90px;
+    background-color: #ff7f50;
+    border: 0px;
+    color: #fff;
+}

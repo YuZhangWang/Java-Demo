@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.flower.core.dao.UserDao">	
+	
+	<select id="login" parameterType="String" resultType="user">
+		select *
+		from  user
+		where userCode=#{usercode}
+		and userPwd=#{password}
+		
+	</select>
+		
+	<select id="getUserByUserCode" parameterType="String" resultType="user">
+		select *
+		from  user
+		where userCode=#{usercode}		
+	</select>
+	<select id="getUserByPhone" parameterType="String" resultType="user">
+		select *
+		from  user
+		where phone=#{phone}		
+	</select>
+	
+	<insert id="add" parameterType="User" useGeneratedKeys="false" >
+	
+	  INSERT INTO user(phone,userCode,userPwd) values(#{phone},#{usercode},#{password})
+	   
+	</insert>
+	
+</mapper>
+
+
+
+

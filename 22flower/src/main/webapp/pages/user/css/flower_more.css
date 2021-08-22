@@ -1,0 +1,59 @@
+.moreFlower{
+    width: 980px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.moreFlower .up{
+    border: 1px solid #cccccc;
+    border-top: none;
+
+    height: 44px;
+}
+
+.moreFlower .up ul{
+    list-style: none;
+    border-top: 2px solid orange;
+    padding: 0;
+    height: 45px;
+}
+.moreFlower .up ul li{
+    float: left;
+    border: 1px solid #cccccc;
+    padding: 10px;
+    border-bottom: none;
+    border-left: none;
+}
+.moreFlower .down ul{
+    list-style: none;
+    padding: 0;
+}
+.moreFlower .down ul li {
+    width: 244px;
+    height: 297px;
+    padding: 12px;
+}
+.moreFlower .down ul li img{
+    width: 220px;
+    height: 220px;
+    border: 1px solid #cccccc;
+}
+.moreFlower .down ul li .pro_name{
+    margin-top:10px ;
+    width: 220px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.moreFlower .down ul li .pro_name a{
+
+    color: #686868;
+}
+.moreFlower .down ul li .pro_name a:hover{
+    text-decoration: none;
+    color: red;
+}
+.moreFlower .down ul li .pro_price p{
+    display: block;
+    width: 30px;
+    float: left;
+}

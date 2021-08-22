@@ -1,0 +1,16 @@
+
+‡
+java:S11309"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(ÙØ¤Þýÿÿÿÿ
+H
+java:S4925"-Remove this "Class.forName()", it is useless.(¹µÖÁüÿÿÿÿ
+>
+java:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+Q	java:S125"<This block of commented-out lines of code should be removed.(¯âØã
+`	java:S112#"FDefine and throw a dedicated exception instead of using a generic one.(èÝÎÑþÿÿÿÿ
+[	java:S1120"FDefine and throw a dedicated exception instead of using a generic one.(Ëóö¹
+Z
+java:S2147"DCombine this catch with the one at line 23, which has the same body.(É®£
+S	java:S106:"9Replace this use of System.out or System.err by a logger.(““§¡ùÿÿÿÿ
+>
+java:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+Q	java:S125"<This block of commented-out lines of code should be removed.(©‹Ë¶

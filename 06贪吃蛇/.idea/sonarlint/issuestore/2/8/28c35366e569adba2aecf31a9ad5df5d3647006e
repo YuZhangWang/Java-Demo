@@ -1,0 +1,36 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¸•«¬
+
+java:S1319
+"qThe type of the "snake" object should be an interface such as "List" rather than the implementation "LinkedList".(êí¸¥8õİğ·.
+˜
+java:S1319"vThe type of the "oritention" object should be an interface such as "List" rather than the implementation "LinkedList".(òœƒÌøÿÿÿÿ8õİğ·.
+“
+java:S1319"qThe return type of this method should be an interface such as "List" rather than the implementation "LinkedList".( ñøùÿÿÿÿ8õİğ·.
+1
+java:S1700
+"Rename field "snake"(êí¸¥8õİğ·.
+n
+java:S1104
+"QMake snake a static final constant or non-public and provide accessors if needed.(êí¸¥8õİğ·.
+x
+java:S1104"VMake oritention a static final constant or non-public and provide accessors if needed.(òœƒÌøÿÿÿÿ8õİğ·.
+z
+java:S1450"XRemove the "snakeHead" field and declare it as a local variable in the relevant methods.(£ôæÌşÿÿÿÿ8õİğ·.
+{
+java:S1171"YMove the contents of this initializer to a standard constructor or to field initializers.(ÒÌâ–øÿÿÿÿ8õİğ·.
+S
+java:S1117,"6Rename "oe" which hides the field declared at line 22.(Ê‡‡Î8õİğ·.
+Z
+java:S1117-"=Rename "snakeHead" which hides the field declared at line 23.(¥¾ÏÇ8õİğ·.
+S
+java:S1117x"6Rename "oe" which hides the field declared at line 22.(É“¼‘8õİğ·.
+=
+java:S1659ˆ"Declare "y" on a separate line.(¦¼ÙÏ8õİğ·.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(õ÷Ó8õİğ·.
+[	java:S106Ÿ"9Replace this use of System.out or System.err by a logger.(æú®İûÿÿÿÿ8õİğ·.
+O
+java:S1068"-Remove this unused "snakeHead" private field.(£ôæÌşÿÿÿÿ8õİğ·.
+]	java:S125B"<This block of commented-out lines of code should be removed.(ˆÓí–ùÿÿÿÿ8õİğ·.
+]	java:S125c"<This block of commented-out lines of code should be removed.(ë‚±ìşÿÿÿÿ8õİğ·.
+]	java:S125y"<This block of commented-out lines of code should be removed.(âîÃ÷üÿÿÿÿ8õİğ·.
