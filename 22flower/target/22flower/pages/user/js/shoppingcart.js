@@ -9,7 +9,7 @@ window.onload = function () {
             var els = document.getElementsByTagName('*');
             for (var i = 0, len = els.length; i < len; i++) {
 
-                if (els[i].className.indexOf(cls + ' ') >=0 || els[i].className.indexOf(' ' + cls + ' ') >=0 || els[i].className.indexOf(' ' + cls) >=0) {
+                if (els[i].className.indexOf(cls + ' ') >= 0 || els[i].className.indexOf(' ' + cls + ' ') >= 0 || els[i].className.indexOf(' ' + cls) >= 0) {
                     ret.push(els[i]);
                 }
             }
@@ -27,8 +27,9 @@ window.onload = function () {
     var selectedViewList = document.getElementById('selectedViewList'); //浮层已选商品列表容器
     var selected = document.getElementById('selected'); //已选商品
     var foot = document.getElementById('foot');
-    var toOrder=document.getElementById("toOrder");//结算
+    var toOrder = document.getElementById("toOrder");//结算
     var selectInputsValue = document.getElementsByClassName('checkbox-one');
+
     // 更新总数和总价格，已选浮层
     function getTotal() {
         var selected = 0, price = 0, html = '';
@@ -37,15 +38,15 @@ window.onload = function () {
                 tr[i].className = 'on';
                 selected += parseInt(tr[i].getElementsByTagName('input')[1].value); //计算已选商品数目
                 price += parseFloat(tr[i].getElementsByTagName('td')[4].innerHTML); //计算总计价格
-                html += '<div><img src="'+tr[i].getElementsByTagName('img')[0].src+'"><span class="del" index="'+i+'">取消选择</span></div>';// 添加图片到弹出层已选商品列表容器
-            }else{
+                html += '<div><img src="' + tr[i].getElementsByTagName('img')[0].src + '"><span class="del" index="' + i + '">取消选择</span></div>';// 添加图片到弹出层已选商品列表容器
+            } else {
                 tr[i].className = '';
             }
         }
         selectedTotal.innerHTML = selected; // 已选数目
         priceTotal.innerHTML = price.toFixed(2); // 总价
         selectedViewList.innerHTML = html;
-        if (selected==0) {
+        if (selected == 0) {
             foot.className = 'foot';
         }
     }
@@ -62,13 +63,13 @@ window.onload = function () {
         //如果数目只有一个，把-号去掉
         if (countInput.value == 1) {
             span.innerHTML = '';
-        }else{
+        } else {
             span.innerHTML = '-';
         }
     }
 
     // 点击选择框
-    for(var i = 0; i < selectInputs.length; i++ ){
+    for (var i = 0; i < selectInputs.length; i++) {
         selectInputs[i].onclick = function () {
             if (this.className.indexOf('check-all') >= 0) { //如果是全选，则吧所有的选择框选中
                 for (var j = 0; j < selectInputs.length; j++) {
@@ -95,8 +96,8 @@ window.onload = function () {
     selectedViewList.onclick = function (e) {
         var e = e || window.event;
         var el = e.srcElement;
-        if (el.className=='del') {
-            var input =  tr[el.getAttribute('index')].getElementsByTagName('input')[0];
+        if (el.className == 'del') {
+            var input = tr[el.getAttribute('index')].getElementsByTagName('input')[0];
             input.checked = false;
             input.onclick();
         }
@@ -168,16 +169,16 @@ window.onload = function () {
     // 默认全选
     checkAllInputs[0].checked = true;
     checkAllInputs[0].onclick();
-    
-    toOrder.onclick=function(){
-    	var ids=new Array();
-    	for(var i=0;i<selectInputsValue.length;i++){
-    		if(selectInputsValue[i].checked){
-    			ids.push(selectInputsValue[i].value);   			
-    		}
-    		
-    	}
-    	alert(ids.length);
+
+    toOrder.onclick = function () {
+        var ids = new Array();
+        for (var i = 0; i < selectInputsValue.length; i++) {
+            if (selectInputsValue[i].checked) {
+                ids.push(selectInputsValue[i].value);
+            }
+
+        }
+        alert(ids.length);
 //    	$.ajax({
 //            type:"post",
 //            url:"http://localhost:8088/flower/shopingCar/toOrder.action",
@@ -200,8 +201,8 @@ window.onload = function () {
 //            }       
 //            
 //        });
-    	
-    	window.location.href ="http://localhost:8088/flower/shopingCar/toOrder.action?ids="+ids;
+
+        window.location.href = "http://localhost:8088/flower/shopingCar/toOrder.action?ids=" + ids;
     }
 }
 

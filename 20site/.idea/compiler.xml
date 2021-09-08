@@ -7,10 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="20site" />
-        <module name="20struts2" />
-        <module name="struts2" />
         <module name="20sweb" />
+        <module name="struts2" />
+        <module name="20struts2" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="20site" target="1.7" />
+    </bytecodeTargetLevel>
   </component>
 </project>

@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
-"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<mapper namespace="com.flower.core.dao.GoodsDao">	
-	
-	
-	<insert id="insert" parameterType="Goods" useGeneratedKeys="false">
-	    INSERT INTO goods(ordersID,productID,num,price) values(#{ordersID},#{productID},#{num},#{price});
-	</insert>
-	
-	<select id="findGoodById" parameterType="Integer" resultMap="GoodsResult">
-	  select * from goods where goodsID = #{id}
-	</select>
-	
-	<resultMap type="Goods" id="GoodsResult">
-	    <id column="goodsID" property="goodsID" />
-        <result column="ordersID" property="ordersID" />
-        <result column="productID" property="productID" />
-        <result column="num" property="num" />
-        <result  column="price" property="price"/>
-	</resultMap>
-	
+<mapper namespace="com.flower.core.dao.GoodsDao">
+
+
+    <insert id="insert" parameterType="Goods" useGeneratedKeys="false">
+        INSERT INTO goods(ordersID,productID,num,price) values(#{ordersID},#{productID},#{num},#{price});
+    </insert>
+
+    <select id="findGoodById" parameterType="Integer" resultMap="GoodsResult">
+        select * from goods where goodsID = #{id}
+    </select>
+
+    <resultMap type="Goods" id="GoodsResult">
+        <id column="goodsID" property="goodsID"/>
+        <result column="ordersID" property="ordersID"/>
+        <result column="productID" property="productID"/>
+        <result column="num" property="num"/>
+        <result column="price" property="price"/>
+    </resultMap>
+
 </mapper>
 
 

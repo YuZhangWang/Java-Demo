@@ -1,10 +1,8 @@
-public class Zoo
-{
-    public static void main(String[] args)
-    {
-        Animal animal1 = new Animal("Rats",4);
-        Animal animal2 = new Animal("Fishes",0);
-        Animal animal3 = new Animal("Birds",2);
+public class Zoo {
+    public static void main(String[] args) {
+        Animal animal1 = new Animal("Rats", 4);
+        Animal animal2 = new Animal("Fishes", 0);
+        Animal animal3 = new Animal("Birds", 2);
         Fish fish1 = new Fish("Catfish");
         Fish fish2 = new Fish("Weever");
         Fish fish3 = new Fish("Salmon");

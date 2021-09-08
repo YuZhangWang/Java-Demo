@@ -19,6 +19,8 @@ import androidx.preference.PreferenceFragmentCompat;
 
 public class SettingsActivity extends AppCompatActivity {
 
+    private UpdaterUtils updater = null;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -35,7 +37,22 @@ public class SettingsActivity extends AppCompatActivity {
         title_bar.setLeftIconOnClickListener((View v) -> finish());
     }
 
-    private UpdaterUtils updater = null;
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                finish();
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
+    }
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+        PermissionsUtils.getInstance().onRequestPermissionsResult(this, requestCode, permissions, grantResults);
+    }
 
     public static class SettingsFragment extends PreferenceFragmentCompat {
         @Override
@@ -68,21 +85,5 @@ public class SettingsActivity extends AppCompatActivity {
             });
             app_check_update.setTitle(R.string.app_version);
         }
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
-        switch (item.getItemId()) {
-            case android.R.id.home:
-                finish();
-                return true;
-            default:
-                return super.onOptionsItemSelected(item);
-        }
-    }
-    @Override
-    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
-        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
-        PermissionsUtils.getInstance().onRequestPermissionsResult(this, requestCode, permissions, grantResults);
     }
 }

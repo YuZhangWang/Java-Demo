@@ -1,7 +1,5 @@
-public class ClassManageSystem
-{
-    public static void main(String[] args)
-    {
+public class ClassManageSystem {
+    public static void main(String[] args) {
         System.out.println("------------------------------------");
         System.out.println("--    欢迎使用学生成绩表管理系统     --");
         System.out.println("------------------------------------");

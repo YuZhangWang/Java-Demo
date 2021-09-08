@@ -26,9 +26,8 @@ import javax.swing.table.DefaultTableModel;
 
 public class Assessment_Test {
 
-    private JFrame jf = new JFrame();
-
     Dimension faceSize = new Dimension(800, 600);
+    private JFrame jf = new JFrame();
     private Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
 
     // 查询
@@ -84,6 +83,10 @@ public class Assessment_Test {
     private String id;
     private String year;
     private String term;
+
+    public static void main(String[] args) {
+        new Assessment_Test().init();
+    }
 
     public void init() {
 
@@ -358,10 +361,6 @@ public class Assessment_Test {
         SimpleDateFormat dateFormat = new SimpleDateFormat(
                 "yyyy-MM-dd HH:mm:ss");
         return dateFormat.format(c.getTime());
-    }
-
-    public static void main(String[] args) {
-        new Assessment_Test().init();
     }
 }
 

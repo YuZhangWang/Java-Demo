@@ -7,7 +7,7 @@ import com.flower.core.po.User;
 import com.flower.core.po.Admin;
 
 public interface AdminService {
-	
-	public Admin findadmin(String adminCode,String password);	
+
+    public Admin findadmin(String adminCode, String password);
 
 }

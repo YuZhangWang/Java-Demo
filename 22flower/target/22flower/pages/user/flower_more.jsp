@@ -1,11 +1,11 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
-<%@ page trimDirectiveWhitespaces="true"%>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+         pageEncoding="UTF-8" %>
+<%@ page trimDirectiveWhitespaces="true" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%
-	String path = request.getContextPath();
-	String basePath = request.getScheme() + "://" + request.getServerName() 
-	                   + ":" + request.getServerPort() + path + "/";
+    String path = request.getContextPath();
+    String basePath = request.getScheme() + "://" + request.getServerName()
+            + ":" + request.getServerPort() + path + "/";
 %>
 <!DOCTYPE html>
 <html lang="zh-CN">
@@ -17,7 +17,7 @@
     <title>鲜花在线商城</title>
 
     <!-- Bootstrap -->
-    <link href="<%=basePath%>css/bootstrap.min.css" rel="stylesheet" />
+    <link href="<%=basePath%>css/bootstrap.min.css" rel="stylesheet"/>
     <link href="<%=basePath%>pages/user/css/index.css" rel="stylesheet">
     <link href="<%=basePath%>pages/user/css/flower_more.css" rel="stylesheet">
 
@@ -80,41 +80,41 @@
     <!-- /.container-fluid -->
 </nav>
 <!--moreflower列表-->
-    <div class="moreFlower">
-        <div class="up">
-            <ul>
-                <li>
+<div class="moreFlower">
+    <div class="up">
+        <ul>
+            <li>
                     <span>
                         <a>
                             价格<span class="glyphicon glyphicon-arrow-up"></span>
                         </a>
                     </span>
-                </li>
-                <li>
+            </li>
+            <li>
                     <span>
                         <a>
                             销量<span class="glyphicon glyphicon-arrow-up"></span>
                         </a>
                     </span>
-                </li>
-                <li>
+            </li>
+            <li>
                     <span>
                         <a>
                             人气<span class="glyphicon glyphicon-arrow-up"></span>
                         </a>
                     </span>
-                </li>
-                <li>
+            </li>
+            <li>
                     <span>
                         <a>
                             时间<span class="glyphicon glyphicon-arrow-up"></span>
                         </a>
                     </span>
-                </li>
-            </ul>
-        </div>
-        <div class="down">
-            <ul>
+            </li>
+        </ul>
+    </div>
+    <div class="down">
+        <ul>
             <li>
                 <div class="pro_img">
                     <a>
@@ -138,12 +138,9 @@
                     </div>
                 </div>
             </li>
-            </ul>
-        </div>
+        </ul>
     </div>
-
-
-
+</div>
 
 
 <!--moreflower列表end-->

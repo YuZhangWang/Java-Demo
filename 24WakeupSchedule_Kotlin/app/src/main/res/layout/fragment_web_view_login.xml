@@ -1,272 +1,272 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".schedule_import.WebViewLoginFragment">
+                                              xmlns:app="http://schemas.android.com/apk/res-auto"
+                                              xmlns:tools="http://schemas.android.com/tools"
+                                              android:layout_width="match_parent"
+                                              android:layout_height="match_parent"
+                                              android:orientation="vertical"
+                                              tools:context=".schedule_import.WebViewLoginFragment">
 
     <View
-        android:id="@+id/v_status"
-        android:layout_width="match_parent"
-        android:layout_height="24dp" />
+            android:id="@+id/v_status"
+            android:layout_width="match_parent"
+            android:layout_height="24dp"/>
 
     <androidx.appcompat.widget.LinearLayoutCompat
-        android:layout_width="match_parent"
-        android:layout_height="48dp">
+            android:layout_width="match_parent"
+            android:layout_height="48dp">
 
         <androidx.appcompat.widget.AppCompatEditText
-            android:id="@+id/et_url"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_marginStart="16dp"
-            android:layout_weight="1"
-            android:background="@null"
-            android:gravity="center_vertical"
-            android:hint="在此输入教务网址"
-            android:imeOptions="actionDone"
-            android:inputType="textUri"
-            android:singleLine="true"
-            android:textSize="14sp" />
+                android:id="@+id/et_url"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="16dp"
+                android:layout_weight="1"
+                android:background="@null"
+                android:gravity="center_vertical"
+                android:hint="在此输入教务网址"
+                android:imeOptions="actionDone"
+                android:inputType="textUri"
+                android:singleLine="true"
+                android:textSize="14sp"/>
 
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@+id/tv_go"
-            style="@style/ButtonBackground"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:gravity="center_vertical"
-            android:paddingStart="24dp"
-            android:paddingEnd="24dp"
-            android:text="确定"
-            android:textSize="14sp"
-            android:textStyle="bold" />
+                android:id="@+id/tv_go"
+                style="@style/ButtonBackground"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:paddingStart="24dp"
+                android:paddingEnd="24dp"
+                android:text="确定"
+                android:textSize="14sp"
+                android:textStyle="bold"/>
 
     </androidx.appcompat.widget.LinearLayoutCompat>
 
     <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:alpha="0.5"
-        android:background="@color/grey" />
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:alpha="0.5"
+            android:background="@color/grey"/>
 
     <ProgressBar
-        android:id="@+id/pb_load"
-        style="?android:attr/progressBarStyleHorizontal"
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:max="100"
-        android:progress="0"
-        android:visibility="gone" />
+            android:id="@+id/pb_load"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:max="100"
+            android:progress="0"
+            android:visibility="gone"/>
 
     <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1">
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
 
         <WebView
-            android:id="@+id/wv_course"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+                android:id="@+id/wv_course"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
 
         <androidx.appcompat.widget.LinearLayoutCompat
-            android:id="@+id/ll_error"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
-            android:gravity="center_horizontal"
-            android:orientation="vertical"
-            android:visibility="gone">
+                android:id="@+id/ll_error"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:visibility="gone">
 
             <androidx.appcompat.widget.AppCompatImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/net_work_error" />
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/net_work_error"/>
 
             <androidx.appcompat.widget.AppCompatTextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:lineSpacingExtra="8dp"
-                android:text="网络连接错误\n请检查网络以及网址\n部分学校教务需要通过内网访问"
-                android:textSize="12sp" />
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:lineSpacingExtra="8dp"
+                    android:text="网络连接错误\n请检查网络以及网址\n部分学校教务需要通过内网访问"
+                    android:textSize="12sp"/>
         </androidx.appcompat.widget.LinearLayoutCompat>
 
         <androidx.appcompat.widget.LinearLayoutCompat
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginBottom="16dp"
-            android:gravity="center">
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="16dp"
+                android:gravity="center">
 
             <RelativeLayout
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1">
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
 
                 <com.google.android.material.chip.ChipGroup
-                    android:id="@+id/cg_qz"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="16dp"
-                    android:layout_marginEnd="16dp"
-                    android:visibility="gone"
-                    app:chipSpacingHorizontal="16dp"
-                    app:chipSpacingVertical="16dp"
-                    app:lineSpacing="20dp"
-                    app:singleSelection="true"
-                    tools:visibility="visible">
+                        android:id="@+id/cg_qz"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:visibility="gone"
+                        app:chipSpacingHorizontal="16dp"
+                        app:chipSpacingVertical="16dp"
+                        app:lineSpacing="20dp"
+                        app:singleSelection="true"
+                        tools:visibility="visible">
 
                     <com.google.android.material.chip.Chip
-                        android:id="@+id/chip_qz1"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:checkable="true"
-                        android:text="强智 1"
-                        android:textColor="@android:color/white"
-                        app:chipBackgroundColor="@color/red" />
+                            android:id="@+id/chip_qz1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checkable="true"
+                            android:text="强智 1"
+                            android:textColor="@android:color/white"
+                            app:chipBackgroundColor="@color/red"/>
 
                     <com.google.android.material.chip.Chip
-                        android:id="@+id/chip_qz2"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:checkable="true"
-                        android:text="强智 2"
-                        android:textColor="@android:color/white"
-                        app:chipBackgroundColor="@color/pink" />
+                            android:id="@+id/chip_qz2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checkable="true"
+                            android:text="强智 2"
+                            android:textColor="@android:color/white"
+                            app:chipBackgroundColor="@color/pink"/>
 
                     <com.google.android.material.chip.Chip
-                        android:id="@+id/chip_qz3"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:checkable="true"
-                        android:text="强智 3"
-                        android:textColor="@android:color/white"
-                        app:chipBackgroundColor="@color/lightBlue" />
+                            android:id="@+id/chip_qz3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checkable="true"
+                            android:text="强智 3"
+                            android:textColor="@android:color/white"
+                            app:chipBackgroundColor="@color/lightBlue"/>
 
                     <com.google.android.material.chip.Chip
-                        android:id="@+id/chip_qz4"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:checkable="true"
-                        android:text="强智 4"
-                        android:textColor="@android:color/white"
-                        app:chipBackgroundColor="@color/orange" />
+                            android:id="@+id/chip_qz4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checkable="true"
+                            android:text="强智 4"
+                            android:textColor="@android:color/white"
+                            app:chipBackgroundColor="@color/orange"/>
 
                 </com.google.android.material.chip.ChipGroup>
 
                 <com.google.android.material.chip.ChipGroup
-                    android:id="@+id/cg_zf"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="16dp"
-                    android:layout_marginEnd="16dp"
-                    android:visibility="visible"
-                    app:chipSpacingHorizontal="16dp"
-                    app:chipSpacingVertical="16dp"
-                    app:lineSpacing="20dp"
-                    app:singleSelection="true">
+                        android:id="@+id/cg_zf"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:visibility="visible"
+                        app:chipSpacingHorizontal="16dp"
+                        app:chipSpacingVertical="16dp"
+                        app:lineSpacing="20dp"
+                        app:singleSelection="true">
 
                     <com.google.android.material.chip.Chip
-                        android:id="@+id/chip_zf1"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:checkable="true"
-                        android:text="正方 1"
-                        android:textColor="@android:color/white"
-                        app:chipBackgroundColor="@color/red" />
+                            android:id="@+id/chip_zf1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checkable="true"
+                            android:text="正方 1"
+                            android:textColor="@android:color/white"
+                            app:chipBackgroundColor="@color/red"/>
 
                     <com.google.android.material.chip.Chip
-                        android:id="@+id/chip_zf2"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:checkable="true"
-                        android:text="正方 2"
-                        android:textColor="@android:color/white"
-                        app:chipBackgroundColor="@color/pink" />
+                            android:id="@+id/chip_zf2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checkable="true"
+                            android:text="正方 2"
+                            android:textColor="@android:color/white"
+                            app:chipBackgroundColor="@color/pink"/>
 
                 </com.google.android.material.chip.ChipGroup>
 
                 <com.google.android.material.chip.ChipGroup
-                    android:id="@+id/cg_old_qz"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="16dp"
-                    android:layout_marginEnd="16dp"
-                    android:visibility="gone"
-                    app:chipSpacingHorizontal="16dp"
-                    app:chipSpacingVertical="16dp"
-                    app:lineSpacing="20dp"
-                    app:singleSelection="true"
-                    tools:visibility="visible">
+                        android:id="@+id/cg_old_qz"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:visibility="gone"
+                        app:chipSpacingHorizontal="16dp"
+                        app:chipSpacingVertical="16dp"
+                        app:lineSpacing="20dp"
+                        app:singleSelection="true"
+                        tools:visibility="visible">
 
                     <com.google.android.material.chip.Chip
-                        android:id="@+id/chip_old_qz1"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:checkable="true"
-                        android:text="缩小"
-                        android:textColor="@android:color/white"
-                        app:chipBackgroundColor="@color/red" />
+                            android:id="@+id/chip_old_qz1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checkable="true"
+                            android:text="缩小"
+                            android:textColor="@android:color/white"
+                            app:chipBackgroundColor="@color/red"/>
 
                     <com.google.android.material.chip.Chip
-                        android:id="@+id/chip_old_qz2"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:checkable="true"
-                        android:text="放大"
-                        android:textColor="@android:color/white"
-                        app:chipBackgroundColor="@color/pink" />
+                            android:id="@+id/chip_old_qz2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checkable="true"
+                            android:text="放大"
+                            android:textColor="@android:color/white"
+                            app:chipBackgroundColor="@color/pink"/>
 
                 </com.google.android.material.chip.ChipGroup>
 
             </RelativeLayout>
 
             <com.google.android.material.button.MaterialButton
-                android:id="@+id/fab_import"
-                android:layout_width="56dp"
-                android:layout_height="67dp"
-                android:layout_marginEnd="16dp"
-                android:fontFamily="@font/iconfont"
-                android:includeFontPadding="false"
-                android:text=""
-                android:textSize="25sp"
-                app:cornerRadius="48dp" />
+                    android:id="@+id/fab_import"
+                    android:layout_width="56dp"
+                    android:layout_height="67dp"
+                    android:layout_marginEnd="16dp"
+                    android:fontFamily="@font/iconfont"
+                    android:includeFontPadding="false"
+                    android:text=""
+                    android:textSize="25sp"
+                    app:cornerRadius="48dp"/>
 
         </androidx.appcompat.widget.LinearLayoutCompat>
 
     </RelativeLayout>
 
     <androidx.appcompat.widget.LinearLayoutCompat
-        android:layout_width="match_parent"
-        android:layout_height="48dp"
-        android:background="?attr/colorSurface">
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="?attr/colorSurface">
 
         <androidx.appcompat.widget.AppCompatImageButton
-            android:id="@+id/btn_back"
-            style="@style/ButtonBackground"
-            android:layout_width="48dp"
-            android:layout_height="48dp"
-            android:src="@drawable/ic_back"
-            android:tint="?attr/colorOnSurface" />
+                android:id="@+id/btn_back"
+                style="@style/ButtonBackground"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/ic_back"
+                android:tint="?attr/colorOnSurface"/>
 
         <com.google.android.material.chip.Chip
-            android:id="@+id/chip_mode"
-            style="@style/Widget.MaterialComponents.Chip.Choice"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
-            android:checked="true"
-            android:text="电脑模式" />
+                android:id="@+id/chip_mode"
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:checked="true"
+                android:text="电脑模式"/>
 
         <com.google.android.material.chip.Chip
-            android:id="@+id/chip_zoom"
-            style="@style/Widget.MaterialComponents.Chip.Action"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
-            android:text="文字缩放 100%" />
+                android:id="@+id/chip_zoom"
+                style="@style/Widget.MaterialComponents.Chip.Action"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="文字缩放 100%"/>
 
     </androidx.appcompat.widget.LinearLayoutCompat>
 

@@ -17,24 +17,29 @@ class ColorPickerView @JvmOverloads constructor(context: Context, attrs: Attribu
      * The width in px of the hue panel.
      */
     private var huePanelWidthPx: Int = 0
+
     /**
      * The height in px of the alpha panel
      */
     private var alphaPanelHeightPx: Int = 0
+
     /**
      * The distance in px between the different
      * color panels.
      */
     private var panelSpacingPx: Int = 0
+
     /**
      * The radius in px of the color palette tracker circle.
      */
     private var circleTrackerRadiusPx: Int = 0
+
     /**
      * The px which the tracker of the hue or alpha panel
      * will extend outside of its bounds.
      */
     private var sliderTrackerOffsetPx: Int = 0
+
     /**
      * Height of slider tracker on hue panel,
      * width of slider on alpha panel.
@@ -57,6 +62,7 @@ class ColorPickerView @JvmOverloads constructor(context: Context, attrs: Attribu
     * We can reuse it when the user is sliding the circle picker as long as the hue isn't changed.
     */
     private var satValBackgroundCache: BitmapCache? = null
+
     /* We cache the hue background to since its also very expensive now. */
     private var hueBackgroundCache: BitmapCache? = null
 

@@ -11,22 +11,22 @@ import com.flower.core.service.GoodsService;
 
 @Service("goodsService")
 @Transactional
-public class GoodsServiceImpl implements GoodsService{
-	@Autowired
-	private GoodsDao goodsDao;
-	
-	
-	@Override
-	public int insert(Goods goods) {
-		int row=goodsDao.insert(goods);
-		return row;
-	}
+public class GoodsServiceImpl implements GoodsService {
+    @Autowired
+    private GoodsDao goodsDao;
 
 
-	@Override
-	public Goods findGoodById(Integer id) {
-		Goods goods=goodsDao.findGoodById(id);
-		return goods;
-	}
+    @Override
+    public int insert(Goods goods) {
+        int row = goodsDao.insert(goods);
+        return row;
+    }
+
+
+    @Override
+    public Goods findGoodById(Integer id) {
+        Goods goods = goodsDao.findGoodById(id);
+        return goods;
+    }
 
 }

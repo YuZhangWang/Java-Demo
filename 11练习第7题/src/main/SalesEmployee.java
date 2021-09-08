@@ -1,39 +1,32 @@
 package main;
-public class SalesEmployee extends Employee
-{
+
+public class SalesEmployee extends Employee {
     private double monthlySales;
     private double royaltyRate;
-    void setMonthlySales(double monthlySales)
-    {
-        this.monthlySales=monthlySales;
+
+    void setMonthlySales(double monthlySales) {
+        this.monthlySales = monthlySales;
     }
 
-    void setRoyaltyRate(double royaltyRate)
-    {
-        this.royaltyRate=royaltyRate;
-    }
-
-   double getMonthSales()
-    {
+    double getMonthSales() {
         return monthlySales;
     }
 
-    double getRoyaltyRate()
-    {
+    double getRoyaltyRate() {
         return royaltyRate;
     }
 
+    void setRoyaltyRate(double royaltyRate) {
+        this.royaltyRate = royaltyRate;
+    }
+
     @Override
-    double getSalary(int month)
-    {
+    double getSalary(int month) {
         double salary;
-        salary = (monthlySales*royaltyRate);
-        if(getEmployeeBirthdayMonth() == month)
-        {
-            return (salary+100);
-        }
-        else
-        {
+        salary = (monthlySales * royaltyRate);
+        if (getEmployeeBirthdayMonth() == month) {
+            return (salary + 100);
+        } else {
             return salary;
         }
     }

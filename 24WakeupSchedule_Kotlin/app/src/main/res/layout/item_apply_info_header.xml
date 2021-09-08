@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="vertical"
-    android:paddingStart="24dp"
-    android:paddingEnd="24dp">
+                                              android:layout_width="match_parent"
+                                              android:layout_height="wrap_content"
+                                              android:orientation="vertical"
+                                              android:paddingStart="24dp"
+                                              android:paddingEnd="24dp">
 
     <androidx.appcompat.widget.AppCompatTextView
-        android:layout_marginBottom="24dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:gravity="center"
-        android:lineSpacingExtra="4dp"
-        android:text="你以后可以通过侧栏跳转到此页面。"
-        android:textSize="12sp"
-        android:textStyle="bold" />
+            android:layout_marginBottom="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:gravity="center"
+            android:lineSpacingExtra="4dp"
+            android:text="你以后可以通过侧栏跳转到此页面。"
+            android:textSize="12sp"
+            android:textStyle="bold"/>
 
 </androidx.appcompat.widget.LinearLayoutCompat>

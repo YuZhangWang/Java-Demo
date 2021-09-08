@@ -10,6 +10,6 @@ import com.flower.core.po.User;
 import com.flower.core.po.Admin;
 
 public interface AdminDao {
-	public Admin findAdmin(@Param("adminCode") String adminCode,
-			@Param("password") String password);
+    public Admin findAdmin(@Param("adminCode") String adminCode,
+                           @Param("password") String password);
 }

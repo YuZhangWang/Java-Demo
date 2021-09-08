@@ -1,46 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN"
+        "http://struts.apache.org/dtds/struts-2.1.dtd">
 <struts>
-<package name="struts" extends="struts-default" namespace="/">
-		<!-- 全局result的设置,所有的action都可以使用这里写的result  -->
-		<global-results>
-			<result name="successShowAdmins" type="redirectAction">getAllAdmin</result>
-		</global-results>
-		<action name="openLogin" class="com.wbhz.action.AdminManagement">
-			<result name="success">index2.jsp</result>
-		</action>
-		<action name="getAllAdmin" class="com.wbhz.action.AdminManagement" method="getAllAdmin">
-			<result name="success">main2.jsp</result>
-		</action>
-		<action name="doDeleteAdmin" class="com.wbhz.action.AdminManagement" method="doDeleteAdmin">
-			
-		</action>
-		<action name="loginAction" class="com.wbhz.action.AdminManagement" method="login">
-			<param name="encoding">utf-8</param>
-			<!-- 
-			redirect:重定向，两次请求获得数据
-			dispatcher:请求转发，一次请求获得数据，默认不写的默认值
-			redirectAction:重定向到其他的action,调用其他的action，标签之间调用的是已经定义的action的名字，不需要写扩展名
-			plainText：文本输出
-			 -->
-			<result name="input" type="dispatcher">index2.jsp</result>
-		</action>
-		<!-- 
-		如果使用动态方法调用的方式，登录系统，就不能使用对象.属性的方式填充数据
-		<action name="loginAction2" class="com.wbhz.action.AdminManagement">
-			<param name="encoding">utf-8</param>
-			<param name="id">1000</param>
-			<result name="input" type="dispatcher">index2.jsp</result>
-		</action>
-		 -->
-		<action name="loginAction2" class="com.wbhz.action.AdminManagement" method="loginDyMethod">
-			<param name="encoding">utf-8</param>
-			<param name="id">1000</param>
-			<result name="input" type="dispatcher">index2.jsp</result>
-		</action>
-		<action name="upload" class="com.wbhz.action.FlowerAction" method="upload">
-			<result name="success">success.jsp</result>
-			<result name="input" type="dispatcher">index2.jsp</result>
-		</action>
-	</package>
+    <package name="struts" extends="struts-default" namespace="/">
+        <!-- 全局result的设置,所有的action都可以使用这里写的result  -->
+        <global-results>
+            <result name="successShowAdmins" type="redirectAction">getAllAdmin</result>
+        </global-results>
+        <action name="openLogin" class="com.wbhz.action.AdminManagement">
+            <result name="success">index2.jsp</result>
+        </action>
+        <action name="getAllAdmin" class="com.wbhz.action.AdminManagement" method="getAllAdmin">
+            <result name="success">main2.jsp</result>
+        </action>
+        <action name="doDeleteAdmin" class="com.wbhz.action.AdminManagement" method="doDeleteAdmin">
+
+        </action>
+        <action name="loginAction" class="com.wbhz.action.AdminManagement" method="login">
+            <param name="encoding">utf-8</param>
+            <!--
+            redirect:重定向，两次请求获得数据
+            dispatcher:请求转发，一次请求获得数据，默认不写的默认值
+            redirectAction:重定向到其他的action,调用其他的action，标签之间调用的是已经定义的action的名字，不需要写扩展名
+            plainText：文本输出
+             -->
+            <result name="input" type="dispatcher">index2.jsp</result>
+        </action>
+        <!--
+        如果使用动态方法调用的方式，登录系统，就不能使用对象.属性的方式填充数据
+        <action name="loginAction2" class="com.wbhz.action.AdminManagement">
+            <param name="encoding">utf-8</param>
+            <param name="id">1000</param>
+            <result name="input" type="dispatcher">index2.jsp</result>
+        </action>
+         -->
+        <action name="loginAction2" class="com.wbhz.action.AdminManagement" method="loginDyMethod">
+            <param name="encoding">utf-8</param>
+            <param name="id">1000</param>
+            <result name="input" type="dispatcher">index2.jsp</result>
+        </action>
+        <action name="upload" class="com.wbhz.action.FlowerAction" method="upload">
+            <result name="success">success.jsp</result>
+            <result name="input" type="dispatcher">index2.jsp</result>
+        </action>
+    </package>
 </struts>

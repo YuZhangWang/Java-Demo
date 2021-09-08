@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
+         pageEncoding="UTF-8" %>
 <header class="flower_header hidden-xs hidden-sm">
     <div class="container">
         <div class="col-md-9 logo">
@@ -23,5 +23,5 @@
             </span>
         </div>
     </div>
-	
+
 </header>

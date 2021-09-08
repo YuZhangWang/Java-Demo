@@ -2,13 +2,13 @@
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
     <title>鲜花销售系统</title>
-    <link rel="stylesheet" href="../../static/css/bootstrap.min.css" th:href="@{/css/bootstrap.min.css}">
-    <link rel="stylesheet" href="../../static/css/dataTables.bootstrap.min.css"
+    <link href="../../static/css/bootstrap.min.css" rel="stylesheet" th:href="@{/css/bootstrap.min.css}">
+    <link href="../../static/css/dataTables.bootstrap.min.css" rel="stylesheet"
           th:href="@{/css/dataTables.bootstrap.min.css}">
-    <link rel="stylesheet" href="../../static/css/flower.css" th:href="@{/css/flower.css}">
+    <link href="../../static/css/flower.css" rel="stylesheet" th:href="@{/css/flower.css}">
     <!--[if lt IE 9]>
     <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
@@ -35,25 +35,25 @@
             </div>
             <!--search nav-->
             <div class="panel-body">
-                <form class="form-horizontal" role="form" id="editUserForm" style="width: 44%;margin-left: 10%;"
-                      method="post">
-                    <input type="hidden" value="" name="uid" class="uid"/>
+                <form class="form-horizontal" id="editUserForm" method="post" role="form"
+                      style="width: 44%;margin-left: 10%;">
+                    <input class="uid" name="uid" type="hidden" value=""/>
                     <div class="form-group">
                         <lable class="control-label">账户名:</lable>
-                        <input class="form-control" name="username" id="username" type="text" value="">
+                        <input class="form-control" id="username" name="username" type="text" value="">
                     </div>
                     <div class="form-group">
                         <lable class="control-label">真实姓名:</lable>
-                        <input class="form-control" name="name" type="text" value="" id="name">
+                        <input class="form-control" id="name" name="name" type="text" value="">
                     </div>
                     <div class="form-group">
                         <label class="control-label">状态</label>
-                        <select class="form-control" name="state" id="edit-state">
-                            <option value="0" class="state">关闭</option>
-                            <option value="1" class="state">开启</option>
+                        <select class="form-control" id="edit-state" name="state">
+                            <option class="state" value="0">关闭</option>
+                            <option class="state" value="1">开启</option>
                         </select>
                     </div>
-                    <button type="button" class="btn btn-primary" onclick="editSysUser()">修改个人信息</button>
+                    <button class="btn btn-primary" onclick="editSysUser()" type="button">修改个人信息</button>
                 </form>
             </div>
 
@@ -61,15 +61,15 @@
                 <span class="glyphicon glyphicon-list left-menu-icon"></span>重置密码
             </div>
             <div class="panel-body">
-                <form class="form-horizontal" role="form" id="editUserPassForm"
-                      style="width: 44%;margin-left: 10%;" method="post">
-                    <input type="hidden" value="" class="uid" name="uid" class="uid"/>
+                <form class="form-horizontal" id="editUserPassForm" method="post"
+                      role="form" style="width: 44%;margin-left: 10%;">
+                    <input class="uid" class="uid" name="uid" type="hidden" value=""/>
                     <div class="form-group">
                         <lable class="control-label">用户密码:</lable>
-                        <input class="form-control" name="password" type="password" value="" id="edit-password"
-                               placeholder="新密码">
+                        <input class="form-control" id="edit-password" name="password" placeholder="新密码" type="password"
+                               value="">
                     </div>
-                    <button type="button" class="btn btn-primary" onclick="editUserPass()">重置密码</button>
+                    <button class="btn btn-primary" onclick="editUserPass()" type="button">重置密码</button>
                 </form>
             </div>
         </div>
@@ -82,7 +82,7 @@
 <script src="../../static/js/jquery.dataTables.min.js" th:src="@{/js/jquery.dataTables.min.js}"></script>
 <script src="../../static/js/dataTables.bootstrap.min.js" th:src="@{/js/dataTables.bootstrap.min.js}"></script>
 <script src="../../static/js/layer.js" th:src="@{/js/layer.js}"></script>
-<script type="text/javascript" th:inline="javascript">
+<script th:inline="javascript" type="text/javascript">
     $(document).ready(function () {
         findByUid();
     });

@@ -1,67 +1,77 @@
-body{
+body {
     background-color: #eeeeee;
     margin: 0 auto;
 }
 
-.header{
+.header {
 
     background-color: white;
     padding-top: 10px;
 
 
 }
-.logo{
+
+.logo {
     height: 100px;
     width: 1100px;
     margin: 0 auto;
 }
-.header .logo .text1{
+
+.header .logo .text1 {
     float: left;
     width: 300px;
     height: 85px;
-   padding-right: 10px;
+    padding-right: 10px;
     text-align: center;
     font-size: 48px;
-   line-height: 100px;
+    line-height: 100px;
     border-right: 1px solid #cccccc;
 }
-.header .logo .text1 a{
+
+.header .logo .text1 a {
     cursor: pointer;
     text-decoration: none;
     color: black;
 }
-.header .logo .text1 a:hover{
+
+.header .logo .text1 a:hover {
     color: orange;
 }
-.header .logo .text2{
+
+.header .logo .text2 {
     padding-left: 10px;
     color: orange;
     font-size: 18px;
     overflow: hidden;
     margin-left: 10px;
-    height:85px;
-	line-height: 100px;
+    height: 85px;
+    line-height: 100px;
 }
-.header .go{
+
+.header .go {
     text-align: right;
     width: 1100px;
     margin: 0 auto;
     padding-bottom: 10px;
 }
-.header .go a{
+
+.header .go a {
     color: orange;
 
 }
-.header .go a:hover{
+
+.header .go a:hover {
     color: red;
     text-decoration: none;
 }
-.center .c_bg{
+
+.center .c_bg {
     background-color: #f8d9e7;
     text-align: center;
     position: relative;
 }
-.center .loginbox{
+
+.center .loginbox {
     background-color: white;
     width: 308px;
     height: 350px;
@@ -70,44 +80,53 @@ body{
     right: 340px;
     padding: 15px 25px;
 }
+
 .center .loginbox ul {
     list-style: none;
     padding: 0px;
     position: relative;
 }
-.center .loginbox ul li:first-child{
+
+.center .loginbox ul li:first-child {
     font-size: 20px;
 
 }
-.center .loginbox ul li:first-child span{
+
+.center .loginbox ul li:first-child span {
     margin-top: 5px;
 }
-.center .loginbox ul li{
+
+.center .loginbox ul li {
     margin-top: 17px;
 }
-.center .loginbox ul li input{
-	width: 276px;
+
+.center .loginbox ul li input {
+    width: 276px;
     height: 28px;
     line-height: 28px;
     border: 1px solid #d9dbde;
     padding: 6px 12px;
 }
-.center .loginbox ul li:last-child{
-    overflow:hidden;
-}
-.center .loginbox ul li label{
-    float:left;
+
+.center .loginbox ul li:last-child {
+    overflow: hidden;
 }
 
-.center .loginbox ul li label div input{
-	width: 100px;
+.center .loginbox ul li label {
+    float: left;
 }
-.center .loginbox .img-box{
+
+.center .loginbox ul li label div input {
+    width: 100px;
+}
+
+.center .loginbox .img-box {
     margin-right: -8px;
-    float:right;
-	width:120px;
+    float: right;
+    width: 120px;
 }
-.center .loginbox .submit{
+
+.center .loginbox .submit {
     display: block;
     background: #ff5500;
     width: 300px;
@@ -121,28 +140,34 @@ body{
     margin-top: 20px;
 
 }
-.center .model{
+
+.center .model {
     height: 21px;
     line-height: 21px;
-    
-}
-.center .loginbox span{
-    font-size: 12px;
-}
-.center .loginbox span label{
-    vertical-align:top;
 
 }
-.center .loginbox span:last-child{
+
+.center .loginbox span {
+    font-size: 12px;
+}
+
+.center .loginbox span label {
+    vertical-align: top;
+
+}
+
+.center .loginbox span:last-child {
     float: right;
     padding-right: 10px;
 }
-.center .loginbox a{
+
+.center .loginbox a {
     color: red;
     text-decoration: none;
     font-size: 14px;
 }
-.message{
-	margin-right:-80px;
-	float:right;
+
+.message {
+    margin-right: -80px;
+    float: right;
 }

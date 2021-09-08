@@ -36,7 +36,7 @@ class MobileHub(private var user: String, private var password: String) {
             .build()
     private lateinit var modulus: String
     private lateinit var execution: String
-    private lateinit var lt : String
+    private lateinit var lt: String
 
     lateinit var courseHTML: String
 

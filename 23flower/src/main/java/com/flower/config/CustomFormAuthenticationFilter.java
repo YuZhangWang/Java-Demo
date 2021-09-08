@@ -19,10 +19,10 @@ public class CustomFormAuthenticationFilter extends FormAuthenticationFilter {
         HttpSession session = httpServletRequest.getSession();
         //获取短信验证码
         String validateCode = (String) session.getAttribute("validateCode");
-        System.out.println("validateCode:"+validateCode);
+        System.out.println("validateCode:" + validateCode);
         //获取输入的短信验证码
         String randomCode = httpServletRequest.getParameter("randomCode");
-        System.out.println("randomCode:"+randomCode);
+        System.out.println("randomCode:" + randomCode);
         if (randomCode != null && validateCode != null && !randomCode.equals(validateCode)) {
             //如果校验失败，将验证码错误失败信息，通过shiroLoginFailure设置到request中
             httpServletRequest.setAttribute("shiroLoginFailure", "kaptchaValidateFailed");

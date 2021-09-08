@@ -1,105 +1,125 @@
-.navbar{
+.navbar {
     margin-bottom: 0px;
     height: 52px;
 }
 
-.carousel{
+.carousel {
     height: 500px;
     background-color: #000;
 }
-.carousel .item{
+
+.carousel .item {
     height: 500px;
     background-color: #000;
 }
-.carousel .item img{
+
+.carousel .item img {
     width: 100%;
     height: 100%;
 }
+
 /*
 	商品样式
 */
-.goods{
+.goods {
     width: 1200px;
     height: 100%;
     margin: 0 auto;
     margin-top: 50px;
 }
-.goods .goods_container{
-	margin-top:50px;
+
+.goods .goods_container {
+    margin-top: 50px;
 }
-.goods .goods_container .up .title{
+
+.goods .goods_container .up .title {
     float: left;
     height: 30px;
 }
-.goods .goods_container .up .title .wTitle{
+
+.goods .goods_container .up .title .wTitle {
     font-weight: bold;
 }
-.goods .goods_container .up .moreLink{
+
+.goods .goods_container .up .moreLink {
     text-align: right;
 
 }
-.goods .goods_container .up .moreLink em{
+
+.goods .goods_container .up .moreLink em {
     font-style: normal;
 }
-.goods .goods_container .up .moreLink a{
+
+.goods .goods_container .up .moreLink a {
     color: red;
 }
-.goods .goods_container .up .moreLink a:hover{
+
+.goods .goods_container .up .moreLink a:hover {
     text-decoration: none;
     cursor: pointer;
 }
-.goods .goods_container .down{
+
+.goods .goods_container .down {
     margin-top: 10px;
     height: 682px;
     border: 1px solid #cccccc;
 
 }
-.goods .goods_container .down .left{
+
+.goods .goods_container .down .left {
     float: left;
     width: 260px;
 }
-.goods .goods_container .down .left a{
+
+.goods .goods_container .down .left a {
     cursor: pointer;
 }
-.goods .goods_container .down .right{
+
+.goods .goods_container .down .right {
     width: 938px;
     height: 680px;
     float: right;
 }
+
 .goods .goods_container .down .right ul {
     padding: 0px;
     list-style: none;
 }
-.goods .goods_container .down .right ul li{
+
+.goods .goods_container .down .right ul li {
     float: left;
     margin-left: 8px;
     height: 300px;
     margin-top: 30px;
 }
-.goods .goods_container .down .right ul li .pro-img img{
+
+.goods .goods_container .down .right ul li .pro-img img {
     width: 225px;
     height: 225px;
     transition: transform .2s linear;
 
 }
-.goods .goods_container .down .right ul li .pro-img img:hover{
+
+.goods .goods_container .down .right ul li .pro-img img:hover {
     transform: translateX(-6px);
 
 }
-.goods .goods_container .down .right ul li .pro-img a{
+
+.goods .goods_container .down .right ul li .pro-img a {
     cursor: pointer;
 
 
 }
 
 
-.goods .goods_container .down .right ul li .pro-info{
+.goods .goods_container .down .right ul li .pro-info {
     margin-left: 40px;
 
     width: 170px;
     font-size: 14px;
 }
-.goods .goods_container .down .right ul li .pro-info .pro-name{
+
+.goods .goods_container .down .right ul li .pro-info .pro-name {
     width: 170px;
     height: 20px;
     margin-top: 20px;
@@ -110,25 +130,30 @@
     text-overflow: ellipsis;
 
 }
-.goods .goods_container .down .right ul li .pro-info .pro-name a{
+
+.goods .goods_container .down .right ul li .pro-info .pro-name a {
     cursor: pointer;
     color: #666;
 }
-.goods .goods_container .down .right ul li .pro-info .pro-name a:hover{
+
+.goods .goods_container .down .right ul li .pro-info .pro-name a:hover {
     color: red;
 }
-.goods .goods_container .down .right ul li .pro-info .pro-price .rmb{
+
+.goods .goods_container .down .right ul li .pro-info .pro-price .rmb {
     font-size: 14px;
     color: red;
     font-style: normal;
     text-decoration: none;
 
 }
-.goods .goods_container .down .right ul li .pro-info .pro-price span{
+
+.goods .goods_container .down .right ul li .pro-info .pro-price span {
     color: red;
     font-size: 14px;
 }
-.goods .goods_container .down .right ul li .pro-info .pro-price i{
+
+.goods .goods_container .down .right ul li .pro-info .pro-price i {
     color: #b5b5b5;
     font-size: 12px;
     font-style: normal;
@@ -136,11 +161,12 @@
     padding-left: 10px;
 
 }
+
 /*
 �ʻ���Ʒ�б�end*/
 /* �ײ���ŵ�� */
-.goods .cn{
-	margin-top:50px;
+.goods .cn {
+    margin-top: 50px;
 }
 
 

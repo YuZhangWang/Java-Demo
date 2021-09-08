@@ -52,7 +52,7 @@
         <item name="android:layout_height">wrap_content</item>
     </style>
 
-    <attr name="verticalRecyclerViewStyle" format="reference" />
+    <attr name="verticalRecyclerViewStyle" format="reference"/>
 
     <style name="VerticalRecyclerView" parent="android:Widget">
         <item name="android:scrollbars">vertical</item>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: junit:junit:3.8.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../CodeEnvironment/apache-maven-3.3.9/repository/junit/junit/3.8.2/junit-3.8.2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../../CodeEnvironment/apache-maven-3.3.9/repository/junit/junit/3.8.2/junit-3.8.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../CodeEnvironment/apache-maven-3.3.9/repository/junit/junit/3.8.2/junit-3.8.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

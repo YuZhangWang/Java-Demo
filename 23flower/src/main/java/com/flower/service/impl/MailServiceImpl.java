@@ -16,7 +16,9 @@ import org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer;
 
 import javax.mail.MessagingException;
 import javax.mail.internet.MimeMessage;
+
 import com.flower.service.MailService;
+
 import java.io.File;
 import java.util.Map;
 

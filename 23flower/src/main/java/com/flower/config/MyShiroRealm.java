@@ -10,6 +10,7 @@ import org.apache.shiro.subject.PrincipalCollection;
 import org.apache.shiro.util.ByteSource;
 
 import javax.annotation.Resource;
+
 import com.flower.entity.SysPermission;
 import com.flower.entity.SysRole;
 import com.flower.entity.SysUser;

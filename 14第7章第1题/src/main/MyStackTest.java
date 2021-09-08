@@ -1,9 +1,7 @@
 package main;
 
-public class MyStackTest
-{
-    public static void main(String[] args)
-    {
+public class MyStackTest {
+    public static void main(String[] args) {
         MyStack<String> stack = new MyStack<>();
         System.out.println("是否为空:" + stack.isEmpty());
         stack.push("1");

@@ -25,17 +25,18 @@ import okhttp3.Response;
 
 public class HttpUtils {
 
-  /**
-   * 简单请求 http 获取JSON
-   * @param url URL
-   * @return 返回 JSONObject
-   */
-  public static JSONObject httpGetJson(String url) throws IOException {
-    OkHttpClient client = new OkHttpClient();
-    Request request = new Request.Builder().url(url).build();
+    /**
+     * 简单请求 http 获取JSON
+     *
+     * @param url URL
+     * @return 返回 JSONObject
+     */
+    public static JSONObject httpGetJson(String url) throws IOException {
+        OkHttpClient client = new OkHttpClient();
+        Request request = new Request.Builder().url(url).build();
 
-    Response response = client.newCall(request).execute();//发送请求
-    String result = response.body().string();
-    return JSON.parseObject(result);
-  }
+        Response response = client.newCall(request).execute();//发送请求
+        String result = response.body().string();
+        return JSON.parseObject(result);
+    }
 }

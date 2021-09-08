@@ -1,9 +1,9 @@
 /**
  * Created by LENOVO on 2018/9/29.
  */
- //通过id获取鲜花信息
+//通过id获取鲜花信息
 //	function getProductById() {
-	//	alert("dd");
+//	alert("dd");
 //	 var ID = document.getElementsByTagName("li");
 //	 for(var i=0;i<lis.length;i++){
 //		    lis[i].index=i;
@@ -22,7 +22,7 @@
 //	        }
 //	    });
 //	}
-	
-dosave = function (){
-        alert("成功啦！");
-    }
+
+dosave = function () {
+    alert("成功啦！");
+}

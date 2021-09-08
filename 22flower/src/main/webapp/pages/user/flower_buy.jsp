@@ -1,11 +1,11 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
-<%@ page trimDirectiveWhitespaces="true"%>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+         pageEncoding="UTF-8" %>
+<%@ page trimDirectiveWhitespaces="true" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%
-	String path = request.getContextPath();
-	String basePath = request.getScheme() + "://" + request.getServerName() 
-	                   + ":" + request.getServerPort() + path + "/";
+    String path = request.getContextPath();
+    String basePath = request.getScheme() + "://" + request.getServerName()
+            + ":" + request.getServerPort() + path + "/";
 %>
 <!DOCTYPE html>
 <html lang="zh-CN">
@@ -17,10 +17,10 @@
     <title>鲜花在线商城</title>
 
     <!-- Bootstrap -->
-    <link href="<%=basePath%>css/bootstrap.min.css" rel="stylesheet" />
+    <link href="<%=basePath%>css/bootstrap.min.css" rel="stylesheet"/>
     <link href="<%=basePath%>pages/user/css/index.css" rel="stylesheet">
     <link href="<%=basePath%>pages/user/css/flower_buy.css" rel="stylesheet">
-     <link href="<%=basePath%>pages/user/css/head.css" rel="stylesheet">
+    <link href="<%=basePath%>pages/user/css/head.css" rel="stylesheet">
     <link href="<%=basePath%>pages/user/css/foot.css" rel="stylesheet">
 
 </head>
@@ -85,9 +85,9 @@
         <div class="middle">
             <div class="pro_info">
                 <h3>${product.productName}</h3>
-                <p>花    材：${product.materials}</p>
-                <p>包    装：${product.packaging}</p>
-                <p>花    语：${product.talkTo}！</p>
+                <p>花 材：${product.materials}</p>
+                <p>包 装：${product.packaging}</p>
+                <p>花 语：${product.talkTo}！</p>
 
             </div>
             <div class="pro_price">
@@ -117,16 +117,16 @@
                 <input class="count-input" id="number" type="text" value="1"/>
                 <input class="add" type="button" value="+">
             </div>
-            
+
             <div class="buy">
                 <div class="nowbuy">
-                    <a  onclick="toOrder()">立即购买</a>
+                    <a onclick="toOrder()">立即购买</a>
                 </div>
                 <div class="intoshopping">
                     <img src="images/pro_icon_32.png">
-                    <a  onclick="addShopingCar()">加入购物车</a>
+                    <a onclick="addShopingCar()">加入购物车</a>
                 </div>
-            </div>        
+            </div>
         </div>
         <div class="right">
             <div class="title">
@@ -135,12 +135,12 @@
             <img src="<%=basePath%>pages/user/images/customerservice.jpg">
         </div>
     </div>
-       
+
 
 </div>
 
 <!-- 底部footer -->
-<%@ include file="foot.jsp" %>	
+<%@ include file="foot.jsp" %>
 <!-- 底部footerEnd -->
 
 <!--购买框end-->

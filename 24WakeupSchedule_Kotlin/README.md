@@ -1,6 +1,7 @@
 # WakeUp课程表 3.612
 
-[Google Play 下载](https://play.google.com/store/apps/details?id=com.suda.yzune.wakeupschedule.pro) | [酷安下载](https://www.coolapk.com/apk/159120)
+[Google Play 下载](https://play.google.com/store/apps/details?id=com.suda.yzune.wakeupschedule.pro)
+| [酷安下载](https://www.coolapk.com/apk/159120)
 
 ## 声明
 

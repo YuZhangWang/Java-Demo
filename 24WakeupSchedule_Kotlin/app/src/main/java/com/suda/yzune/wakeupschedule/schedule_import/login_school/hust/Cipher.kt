@@ -10,10 +10,10 @@ class Cipher {
         return strEnc(input, "1", "2", "3")
     }
 
-/*
- * encrypt the string to string made up of hex
- * return the encrypted string
- */
+    /*
+     * encrypt the string to string made up of hex
+     * return the encrypted string
+     */
     fun strEnc(data: String, firstKey: String?, secondKey: String?, thirdKey: String?): String {
         val leng = data.length
         val encData = StringBuffer()

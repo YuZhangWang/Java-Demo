@@ -1,48 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="280dp"
-    android:layout_height="wrap_content"
-    android:layout_gravity="center"
-    android:orientation="vertical"
-    tools:context=".schedule_import.ImportSettingFragment">
+                                              xmlns:tools="http://schemas.android.com/tools"
+                                              android:layout_width="280dp"
+                                              android:layout_height="wrap_content"
+                                              android:layout_gravity="center"
+                                              android:orientation="vertical"
+                                              tools:context=".schedule_import.ImportSettingFragment">
 
     <androidx.appcompat.widget.AppCompatTextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="24dp"
-        android:gravity="center"
-        android:text="导入课程"
-        android:textStyle="bold" />
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="24dp"
+            android:gravity="center"
+            android:text="导入课程"
+            android:textStyle="bold"/>
 
     <androidx.appcompat.widget.AppCompatTextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:gravity="center"
-        android:lineSpacingExtra="4dp"
-        android:paddingStart="16dp"
-        android:paddingEnd="16dp"
-        android:text="请问你想以何种方式导入呢？\n新建再导入后，请在右栏找到新导入的课表"
-        android:textSize="12sp" />
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:lineSpacingExtra="4dp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:text="请问你想以何种方式导入呢？\n新建再导入后，请在右栏找到新导入的课表"
+            android:textSize="12sp"/>
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/tv_cover"
-        style="@style/DialogButtonStyle"
-        android:layout_marginTop="8dp"
-        android:text="覆盖当前课表"
-        android:textStyle="bold" />
+            android:id="@+id/tv_cover"
+            style="@style/DialogButtonStyle"
+            android:layout_marginTop="8dp"
+            android:text="覆盖当前课表"
+            android:textStyle="bold"/>
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/tv_new"
-        style="@style/DialogButtonStyle"
-        android:text="新建课表再导入" />
+            android:id="@+id/tv_new"
+            style="@style/DialogButtonStyle"
+            android:text="新建课表再导入"/>
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/tv_cancel"
-        style="@style/DialogButtonStyle"
-        android:layout_marginBottom="8dp"
-        android:text="取消导入" />
+            android:id="@+id/tv_cancel"
+            style="@style/DialogButtonStyle"
+            android:layout_marginBottom="8dp"
+            android:text="取消导入"/>
 
 </androidx.appcompat.widget.LinearLayoutCompat>

@@ -2,13 +2,13 @@
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
     <title>Title</title>
-    <link rel="stylesheet" href="../../static/css/bootstrap.min.css" th:href="@{/css/bootstrap.min.css}">
-    <link rel="stylesheet" href="../../static/css/dataTables.bootstrap.min.css"
+    <link href="../../static/css/bootstrap.min.css" rel="stylesheet" th:href="@{/css/bootstrap.min.css}">
+    <link href="../../static/css/dataTables.bootstrap.min.css" rel="stylesheet"
           th:href="@{/css/dataTables.bootstrap.min.css}">
-    <link rel="stylesheet" href="../../static/css/flower.css" th:href="@{/css/flower.css}">
+    <link href="../../static/css/flower.css" rel="stylesheet" th:href="@{/css/flower.css}">
     <!--<link rel="stylesheet" href="../../static/css/jquery.dataTables.min.css"-->
     <!--th:href="@{/css/jquery.dataTables.min.css}">-->
     <script src="../../static/js/jquery.min.js" th:src="@{/js/jquery.min.js}"></script>
@@ -43,11 +43,11 @@
                 <form class="form-inline" role="form">
                     <div class="form-group">
                         <lable class="control-label">编号:</lable>
-                        <input class="form-control" id="id-search" type="text" placeholder="编号">
+                        <input class="form-control" id="id-search" placeholder="编号" type="text">
                     </div>
                     <div class="form-group">
                         <lable class="control-label">账户名:</lable>
-                        <input class="form-control" id="username-search" type="text" placeholder="账户名">
+                        <input class="form-control" id="username-search" placeholder="账户名" type="text">
                     </div>
                     <div class="form-group">
                         <label class="control-label">状态</label>
@@ -57,18 +57,18 @@
                             <option value="0">关闭</option>
                         </select>
                     </div>
-                    <button type="button" class="btn btn-primary" onclick="search();">查询</button>
-                    <button type="button" class="btn btn-info btn-stl" onclick="allotRole()">分配角色</button>
-                    <button type="button" class="btn btn-info btn-stl" onclick="delUserById()">删除用户</button>
-                    <button type="button" class="btn btn-info btn-stl" onclick="$('#addUser').modal();">添加用户</button>
+                    <button class="btn btn-primary" onclick="search();" type="button">查询</button>
+                    <button class="btn btn-info btn-stl" onclick="allotRole()" type="button">分配角色</button>
+                    <button class="btn btn-info btn-stl" onclick="delUserById()" type="button">删除用户</button>
+                    <button class="btn btn-info btn-stl" onclick="$('#addUser').modal();" type="button">添加用户</button>
                 </form>
             </div>
         </div>
         <!--table-->
-        <table class="table table-striped table-bordered dataTable" cellspacing="0" width="100%" id="datatable">
+        <table cellspacing="0" class="table table-striped table-bordered dataTable" id="datatable" width="100%">
             <thead>
             <tr>
-                <th><input type="checkbox" class="checkall"/></th>
+                <th><input class="checkall" type="checkbox"/></th>
                 <th>ID</th>
                 <th>账户名</th>
                 <th>用户真实姓名</th>
@@ -81,11 +81,11 @@
 </div>
 
 <!--添加用户弹窗-->
-<div class="modal fade" id="addUser" role="dialog" tabindex="-1" aria-labelledby="addUserLabel" aria-hidden="true">
+<div aria-hidden="true" aria-labelledby="addUserLabel" class="modal fade" id="addUser" role="dialog" tabindex="-1">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close" aria-hidden="true">&times;
+                <button aria-hidden="true" aria-label="Close" class="close" data-dismiss="modal" type="button">&times;
                 </button>
                 <h4 class="modal-title" id="addUserLabel">添加用户</h4>
             </div>
@@ -93,44 +93,44 @@
                 <form id="addUserForm">
                     <div class="form-group">
                         <label class="control-label">账户名:</label>
-                        <input type="text" class="form-control" name="username" id="username" placeholder="请输入用户名">
-                        <span class="btn-action single glyphicons circle_question_mark" data-toggle="tooltip"
-                              data-placement="top" data-original-title="必填"><i></i></span>
+                        <input class="form-control" id="username" name="username" placeholder="请输入用户名" type="text">
+                        <span class="btn-action single glyphicons circle_question_mark" data-original-title="必填"
+                              data-placement="top" data-toggle="tooltip"><i></i></span>
                     </div>
                     <div class="form-group">
                         <label class="control-label">密码:</label>
-                        <input type="text" class="form-control" name="password" id="password" placeholder="请输入密码">
+                        <input class="form-control" id="password" name="password" placeholder="请输入密码" type="text">
                     </div>
                     <div class="form-group">
                         <label class="control-label">真实姓名:</label>
-                        <input type="text" class="form-control" name="name" id="name" placeholder="请输入真实姓名">
+                        <input class="form-control" id="name" name="name" placeholder="请输入真实姓名" type="text">
                     </div>
                     <label class="control-label">用户状态:</label>
                     <div class="form-group">
                         <label class="radio-inline">
-                            <input type="radio" name="state" value="1" class="state" checked> 开启
+                            <input checked class="state" name="state" type="radio" value="1"> 开启
                         </label>
                         <label class="radio-inline">
-                            <input type="radio" name="state" class="state" value="0"> 未开启
+                            <input class="state" name="state" type="radio" value="0"> 未开启
                         </label>
                     </div>
                 </form>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
-                <button type="button" class="btn btn-primary" onclick="addUser();">添加用户</button>
+                <button class="btn btn-default" data-dismiss="modal" type="button">关闭</button>
+                <button class="btn btn-primary" onclick="addUser();" type="button">添加用户</button>
             </div>
         </div>
     </div>
 </div>
 
 <!--分配角色弹窗-->
-<div class="modal fade" id="selectRole" role="dialog" tabindex="-1" aria-labelledby="selectRoleLabel"
-     aria-hidden="true">
+<div aria-hidden="true" aria-labelledby="selectRoleLabel" class="modal fade" id="selectRole" role="dialog"
+     tabindex="-1">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close" aria-hidden="true">&times;
+                <button aria-hidden="true" aria-label="Close" class="close" data-dismiss="modal" type="button">&times;
                 </button>
                 <h4 class="modal-title" id="selectRoleLabel">分配角色</h4>
             </div>
@@ -142,7 +142,7 @@
                             <caption>角色信息</caption>
                             <thead>
                             <tr>
-                                <th class="text-center"><input type="checkbox" class="checkallRoleAll">是否分配角色</th>
+                                <th class="text-center"><input class="checkallRoleAll" type="checkbox">是否分配角色</th>
                                 <th class="text-center">角色id</th>
                                 <th class="text-center">角色标识</th>
                                 <th class="text-center">角色描述</th>
@@ -153,8 +153,8 @@
                 </form>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
-                <button type="button" class="btn btn-primary" onclick="selectRole();">分配角色</button>
+                <button class="btn btn-default" data-dismiss="modal" type="button">关闭</button>
+                <button class="btn btn-primary" onclick="selectRole();" type="button">分配角色</button>
             </div>
         </div>
     </div>

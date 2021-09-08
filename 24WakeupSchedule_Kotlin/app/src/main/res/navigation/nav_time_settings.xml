@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    app:startDestination="@id/timeTableFragment">
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            app:startDestination="@id/timeTableFragment">
     <fragment
-        android:id="@+id/timeTableFragment"
-        android:name="com.suda.yzune.wakeupschedule.settings.TimeTableFragment"
-        android:label="选择时间表"
-        tools:layout="@layout/time_table_fragment">
+            android:id="@+id/timeTableFragment"
+            android:name="com.suda.yzune.wakeupschedule.settings.TimeTableFragment"
+            android:label="选择时间表"
+            tools:layout="@layout/time_table_fragment">
         <action
-            android:id="@+id/timeTableFragment_to_timeSettingsFragment"
-            app:destination="@id/timeSettingsFragment"
-            app:enterAnim="@anim/nav_default_enter_anim"
-            app:exitAnim="@anim/nav_default_exit_anim"
-            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
-            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+                android:id="@+id/timeTableFragment_to_timeSettingsFragment"
+                app:destination="@id/timeSettingsFragment"
+                app:enterAnim="@anim/nav_default_enter_anim"
+                app:exitAnim="@anim/nav_default_exit_anim"
+                app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+                app:popExitAnim="@anim/nav_default_pop_exit_anim"/>
     </fragment>
     <fragment
-        android:id="@+id/timeSettingsFragment"
-        android:name="com.suda.yzune.wakeupschedule.settings.TimeSettingsFragment"
-        android:label="设置时间"
-        tools:layout="@layout/fragment_time_settings" />
+            android:id="@+id/timeSettingsFragment"
+            android:name="com.suda.yzune.wakeupschedule.settings.TimeSettingsFragment"
+            android:label="设置时间"
+            tools:layout="@layout/fragment_time_settings"/>
 </navigation>

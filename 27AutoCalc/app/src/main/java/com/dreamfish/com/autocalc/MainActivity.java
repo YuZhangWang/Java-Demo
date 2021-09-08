@@ -35,6 +35,25 @@ import static com.dreamfish.com.autocalc.dialog.CommonDialogs.RESULT_SETTING_ACT
 
 public class MainActivity extends AppCompatActivity {
 
+    private ViewPager mViewPager;
+    private MainFragment fragmentMain;
+    private ConverterFragment fragmentConverter;
+    private Button btn_main_choose;
+    private Button btn_convert_choose;
+    private Button btn_settings;
+    private String currentCalculatorMode = "";
+    private String currentConverterMode = "";
+    private int currentTabPos = 0;
+    private int tab_text;
+    private int tab_text_color_selected;
+    private String text_calculator_mode;
+    private String text_calculator;
+    private String text_converter;
+    private Drawable ic_down_small_primary;
+    private PopupMenu mainMenu;
+    //退出提示
+    private long mExitTime;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -48,18 +67,6 @@ public class MainActivity extends AppCompatActivity {
         initView();
         initMainMenu();
     }
-
-    private ViewPager mViewPager;
-    private MainFragment fragmentMain;
-    private ConverterFragment fragmentConverter;
-
-    private Button btn_main_choose;
-    private Button btn_convert_choose;
-    private Button btn_settings;
-
-    private String currentCalculatorMode = "";
-    private String currentConverterMode = "";
-    private int currentTabPos = 0;
 
     private void initView() {
         mViewPager = findViewById(R.id.view_pager_main);
@@ -82,12 +89,14 @@ public class MainActivity extends AppCompatActivity {
             public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
 
             }
+
             @Override
             public void onPageSelected(int position) {
                 currentTabPos = position;
                 updateTabText();
                 updateMainMenuState();
             }
+
             @Override
             public void onPageScrollStateChanged(int state) {
 
@@ -104,16 +113,17 @@ public class MainActivity extends AppCompatActivity {
         });
 
     }
+
     private void initControl() {
         btn_main_choose = findViewById(R.id.btn_main_choose);
         btn_convert_choose = findViewById(R.id.btn_convert_choose);
         btn_settings = findViewById(R.id.btn_settings);
         btn_main_choose.setOnClickListener((View v) -> {
-            if(mViewPager.getCurrentItem() == 0) fragmentMain.chooseMode();
+            if (mViewPager.getCurrentItem() == 0) fragmentMain.chooseMode();
             else mViewPager.setCurrentItem(0);
         });
         btn_convert_choose.setOnClickListener((View v) -> {
-            if(mViewPager.getCurrentItem() == 1) fragmentConverter.showChooseConvertDialog();
+            if (mViewPager.getCurrentItem() == 1) fragmentConverter.showChooseConvertDialog();
             else mViewPager.setCurrentItem(1);
         });
         btn_settings.setOnClickListener((v) -> mainMenu.show());
@@ -124,29 +134,21 @@ public class MainActivity extends AppCompatActivity {
             case 0:
                 btn_main_choose.setTextColor(tab_text_color_selected);
                 btn_main_choose.setText(MessageFormat.format(text_calculator_mode, currentCalculatorMode));
-                btn_main_choose.setCompoundDrawables(null,null, ic_down_small_primary, null);
-                btn_convert_choose.setCompoundDrawables(null,null,null, null);
+                btn_main_choose.setCompoundDrawables(null, null, ic_down_small_primary, null);
+                btn_convert_choose.setCompoundDrawables(null, null, null, null);
                 btn_convert_choose.setText(text_converter);
                 btn_convert_choose.setTextColor(tab_text);
                 break;
             case 1:
                 btn_main_choose.setTextColor(tab_text);
                 btn_main_choose.setText(text_calculator);
-                btn_main_choose.setCompoundDrawables(null,null, null, null);
-                btn_convert_choose.setCompoundDrawables(null,null,ic_down_small_primary, null);
+                btn_main_choose.setCompoundDrawables(null, null, null, null);
+                btn_convert_choose.setCompoundDrawables(null, null, ic_down_small_primary, null);
                 btn_convert_choose.setText(currentConverterMode);
                 btn_convert_choose.setTextColor(tab_text_color_selected);
                 break;
         }
     }
-
-    private int tab_text;
-    private int tab_text_color_selected;
-
-    private String text_calculator_mode;
-    private String text_calculator;
-    private String text_converter;
-    private Drawable ic_down_small_primary;
 
     private void initResources() {
         Resources resources = getResources();
@@ -158,8 +160,6 @@ public class MainActivity extends AppCompatActivity {
         ic_down_small_primary = resources.getDrawable(R.drawable.ic_down_small_primary, null);
         ic_down_small_primary.setBounds(1, 1, 30, 30);
     }
-
-    private PopupMenu mainMenu;
 
     private void updateMainMenuState() {
         Menu menu = mainMenu.getMenu();
@@ -178,6 +178,7 @@ public class MainActivity extends AppCompatActivity {
                 break;
         }
     }
+
     private void initMainMenu() {
         mainMenu = new PopupMenu(MainActivity.this, btn_settings);
         mainMenu.getMenuInflater().inflate(R.menu.menu_main, mainMenu.getMenu());
@@ -209,24 +210,22 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    //退出提示
-    private long mExitTime;
-
     @Override
     public boolean onKeyDown(int keyCode, KeyEvent event) {
         //首先判断用户有没有按下返回键
-        if (keyCode== KeyEvent.KEYCODE_BACK){
+        if (keyCode == KeyEvent.KEYCODE_BACK) {
             //判断用户按下的时间是不是大于2秒，如果大于2秒则认为是失误操作
-            if ((System.currentTimeMillis()-mExitTime)>2000){
+            if ((System.currentTimeMillis() - mExitTime) > 2000) {
                 Toast.makeText(this, "再按一次退出程序", Toast.LENGTH_SHORT).show();
-                mExitTime=System.currentTimeMillis();//记住当前时间，下次再按返回键时做对比
-            }else {
+                mExitTime = System.currentTimeMillis();//记住当前时间，下次再按返回键时做对比
+            } else {
                 finish();
             }
             return true;//返回true不在往下运行
         }
         return super.onKeyDown(keyCode, event);
     }
+
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         if (requestCode == RESULT_SETTING_ACTIVITY) {
@@ -235,10 +234,12 @@ public class MainActivity extends AppCompatActivity {
         }
         super.onActivityResult(requestCode, resultCode, data);
     }
+
     @Override
     protected void onDestroy() {
         super.onDestroy();
     }
+
     @Override
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);

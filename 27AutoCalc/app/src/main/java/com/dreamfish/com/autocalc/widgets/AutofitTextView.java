@@ -88,14 +88,6 @@ public class AutofitTextView extends AppCompatTextView implements AutofitHelper.
     }
 
     /**
-     * Sets the property of this field (sizeToFit), to automatically resize the text to fit its
-     * constraints.
-     */
-    public void setSizeToFit() {
-        setSizeToFit(true);
-    }
-
-    /**
      * If true, the text will automatically be re-sized to fit its constraints; if false, it will
      * act like a normal TextView.
      *
@@ -103,6 +95,14 @@ public class AutofitTextView extends AppCompatTextView implements AutofitHelper.
      */
     public void setSizeToFit(boolean sizeToFit) {
         mHelper.setEnabled(sizeToFit);
+    }
+
+    /**
+     * Sets the property of this field (sizeToFit), to automatically resize the text to fit its
+     * constraints.
+     */
+    public void setSizeToFit() {
+        setSizeToFit(true);
     }
 
     /**
@@ -117,7 +117,6 @@ public class AutofitTextView extends AppCompatTextView implements AutofitHelper.
      * is adjusted based on the current density and user font size preference.
      *
      * @param size The scaled pixel size.
-     *
      * @attr ref android.R.styleable#TextView_textSize
      */
     public void setMaxTextSize(float size) {
@@ -130,7 +129,6 @@ public class AutofitTextView extends AppCompatTextView implements AutofitHelper.
      *
      * @param unit The desired dimension unit.
      * @param size The desired size in the given units.
-     *
      * @attr ref android.R.styleable#TextView_textSize
      */
     public void setMaxTextSize(int unit, float size) {
@@ -149,7 +147,6 @@ public class AutofitTextView extends AppCompatTextView implements AutofitHelper.
      * is adjusted based on the current density and user font size preference.
      *
      * @param minSize The scaled pixel size.
-     *
      * @attr ref me.grantland.R.styleable#AutofitTextView_minTextSize
      */
     public void setMinTextSize(int minSize) {
@@ -160,9 +157,8 @@ public class AutofitTextView extends AppCompatTextView implements AutofitHelper.
      * Set the minimum text size to a given unit and value. See TypedValue for the possible
      * dimension units.
      *
-     * @param unit The desired dimension unit.
+     * @param unit    The desired dimension unit.
      * @param minSize The desired size in the given units.
-     *
      * @attr ref me.grantland.R.styleable#AutofitTextView_minTextSize
      */
     public void setMinTextSize(int unit, float minSize) {
@@ -186,9 +182,6 @@ public class AutofitTextView extends AppCompatTextView implements AutofitHelper.
     public void setPrecision(float precision) {
         mHelper.setPrecision(precision);
     }
-
-
-
 
 
     @Override

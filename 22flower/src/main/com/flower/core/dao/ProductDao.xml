@@ -1,57 +1,57 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
-"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<mapper namespace="com.flower.core.dao.ProductDao">	
-	
-	
-	<insert id="addProduct" parameterType="Product" useGeneratedKeys="false">
-	    INSERT INTO product(productName,price,talkTo,picture) values(#{productName},#{price},#{talkTo},#{picture});
-	</insert>
-	
-	<select id="findProducts"  resultMap="ProductsResult">
-	   select * from product 
-	</select>
-	
-	<select id="findProductCount" resultType="Integer">
-	    select COUNT(*) from product;
-	</select>
-	<delete id="delProduct" parameterType="Integer"  >
-	   delete from product where productID=#{id}
-	</delete>
-	
-	<select id="getProductById" parameterType="Integer" resultType="Product">
-	  select * from product where productID = #{id}
-	</select>
-	
-	
-	<update id="updateProductById" parameterType="Product">
-	
-	   update product
-	   <set>
-	     <if test="productName!=null">
-	      productName=#{productName},
-	     </if>
-	     <if test="price!=null">
-	       price=#{price},
-	     </if>
-	      <if test="talkTo!=null">
-	       talkTo=#{talkTo},
-	     </if>
-	     <if test="picture!=null">
-	        picture=#{picture},
-	     </if>
-	   </set>
-	   where productID=#{productID}
-	</update>
-	<resultMap type="Product" id="ProductsResult">
-	    <id column="productID" property="productID" />
-        <result column="productName" property="productName" />
-        <result column="price" property="price" />
-        <result column="talkTo" property="talkTo" />
-        <result  column="picture" property="picture"/>
-	</resultMap>
-	
+<mapper namespace="com.flower.core.dao.ProductDao">
+
+
+    <insert id="addProduct" parameterType="Product" useGeneratedKeys="false">
+        INSERT INTO product(productName,price,talkTo,picture) values(#{productName},#{price},#{talkTo},#{picture});
+    </insert>
+
+    <select id="findProducts" resultMap="ProductsResult">
+        select * from product
+    </select>
+
+    <select id="findProductCount" resultType="Integer">
+        select COUNT(*) from product;
+    </select>
+    <delete id="delProduct" parameterType="Integer">
+        delete from product where productID=#{id}
+    </delete>
+
+    <select id="getProductById" parameterType="Integer" resultType="Product">
+        select * from product where productID = #{id}
+    </select>
+
+
+    <update id="updateProductById" parameterType="Product">
+
+        update product
+        <set>
+            <if test="productName!=null">
+                productName=#{productName},
+            </if>
+            <if test="price!=null">
+                price=#{price},
+            </if>
+            <if test="talkTo!=null">
+                talkTo=#{talkTo},
+            </if>
+            <if test="picture!=null">
+                picture=#{picture},
+            </if>
+        </set>
+        where productID=#{productID}
+    </update>
+    <resultMap type="Product" id="ProductsResult">
+        <id column="productID" property="productID"/>
+        <result column="productName" property="productName"/>
+        <result column="price" property="price"/>
+        <result column="talkTo" property="talkTo"/>
+        <result column="picture" property="picture"/>
+    </resultMap>
+
 </mapper>
 
 

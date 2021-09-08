@@ -13,7 +13,8 @@ File Encoding         : 65001
 Date: 2020-11-03 15:38:19
 */
 
-SET FOREIGN_KEY_CHECKS = 0;
+SET
+FOREIGN_KEY_CHECKS = 0;
 
 -- ----------------------------
 -- Table structure for `t_admin`
@@ -21,14 +22,14 @@ SET FOREIGN_KEY_CHECKS = 0;
 DROP TABLE IF EXISTS `t_admin`;
 CREATE TABLE `t_admin`
 (
-    `admin_id`         int(11)   NOT NULL auto_increment,
-    `admin_login_name` varchar(50)    default NULL,
-    `admin_pwd`        varchar(50)    default NULL,
-    `admin_name`       varchar(50)    default NULL,
-    `admin_hobby`      varchar(50)    default NULL COMMENT '爱好',
+    `admin_id`         int(11) NOT NULL auto_increment,
+    `admin_login_name` varchar(50) default NULL,
+    `admin_pwd`        varchar(50) default NULL,
+    `admin_name`       varchar(50) default NULL,
+    `admin_hobby`      varchar(50) default NULL COMMENT '爱好',
     `admin_create`     timestamp NULL default NULL,
-    `admin_error`      int(11)        default '0' COMMENT '错误次数',
-    `admin_state`      int(11)        default '0' COMMENT '0-正常，1-锁定',
+    `admin_error`      int(11) default '0' COMMENT '错误次数',
+    `admin_state`      int(11) default '0' COMMENT '0-正常，1-锁定',
     PRIMARY KEY (`admin_id`)
 ) ENGINE = InnoDB
   AUTO_INCREMENT = 5

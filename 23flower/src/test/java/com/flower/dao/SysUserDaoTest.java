@@ -6,8 +6,10 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import javax.annotation.Resource;
+
 import com.flower.dao.SysUserDao;
 import com.flower.entity.SysUser;
+
 import java.util.List;
 
 /**

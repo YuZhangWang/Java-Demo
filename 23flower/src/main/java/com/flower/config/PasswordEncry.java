@@ -15,6 +15,16 @@ public class PasswordEncry {
     private String algorithmName = "md5"; //加密算法
     private int hashIterations = 2; //加密次数
 
+    public static void main(String[] args) {
+        PasswordEncry passwordEncry = new PasswordEncry();
+        SysUser userInfo = new SysUser();
+        userInfo.setUid(1);
+        userInfo.setUsername("admin");
+        userInfo.setPassword("123456");
+        userInfo.setState(1);
+        passwordEncry.encryPassword(userInfo);
+        System.out.println(userInfo);
+    }
 
     /***
      *生成随机salt
@@ -26,16 +36,5 @@ public class PasswordEncry {
         sysUser.setSalt(salt);
         String newPassword = new SimpleHash(algorithmName, sysUser.getPassword(), ByteSource.Util.bytes(sysUser.getSalt()), hashIterations).toHex();
         sysUser.setPassword(newPassword);
-    }
-
-    public static void main(String[] args) {
-        PasswordEncry passwordEncry = new PasswordEncry();
-        SysUser userInfo = new SysUser();
-        userInfo.setUid(1);
-        userInfo.setUsername("admin");
-        userInfo.setPassword("123456");
-        userInfo.setState(1);
-        passwordEncry.encryPassword(userInfo);
-        System.out.println(userInfo);
     }
 }

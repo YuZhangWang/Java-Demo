@@ -1,31 +1,26 @@
 package main;
-public class Employee
-{
+
+public class Employee {
     private String employeeName;
     private int employeeBirthdayMonth;
 
-    double getSalary(int month)
-    {
+    double getSalary(int month) {
         return 0;
     }
 
-    void setEmployeeName(String employeeName)
-    {
-        this.employeeName=employeeName;
+    void setEmployeeName(String employeeName) {
+        this.employeeName = employeeName;
     }
 
-    String getemployeeName()
-    {
+    String getemployeeName() {
         return employeeName;
     }
 
-    void setEmployeeBirthdayMonth(int employeeBirthdayMonth)
-    {
-        this.employeeBirthdayMonth=employeeBirthdayMonth;
+    int getEmployeeBirthdayMonth() {
+        return employeeBirthdayMonth;
     }
 
-    int getEmployeeBirthdayMonth()
-    {
-        return employeeBirthdayMonth;
+    void setEmployeeBirthdayMonth(int employeeBirthdayMonth) {
+        this.employeeBirthdayMonth = employeeBirthdayMonth;
     }
 }

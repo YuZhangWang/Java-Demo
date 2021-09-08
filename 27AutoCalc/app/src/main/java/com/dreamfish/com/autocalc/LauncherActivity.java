@@ -14,6 +14,19 @@ import com.dreamfish.com.autocalc.utils.PermissionsUtils;
 
 public class LauncherActivity extends AppCompatActivity {
 
+    private Thread myThread = null;
+    PermissionsUtils.IPermissionsResult permissionsResult = new PermissionsUtils.IPermissionsResult() {
+        @Override
+        public void passPermissons() {
+            myThread.start();
+        }
+
+        @Override
+        public void forbitPermissons() {
+            myThread.start();
+        }
+    };
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,19 +37,19 @@ public class LauncherActivity extends AppCompatActivity {
 
     private void testAgreementAllowed() {
         SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
-        if(!prefs.getBoolean("app_agreement_allowed", false)) {
+        if (!prefs.getBoolean("app_agreement_allowed", false)) {
             CommonDialogs.showPrivacyPolicyAndAgreement(this, (allowed) -> {
-                if(allowed) {
+                if (allowed) {
                     SharedPreferences.Editor editor = prefs.edit();
                     editor.putBoolean("app_agreement_allowed", true);
                     editor.apply();
 
                     startMain(false);
-                }else finish();
+                } else finish();
             });
-        }else startMain(true);
+        } else startMain(true);
     }
-    private Thread myThread = null;
+
     private void startMain(Boolean agreementAllowed) {
 
         myThread = new Thread() {//创建子线程
@@ -56,17 +69,6 @@ public class LauncherActivity extends AppCompatActivity {
 
         PermissionsUtils.getInstance().chekPermissions(this, PermissionsUtils.permissions, permissionsResult);
     }
-
-    PermissionsUtils.IPermissionsResult permissionsResult = new PermissionsUtils.IPermissionsResult() {
-        @Override
-        public void passPermissons() {
-            myThread.start();
-        }
-        @Override
-        public void forbitPermissons() {
-            myThread.start();
-        }
-    };
 
     @Override
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {

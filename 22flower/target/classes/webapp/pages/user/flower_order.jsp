@@ -1,11 +1,11 @@
 ﻿<%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
-<%@ page trimDirectiveWhitespaces="true"%>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+         pageEncoding="UTF-8" %>
+<%@ page trimDirectiveWhitespaces="true" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%
-	String path = request.getContextPath();
-	String basePath = request.getScheme() + "://" + request.getServerName() 
-	                   + ":" + request.getServerPort() + path + "/";
+    String path = request.getContextPath();
+    String basePath = request.getScheme() + "://" + request.getServerName()
+            + ":" + request.getServerPort() + path + "/";
 %>
 <!DOCTYPE html>
 <html lang="zh-CN">
@@ -17,13 +17,13 @@
     <title>鲜花在线商城</title>
 
     <!-- Bootstrap -->
-    <link href="<%=basePath%>css/bootstrap.min.css" rel="stylesheet" />
+    <link href="<%=basePath%>css/bootstrap.min.css" rel="stylesheet"/>
     <link href="<%=basePath%>pages/user/css/index.css" rel="stylesheet">
     <link href="<%=basePath%>pages/user/css/flower_order.css" rel="stylesheet">
-     <link href="<%=basePath%>pages/user/css/head.css" rel="stylesheet">
+    <link href="<%=basePath%>pages/user/css/head.css" rel="stylesheet">
     <link href="<%=basePath%>pages/user/css/foot.css" rel="stylesheet">
 
-  
+
 </head>
 <body>
 
@@ -81,8 +81,8 @@
 <!--导航栏end-->
 
 <!--订单填写-->
-    <div class="main">
-        <form class="order" method="post">
+<div class="main">
+    <form class="order" method="post">
         <div class="address">
             <h3>请选择收货地址</h3>
             <ul>
@@ -90,19 +90,19 @@
                     <span>
                         <e>*</e>收花人姓名:
                     </span>
-                    <input id="consigneeName"  type="text" />
+                    <input id="consigneeName" type="text"/>
                 </li>
                 <li>
                     <span>
                         <e>*</e>收花人手机:
                     </span>
-                    <input id="consigneePhone"  type="text"/>
+                    <input id="consigneePhone" type="text"/>
                 </li>
                 <li>
                     <span>
                         <e>*</e>收花人地址:
                     </span>
-                    <div  id="province">
+                    <div id="province">
 
                     </div>
 
@@ -111,19 +111,19 @@
                     <span>
                         <e>*</e>详细地址:
                     </span>
-                    <input id="address"  type="text" class="longaddress"/>
+                    <input id="address" type="text" class="longaddress"/>
                 </li>
                 <li>
                     <span>
                         <e>*</e>订花人姓名:
                     </span>
-                    <input id="userName"  type="text"/>
+                    <input id="userName" type="text"/>
                 </li>
                 <li>
                     <span>
                         <e>*</e>订花人手机:
                     </span>
-                    <input id="userPhone"  type="text"/>
+                    <input id="userPhone" type="text"/>
                 </li>
             </ul>
         </div>
@@ -132,65 +132,65 @@
             <h3>商品清单</h3>
             <table class="goodsTable" id="goodsTable">
                 <thead>
-                	<th></th>
-                    <th>商品</th>
-                    <th>单价</th>
-                    <th>数量</th>
-                    <th>小计</th>
+                <th></th>
+                <th>商品</th>
+                <th>单价</th>
+                <th>数量</th>
+                <th>小计</th>
 
                 </thead>
                 <tbody>
                 <c:if test="${product!=null}">
-                 	<tr>               
-                    <td id="productID" style="visibility:hidden;">${product.productID }</td>
-                    <td>
-                        <a href="flower_buy.jsp">
-                        <img src="<%=basePath%>pages/user/${product.picture}">
-                        <span>${product.productName }</span>
-                        </a>
-                    </td>
-                    <td>
+                    <tr>
+                        <td id="productID" style="visibility:hidden;">${product.productID }</td>
+                        <td>
+                            <a href="flower_buy.jsp">
+                                <img src="<%=basePath%>pages/user/${product.picture}">
+                                <span>${product.productName }</span>
+                            </a>
+                        </td>
+                        <td>
                         <span>
                             <e>￥</e>${product.price }
                         </span>
-                    </td>
-                    <td>
-                        <span id="num">${num}</span>
-                    </td>
-                    <td>
+                        </td>
+                        <td>
+                            <span id="num">${num}</span>
+                        </td>
+                        <td>
                         <span class="rmb">
                             <e>￥</e>289.00
                         </span>
-                    </td>
-                 	</tr>
-                 </c:if>
-                 <c:if test="${productByShopingCars!=null}">
-                 <c:forEach items="${productByShopingCars}" var="productByShopingCar">
-                 	<tr>               
-                    <td id="productID" style="visibility:hidden;">${productByShopingCar.product.productID }</td>
-                    <td>
-                        <a href="flower_buy.jsp">
-                        <img src="<%=basePath%>pages/user/${productByShopingCar.product.picture}">
-                        <span>${productByShopingCar.product.productName }</span>
-                        </a>
-                    </td>
-                    <td>
+                        </td>
+                    </tr>
+                </c:if>
+                <c:if test="${productByShopingCars!=null}">
+                    <c:forEach items="${productByShopingCars}" var="productByShopingCar">
+                        <tr>
+                            <td id="productID" style="visibility:hidden;">${productByShopingCar.product.productID }</td>
+                            <td>
+                                <a href="flower_buy.jsp">
+                                    <img src="<%=basePath%>pages/user/${productByShopingCar.product.picture}">
+                                    <span>${productByShopingCar.product.productName }</span>
+                                </a>
+                            </td>
+                            <td>
                         <span>
                             <e>￥</e>${productByShopingCar.product.price }
                         </span>
-                    </td>
-                    <td>
-                        <span id="num">${productByShopingCar.shopingCar.num }</span>
-                    </td>
-                    <td>
+                            </td>
+                            <td>
+                                <span id="num">${productByShopingCar.shopingCar.num }</span>
+                            </td>
+                            <td>
                         <span class="rmb">
                             <e>￥</e>289.00
                         </span>
-                    </td>
-                 	</tr>
-                 	</c:forEach>
-                 </c:if>
-                 
+                            </td>
+                        </tr>
+                    </c:forEach>
+                </c:if>
+
                 </tbody>
             </table>
         </div>
@@ -205,15 +205,15 @@
                 <span>订单实付:</span>
                 <span class="rmb"><e>￥</e>289.00</span>
             </div>
-            <input class="submit" type="button" value="提交订单" onclick="addOrder()" />
+            <input class="submit" type="button" value="提交订单" onclick="addOrder()"/>
         </div>
-        </form>
-    </div>
+    </form>
+</div>
 
 <!--订单填写end-->
 
 <!-- 底部footer -->
-<%@ include file="foot.jsp" %>	
+<%@ include file="foot.jsp" %>
 <!-- 底部footerEnd -->
 
 <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
@@ -235,7 +235,6 @@
         })
         $("#province").ProvinceCity();
     })
-
 
 
 </script>

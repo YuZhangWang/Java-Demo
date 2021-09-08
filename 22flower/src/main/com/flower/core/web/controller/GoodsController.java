@@ -22,47 +22,45 @@ import com.flower.core.service.GoodsService;
 import com.flower.core.service.ProductService;
 
 
-
 @Controller
-@RequestMapping(value="/goods")
+@RequestMapping(value = "/goods")
 public class GoodsController {
-	@Autowired
-	private GoodsService goodsService;
-	@Autowired
-	private ProductService productService;
-	private List<Goods> goods=new ArrayList<Goods>();
+    @Autowired
+    private GoodsService goodsService;
+    @Autowired
+    private ProductService productService;
+    private List<Goods> goods = new ArrayList<Goods>();
 
 
-	
-	@RequestMapping(value="insert.action",method=RequestMethod.GET)
-	@ResponseBody
-	public String insert(@RequestParam("orderId") int orderId,@RequestParam("pro_id") int pro_id,@RequestParam("num") int num){
-		System.out.println("insert:"+orderId);
-		Product product=productService.getProductById(pro_id);
-		System.out.println("price="+product.getPrice());
-		Goods good=new Goods(orderId,pro_id,num,product.getPrice());
-		int row=goodsService.insert(good);	
-		if (row>0) {
-			return "OK";
-		}
-		return "FAIL";
-	}
-	
-	@RequestMapping(value="findGoodById.action")
-	public String findGoodById(@RequestParam("id")Integer id,Model model){
-		System.out.println("findGoodById"+id);
-		Goods good=goodsService.findGoodById(id);
-		int productId=good.getProductID();
-		Product product=productService.getProductById(productId);
-		System.out.println(productId);
-		System.out.println("goods"+good.getNum());
-		
-		if (goods!=null) {
-			model.addAttribute("good",good);
-			model.addAttribute("product",product);
-			return "/pages/user/flower_order.jsp";
-		}
-		return "/pages/user/flower_buy.jsp";
-	}
-	
+    @RequestMapping(value = "insert.action", method = RequestMethod.GET)
+    @ResponseBody
+    public String insert(@RequestParam("orderId") int orderId, @RequestParam("pro_id") int pro_id, @RequestParam("num") int num) {
+        System.out.println("insert:" + orderId);
+        Product product = productService.getProductById(pro_id);
+        System.out.println("price=" + product.getPrice());
+        Goods good = new Goods(orderId, pro_id, num, product.getPrice());
+        int row = goodsService.insert(good);
+        if (row > 0) {
+            return "OK";
+        }
+        return "FAIL";
+    }
+
+    @RequestMapping(value = "findGoodById.action")
+    public String findGoodById(@RequestParam("id") Integer id, Model model) {
+        System.out.println("findGoodById" + id);
+        Goods good = goodsService.findGoodById(id);
+        int productId = good.getProductID();
+        Product product = productService.getProductById(productId);
+        System.out.println(productId);
+        System.out.println("goods" + good.getNum());
+
+        if (goods != null) {
+            model.addAttribute("good", good);
+            model.addAttribute("product", product);
+            return "/pages/user/flower_order.jsp";
+        }
+        return "/pages/user/flower_buy.jsp";
+    }
+
 }

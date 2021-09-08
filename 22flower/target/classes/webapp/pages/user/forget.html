@@ -6,18 +6,18 @@
     <link href="css/register.css" rel="stylesheet">
     <script src="../../js/jquery.min.js"></script>
     <script>
-// 判断是登录账号和密码是否为空
-function check(){
-	
-    var usercode = $("#usercode").val();
-    var password = $("#password").val();
-    if(usercode=="" || password==""){
-    	//$("#message").text("账号或密码不能为空！");
-        return false;
-    }  
-    return true;
-}
-</script>
+        // 判断是登录账号和密码是否为空
+        function check() {
+
+            var usercode = $("#usercode").val();
+            var password = $("#password").val();
+            if (usercode == "" || password == "") {
+                //$("#message").text("账号或密码不能为空！");
+                return false;
+            }
+            return true;
+        }
+    </script>
 </head>
 <body>
 <div class="header">
@@ -32,27 +32,27 @@ function check(){
 </div>
 <div class="register">
     <div class="toForm">
-    <form action="toRegister.action" method="post" onsubmit="return check()">
-        <ul>
-         	<li>
-                <span>用户名:</span>
-                <input class="username putvalue" type="text" id="username" name="username"/>
-            </li>
-            <li>
-                <span>账&nbsp;&nbsp;&nbsp;号:</span>
-                <input class="usercode putvalue" type="text" id="usercode" name="usercode"/>
-            </li>
-       
-            <li>
-                <span>密&nbsp;&nbsp;&nbsp;码:</span>
-                <input class="password putvalue" type="password" id="password" name="password"/>
-            </li>
+        <form action="toRegister.action" method="post" onsubmit="return check()">
+            <ul>
+                <li>
+                    <span>用户名:</span>
+                    <input class="username putvalue" id="username" name="username" type="text"/>
+                </li>
+                <li>
+                    <span>账&nbsp;&nbsp;&nbsp;号:</span>
+                    <input class="usercode putvalue" id="usercode" name="usercode" type="text"/>
+                </li>
+
+                <li>
+                    <span>密&nbsp;&nbsp;&nbsp;码:</span>
+                    <input class="password putvalue" id="password" name="password" type="password"/>
+                </li>
 
 
-        </ul>
-        <input type="submit" class="toRegister" value="立即注册" />
+            </ul>
+            <input class="toRegister" type="submit" value="立即注册"/>
 
-    </form>
+        </form>
     </div>
 </div>
 </body>

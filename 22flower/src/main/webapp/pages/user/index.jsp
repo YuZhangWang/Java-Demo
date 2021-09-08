@@ -1,11 +1,11 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
-<%@ page trimDirectiveWhitespaces="true"%>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+         pageEncoding="UTF-8" %>
+<%@ page trimDirectiveWhitespaces="true" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%
-	String path = request.getContextPath();
-	String basePath = request.getScheme() + "://" + request.getServerName() 
-	                   + ":" + request.getServerPort() + path + "/";
+    String path = request.getContextPath();
+    String basePath = request.getScheme() + "://" + request.getServerName()
+            + ":" + request.getServerPort() + path + "/";
 %>
 <!DOCTYPE html>
 <html lang="zh-CN">
@@ -16,7 +16,7 @@
     <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
     <title>鲜花在线商城</title>
     <!-- Bootstrap -->
-    <link href="<%=basePath%>css/bootstrap.min.css" rel="stylesheet" />
+    <link href="<%=basePath%>css/bootstrap.min.css" rel="stylesheet"/>
     <link href="<%=basePath%>pages/user/css/index.css" rel="stylesheet">
     <link href="<%=basePath%>pages/user/css/head.css" rel="stylesheet">
     <link href="<%=basePath%>pages/user/css/foot.css" rel="stylesheet">
@@ -118,23 +118,23 @@
 
 <!--鲜花列表-->
 <div class="goods">
-	<!-- 1楼 -->
+    <!-- 1楼 -->
     <div class="goods_container">
         <div class="up">
             <h4>
-            <div class="title">
+                <div class="title">
                 <span class="icon">
                     <img src="<%=basePath%>pages/user/images/floor-T.jpg">
                 </span>
-                <span class="wTitle">
+                    <span class="wTitle">
                     1F爱情鲜花
                 </span>
-            </div>
+                </div>
             </h4>
             <div class="moreLink">
-                 <em>
-                     <a href="flower_more.html">更多爱情鲜花</a>
-                 </em>
+                <em>
+                    <a href="flower_more.html">更多爱情鲜花</a>
+                </em>
             </div>
         </div>
         <div class="down">
@@ -239,25 +239,26 @@
                                 <i>￥219.00</i>
                             </div>
                         </div>
-                    </li><li>
+                    </li>
+                    <li>
                         <span class="pro-img">
                            <a href="<%=basePath%>product/buy.action?id=6">
                                 <img src="<%=basePath%>pages/user/images/fl_06.jpg">
                             </a>
                         </span>
-                    <div class="pro-info">
-                        <div class="pro-name">
-                            <a>情有独钟----33朵红玫瑰</a>
-                        </div>
-                        <div class="pro-price">
+                        <div class="pro-info">
+                            <div class="pro-name">
+                                <a>情有独钟----33朵红玫瑰</a>
+                            </div>
+                            <div class="pro-price">
                                 <span>
                                     <i class="rmb">￥</i>
                                     159.00
                                 </span>
-                            <i>￥219.00</i>
+                                <i>￥219.00</i>
+                            </div>
                         </div>
-                    </div>
-                </li>
+                    </li>
                     <li>
                         <span class="pro-img">
                             <a href="<%=basePath%>product/buy.action?id=7">
@@ -298,29 +299,29 @@
                     </li>
 
                 </ul>
-                
+
             </div>
-        </div>	
+        </div>
     </div>
     <!-- 1楼end -->
-    
-	<!-- 2楼 -->
-	<div class="goods_container">
+
+    <!-- 2楼 -->
+    <div class="goods_container">
         <div class="up">
             <h4>
-            <div class="title">
+                <div class="title">
                 <span class="icon">
                     <img src="<%=basePath%>pages/user/images/floor-T.jpg">
                 </span>
-                <span class="wTitle">
+                    <span class="wTitle">
                     2F生日鲜花
                 </span>
-            </div>
+                </div>
             </h4>
             <div class="moreLink">
-                 <em>
-                     <a href="flower_more.html">更多爱情鲜花</a>
-                 </em>
+                <em>
+                    <a href="flower_more.html">更多爱情鲜花</a>
+                </em>
             </div>
         </div>
         <div class="down">
@@ -425,25 +426,26 @@
                                 <i>￥219.00</i>
                             </div>
                         </div>
-                    </li><li>
+                    </li>
+                    <li>
                         <span class="pro-img">
                             <a>
                                 <img src="<%=basePath%>pages/user/images/f2_06.jpg">
                             </a>
                         </span>
-                    <div class="pro-info">
-                        <div class="pro-name">
-                            <a>温柔时光 11朵香槟玫瑰</a>
-                        </div>
-                        <div class="pro-price">
+                        <div class="pro-info">
+                            <div class="pro-name">
+                                <a>温柔时光 11朵香槟玫瑰</a>
+                            </div>
+                            <div class="pro-price">
                                 <span>
                                     <i class="rmb">￥</i>
                                     159.00
                                 </span>
-                            <i>￥219.00</i>
+                                <i>￥219.00</i>
+                            </div>
                         </div>
-                    </div>
-                </li>
+                    </li>
                     <li>
                         <span class="pro-img">
                             <a>
@@ -484,29 +486,29 @@
                     </li>
 
                 </ul>
-                
+
             </div>
         </div>
-	</div> 
-	<!-- 2楼end -->  
-	
-	<!-- 3楼 -->
+    </div>
+    <!-- 2楼end -->
+
+    <!-- 3楼 -->
     <div class="goods_container">
         <div class="up">
             <h4>
-            <div class="title">
+                <div class="title">
                 <span class="icon">
                     <img src="<%=basePath%>pages/user/images/floor-T.jpg">
                 </span>
-                <span class="wTitle">
+                    <span class="wTitle">
                     3F精品礼盒花
                 </span>
-            </div>
+                </div>
             </h4>
             <div class="moreLink">
-                 <em>
-                     <a href="flower_more.html">更多爱情鲜花</a>
-                 </em>
+                <em>
+                    <a href="flower_more.html">更多爱情鲜花</a>
+                </em>
             </div>
         </div>
         <div class="down">
@@ -611,25 +613,26 @@
                                 <i>￥219.00</i>
                             </div>
                         </div>
-                    </li><li>
+                    </li>
+                    <li>
                         <span class="pro-img">
                             <a>
                                 <img src="<%=basePath%>pages/user/images/f3_06.jpg">
                             </a>
                         </span>
-                    <div class="pro-info">
-                        <div class="pro-name">
-                            <a>玫瑰之约 19朵粉白玫瑰混搭 礼盒</a>
-                        </div>
-                        <div class="pro-price">
+                        <div class="pro-info">
+                            <div class="pro-name">
+                                <a>玫瑰之约 19朵粉白玫瑰混搭 礼盒</a>
+                            </div>
+                            <div class="pro-price">
                                 <span>
                                     <i class="rmb">￥</i>
                                     159.00
                                 </span>
-                            <i>￥219.00</i>
+                                <i>￥219.00</i>
+                            </div>
                         </div>
-                    </div>
-                </li>
+                    </li>
                     <li>
                         <span class="pro-img">
                             <a>
@@ -670,29 +673,29 @@
                     </li>
 
                 </ul>
-                
+
             </div>
         </div>
     </div>
     <!--  3楼end -->
-    
+
     <!-- 4楼 -->
     <div class="goods_container">
         <div class="up">
             <h4>
-            <div class="title">
+                <div class="title">
                 <span class="icon">
                     <img src="<%=basePath%>pages/user/images/floor-T.jpg">
                 </span>
-                <span class="wTitle">
+                    <span class="wTitle">
                     4F永生花
                 </span>
-            </div>
+                </div>
             </h4>
             <div class="moreLink">
-                 <em>
-                     <a href="flower_more.html">更多爱情鲜花</a>
-                 </em>
+                <em>
+                    <a href="flower_more.html">更多爱情鲜花</a>
+                </em>
             </div>
         </div>
         <div class="down">
@@ -797,25 +800,26 @@
                                 <i>￥219.00</i>
                             </div>
                         </div>
-                    </li><li>
+                    </li>
+                    <li>
                         <span class="pro-img">
                             <a>
                                 <img src="<%=basePath%>pages/user/images/f4_06.jpg">
                             </a>
                         </span>
-                    <div class="pro-info">
-                        <div class="pro-name">
-                            <a>美丽的诺言-11枝红玫瑰,小熊</a>
-                        </div>
-                        <div class="pro-price">
+                        <div class="pro-info">
+                            <div class="pro-name">
+                                <a>美丽的诺言-11枝红玫瑰,小熊</a>
+                            </div>
+                            <div class="pro-price">
                                 <span>
                                     <i class="rmb">￥</i>
                                     159.00
                                 </span>
-                            <i>￥219.00</i>
+                                <i>￥219.00</i>
+                            </div>
                         </div>
-                    </div>
-                </li>
+                    </li>
                     <li>
                         <span class="pro-img">
                             <a>
@@ -856,29 +860,29 @@
                     </li>
 
                 </ul>
-                
+
             </div>
         </div>
     </div>
-    <!-- 4楼end -->      
-	
-	<!--  5楼 -->
+    <!-- 4楼end -->
+
+    <!--  5楼 -->
     <div class="goods_container">
         <div class="up">
             <h4>
-            <div class="title">
+                <div class="title">
                 <span class="icon">
                     <img src="<%=basePath%>pages/user/images/floor-T.jpg">
                 </span>
-                <span class="wTitle">
+                    <span class="wTitle">
                     5F绿植
                 </span>
-            </div>
+                </div>
             </h4>
             <div class="moreLink">
-                 <em>
-                     <a href="flower_more.html">更多爱情鲜花</a>
-                 </em>
+                <em>
+                    <a href="flower_more.html">更多爱情鲜花</a>
+                </em>
             </div>
         </div>
         <div class="down">
@@ -983,25 +987,26 @@
                                 <i>￥509.00</i>
                             </div>
                         </div>
-                    </li><li>
+                    </li>
+                    <li>
                         <span class="pro-img">
                             <a>
                                 <img src="<%=basePath%>pages/user/images/f5_06.jpeg">
                             </a>
                         </span>
-                    <div class="pro-info">
-                        <div class="pro-name">
-                            <a>发财树步步高升1 致喜,乔迁,祝贺,公司开业,庆典旺铺开张,楼宇奠基</a>
-                        </div>
-                        <div class="pro-price">
+                        <div class="pro-info">
+                            <div class="pro-name">
+                                <a>发财树步步高升1 致喜,乔迁,祝贺,公司开业,庆典旺铺开张,楼宇奠基</a>
+                            </div>
+                            <div class="pro-price">
                                 <span>
                                     <i class="rmb">￥</i>
                                     699.00
                                 </span>
-                            <i>￥859.00</i>
+                                <i>￥859.00</i>
+                            </div>
                         </div>
-                    </div>
-                </li>
+                    </li>
                     <li>
                         <span class="pro-img">
                             <a>
@@ -1042,26 +1047,26 @@
                     </li>
 
                 </ul>
-                
+
             </div>
         </div>
     </div>
-    <!-- 5楼end --> 
-    
+    <!-- 5楼end -->
+
     <!-- 承诺图片区 -->
     <div class="cn">
-    	<div class="cen">
-    		<img src="<%=basePath%>pages/user/images/chengnuo.jpg">
-    	</div>
+        <div class="cen">
+            <img src="<%=basePath%>pages/user/images/chengnuo.jpg">
+        </div>
     </div>
     <!-- 承诺图片区end -->
-    
-	
+
+
 </div>
 <!--鲜花列表结束-->
 
 <!-- 底部footer -->
-<%@ include file="foot.jsp" %>	
+<%@ include file="foot.jsp" %>
 <!-- 底部footerEnd -->
 
 
@@ -1081,7 +1086,7 @@
             }
         })
     })
-    
+
 </script>
 </body>
 </html>

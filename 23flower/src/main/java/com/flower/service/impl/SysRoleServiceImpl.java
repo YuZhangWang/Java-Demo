@@ -14,10 +14,12 @@ import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
 import javax.persistence.criteria.Predicate;
 import javax.persistence.criteria.Root;
+
 import com.flower.dao.SysRoleDao;
 import com.flower.entity.SysPermission;
 import com.flower.entity.SysRole;
 import com.flower.service.SysRoleService;
+
 import java.util.ArrayList;
 import java.util.List;
 

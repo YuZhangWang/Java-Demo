@@ -1,99 +1,100 @@
 package com.flower.core.po;
 
 import java.io.Serializable;
+
 import org.springframework.web.multipart.MultipartFile;
 
 public class Product implements Serializable {
-	private static final long serialVersionUID=1L;
-	private String productName;
-	private double price;
-	private Integer productID;
-	private String picture;
-	private String talkTo;
-	private String type;
-	private String materials;
-	private String packaging;
-	private double marketPrice;
-	private MultipartFile file;
-	
-	public String getProductName() {
-		return productName;
-	}
+    private static final long serialVersionUID = 1L;
+    private String productName;
+    private double price;
+    private Integer productID;
+    private String picture;
+    private String talkTo;
+    private String type;
+    private String materials;
+    private String packaging;
+    private double marketPrice;
+    private MultipartFile file;
 
-	public void setProductName(String productName) {
-		this.productName = productName;
-	}
+    public String getProductName() {
+        return productName;
+    }
 
-	public double getPrice() {
-		return price;
-	}
+    public void setProductName(String productName) {
+        this.productName = productName;
+    }
 
-	public void setPrice(double price) {
-		this.price = price;
-	}
+    public double getPrice() {
+        return price;
+    }
 
-	public Integer getProductID() {
-		return productID;
-	}
+    public void setPrice(double price) {
+        this.price = price;
+    }
 
-	public void setProductID(Integer productID2) {
-		this.productID = productID2;
-	}
+    public Integer getProductID() {
+        return productID;
+    }
 
-	public String getPicture() {
-		return picture;
-	}
+    public void setProductID(Integer productID2) {
+        this.productID = productID2;
+    }
 
-	public void setPicture(String picture) {
-		this.picture = picture;
-	}
+    public String getPicture() {
+        return picture;
+    }
 
-	public String getTalkTo() {
-		return talkTo;
-	}
+    public void setPicture(String picture) {
+        this.picture = picture;
+    }
 
-	public void setTalkTo(String talkTo) {
-		this.talkTo = talkTo;
-	}
+    public String getTalkTo() {
+        return talkTo;
+    }
 
-	public MultipartFile getFile() {
-		return file;
-	}
+    public void setTalkTo(String talkTo) {
+        this.talkTo = talkTo;
+    }
 
-	public void setFile(MultipartFile file) {
-		this.file = file;
-	}
+    public MultipartFile getFile() {
+        return file;
+    }
 
-	public String getType() {
-		return type;
-	}
+    public void setFile(MultipartFile file) {
+        this.file = file;
+    }
 
-	public void setType(String type) {
-		this.type = type;
-	}
+    public String getType() {
+        return type;
+    }
 
-	public String getMaterials() {
-		return materials;
-	}
+    public void setType(String type) {
+        this.type = type;
+    }
 
-	public void setMaterials(String materials) {
-		this.materials = materials;
-	}
+    public String getMaterials() {
+        return materials;
+    }
 
-	public String getPackaging() {
-		return packaging;
-	}
+    public void setMaterials(String materials) {
+        this.materials = materials;
+    }
 
-	public void setPackaging(String packaging) {
-		this.packaging = packaging;
-	}
+    public String getPackaging() {
+        return packaging;
+    }
 
-	public double getMarketPrice() {
-		return marketPrice;
-	}
+    public void setPackaging(String packaging) {
+        this.packaging = packaging;
+    }
 
-	public void setMarketPrice(double marketPrice) {
-		this.marketPrice = marketPrice;
-	}
-	
+    public double getMarketPrice() {
+        return marketPrice;
+    }
+
+    public void setMarketPrice(double marketPrice) {
+        this.marketPrice = marketPrice;
+    }
+
 }

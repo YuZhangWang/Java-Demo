@@ -4,6 +4,6 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 public class ConvertsListViewHolder {
-  public TextView text;
-  public ImageView image;
+    public TextView text;
+    public ImageView image;
 }

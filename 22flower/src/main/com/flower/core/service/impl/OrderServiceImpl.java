@@ -10,18 +10,19 @@ import org.springframework.transaction.annotation.Transactional;
 import com.flower.core.dao.OrderDao;
 import com.flower.core.po.Orders;
 import com.flower.core.service.OrderService;
+
 @Service("orderService")
 @Transactional
-public class OrderServiceImpl implements OrderService{
-	@Autowired
-	private OrderDao orderDao;
-	
-	@Override
-	public int insert(Orders orders) {
-		int row=orderDao.insert(orders);
-		return row;
-	}
-	
+public class OrderServiceImpl implements OrderService {
+    @Autowired
+    private OrderDao orderDao;
+
+    @Override
+    public int insert(Orders orders) {
+        int row = orderDao.insert(orders);
+        return row;
+    }
+
 
 //	@Override
 //	public int insert(int userID, String userName, String userPhone,

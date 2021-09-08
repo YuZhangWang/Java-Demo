@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/ll_root"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".suda_life.SudaLifeActivity">
+                                              xmlns:tools="http://schemas.android.com/tools"
+                                              android:id="@+id/ll_root"
+                                              android:layout_width="match_parent"
+                                              android:layout_height="match_parent"
+                                              android:orientation="vertical"
+                                              tools:context=".suda_life.SudaLifeActivity">
 
     <FrameLayout
-        android:id="@+id/fl_fragment"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+            android:id="@+id/fl_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
 
 </androidx.appcompat.widget.LinearLayoutCompat>

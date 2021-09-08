@@ -35,10 +35,10 @@ class JNUParser(source: String) : Parser(source) {
                 } else {
                     courseNames[courseName] = 1
                     courseList.add(
-                        Course(
-                            name = courseName, day = i + 1, room = room, teacher = "", startNode = j,
-                            endNode = j + 1, startWeek = 1, endWeek = 18, type = 0
-                        )
+                            Course(
+                                    name = courseName, day = i + 1, room = room, teacher = "", startNode = j,
+                                    endNode = j + 1, startWeek = 1, endWeek = 18, type = 0
+                            )
                     )
                 }
             }
@@ -48,8 +48,8 @@ class JNUParser(source: String) : Parser(source) {
             c = courseList[i]
             step = courseNames[c.name]!! - 1
             courseList[i] = Course(
-                c.name, c.day, c.room, "", c.startNode,
-                c.startNode + step, 1, 18, 0
+                    c.name, c.day, c.room, "", c.startNode,
+                    c.startNode + step, 1, 18, 0
             )
         }
         return courseList

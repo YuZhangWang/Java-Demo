@@ -7,27 +7,34 @@ public class Location {
     private int x;
     private int y;
     private OritentionEum oritention;
-    public Location(int x,int y) {
+
+    public Location(int x, int y) {
         this.x = x;
-        this.y= y;
+        this.y = y;
     }
-    public Location(int x,int y,OritentionEum oritention) {
+
+    public Location(int x, int y, OritentionEum oritention) {
         this(x, y);
         this.oritention = oritention;
     }
-    public Location(Location la,OritentionEum oritention) {
+
+    public Location(Location la, OritentionEum oritention) {
         this(la.getX(), la.getY());
         this.oritention = oritention;
     }
+
     public int getX() {
         return x;
     }
+
     public int getY() {
         return y;
     }
+
     public void recordOritention(OritentionEum oritention) {
         this.oritention = oritention;
     }
+
     public OritentionEum getRecordOritention() {
         return this.oritention;
     }

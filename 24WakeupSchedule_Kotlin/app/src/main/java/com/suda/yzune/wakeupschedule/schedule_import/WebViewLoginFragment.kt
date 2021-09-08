@@ -341,14 +341,14 @@ class WebViewLoginFragment : BaseFragment() {
                     wv_course.loadUrl(referUrl)
                     it.longSnack("请在看到网页加载完成后，再点一次右下角按钮")
                     countClick++
-                } else if(countClick == 1){
+                } else if (countClick == 1) {
 //                    val jnujs = "javascript:window.local_obj.jump2DespairingUrl(document.getElementById(\"ReportFrameReportViewer1\").src);"
                     val jnujs = "javascript:window.location.href = document.getElementById(\"ReportFrameReportViewer1\").src;"
                     wv_course.loadUrl(jnujs)
 //                    wv_course.loadUrl(despairingUrl)
                     it.longSnack("请再点一次右下角按钮")
                     countClick++
-                }else{
+                } else {
                     wv_course.loadUrl(js)
                     countClick = 0
                 }

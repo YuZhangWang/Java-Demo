@@ -1,15 +1,13 @@
 package main;
 
-public class test
-{
-    public static void main(String[] args)
-    {
+public class test {
+    public static void main(String[] args) {
         //测试圆
         Circle circle = new Circle(3);
         circle.zhouchang();
         circle.area();
         //测试矩形
-        Rect rect = new Rect(10,5);
+        Rect rect = new Rect(10, 5);
         rect.zhouchang();
         rect.area();
         rect.cha();
